@@ -22,13 +22,13 @@ One-line summary: NexaBurst is a cross-platform, multiplayer social party game b
 
 <div align="center">
 
-| Home Screen | Gameplay |
+| Sample Image | Sample Image |
 |:-----------:|:--------:|
-| ![Home screen preview](assets/example_02.png) | ![Gameplay preview](assets/example_03.png) |
+| ![Sample image](assets/example_02.png) | ![Sample image](assets/example_03.png) |
 
-| Intro Screen |
+| Sample Image |
 |:------------:|
-| ![Intro screen](assets/example_01.jpeg) |
+| ![Sample image](assets/example_01.jpeg) |
 
 </div>
 
