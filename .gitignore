@@ -1,0 +1,115 @@
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# Firebase Configuration (Android)
+nexaburst/android/app/google-services.json
+
+# Firebase Configuration (iOS)
+nexaburst/ios/Runner/GoogleService-Info.plist
+
+# Keystores and Signing
+*.keystore
+*.jks
+*.key.properties
+key.properties
+
+# IDE and Editor
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+/build/
+/ios/Flutter/.last_build_id
+flutter_*.so
+flutter_*.zip
+flutter_*.tar.gz
+**/Flutter/Flutter.podspec
+
+# Android
+local.properties
+*.gradle.bak
+.gradle/
+android/gradlew.bat
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+flutter_*.log
+
+# Build output
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Generated files
+.generated.dart
+*.g.dart
+
+# Dart/Flutter specifics
+.pub-cache/
+.pub/
+/doc/api/
+pubspec.lock
+
+# Local development
+.DS_Store
+.env
+.env.local
+local_config.json
+user_config.json
+
+# Machine-specific
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
