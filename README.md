@@ -46,16 +46,29 @@ Supporting material in `appendices/` includes helper scripts for multilingual co
 
 <h2 align="center">Demo Media</h2>
 
-<h3 align="center">Screenshots</h3>
+<h3 align="center">Mobile Experience & Gameplay</h3>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <video src="https://github.com/user-attachments/assets/13d70bfb-78f4-4d57-a169-067f1f0b7b47" autoplay loop muted playsinline width="60%"></video>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/example_01.png" width="60%" alt="NexaBurst mobile screenshot">
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="docs/example_01.png" width="45%" alt="NexaBurst screenshot 1">
-  &nbsp;
-  <img src="docs/example_02.png" width="45%" alt="NexaBurst screenshot 2">
-</p>
-<p align="center">
-  <img src="docs/example_03.png" width="45%" alt="NexaBurst screenshot 3">
-</p>
+<h3 align="center">Web & Desktop Interface</h3>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/example_02.png" width="90%" alt="NexaBurst desktop screenshot 1">
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/example_03.png" width="90%" alt="NexaBurst desktop screenshot 2">
+    </td>
+  </tr>
+</table>
 
 
 ## Core Features
