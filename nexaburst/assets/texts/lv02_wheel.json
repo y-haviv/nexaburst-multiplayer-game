@@ -1,0 +1,5372 @@
+[
+  {
+    "ID": 1,
+    "effectOther": false,
+    "drinking": false,
+    "en": {
+      "option": "+2 Points",
+      "resultText": "gained 2 points"
+    },
+    "af": {
+      "option": "+2 punte",
+      "resultText": "2 punte gekry"
+    },
+    "sq": {
+      "option": "+2 pikë",
+      "resultText": "fitoi 2 pikë"
+    },
+    "am": {
+      "option": "+2 ነጥቦች",
+      "resultText": "2 ነጥቦችን አግኝቷል"
+    },
+    "ar": {
+      "option": "+2 نقاط",
+      "resultText": "حصل 2 نقطتين"
+    },
+    "hy": {
+      "option": "+2 միավոր",
+      "resultText": "վաստակեց 2 միավոր"
+    },
+    "as": {
+      "option": "+2 পয়েন্ট",
+      "resultText": "2 পয়েন্ট লাভ"
+    },
+    "ay": {
+      "option": "+2 Puntos .",
+      "resultText": "2 puntos apt’asiwayi ."
+    },
+    "az": {
+      "option": "+2 xal",
+      "resultText": "2 xal qazandı"
+    },
+    "bm": {
+      "option": "+2 points .",
+      "resultText": "A ye 2 sɔrɔ ."
+    },
+    "eu": {
+      "option": "+2 puntu",
+      "resultText": "2 puntu irabazi ditu"
+    },
+    "be": {
+      "option": "+2 балы",
+      "resultText": "набраў 2 балы"
+    },
+    "bn": {
+      "option": "+2 পয়েন্ট",
+      "resultText": "2 পয়েন্ট অর্জন"
+    },
+    "bho": {
+      "option": "+2 अंक के बा .",
+      "resultText": "2 अंक मिलल ."
+    },
+    "bs": {
+      "option": "+2 bodova",
+      "resultText": "stekao 2 boda"
+    },
+    "bg": {
+      "option": "+2 точки",
+      "resultText": "натрупа 2 точки"
+    },
+    "ca": {
+      "option": "+2 punts",
+      "resultText": "va guanyar 2 punts"
+    },
+    "ceb": {
+      "option": "+2 puntos",
+      "resultText": "nakakuha 2 puntos"
+    },
+    "ny": {
+      "option": "+2 mfundo",
+      "resultText": "adapeza mfundo ziwiri"
+    },
+    "zh-CN": {
+      "option": "+2点",
+      "resultText": "获得了2分"
+    },
+    "zh-TW": {
+      "option": "+2點",
+      "resultText": "獲得了2分"
+    },
+    "co": {
+      "option": "+2 punti",
+      "resultText": "guadagnatu 2 punti"
+    },
+    "hr": {
+      "option": "+2 bodova",
+      "resultText": "stekao 2 boda"
+    },
+    "cs": {
+      "option": "+2 bodů",
+      "resultText": "získal 2 body"
+    },
+    "da": {
+      "option": "+2 point",
+      "resultText": "fik 2 point"
+    },
+    "dv": {
+      "option": "+2 ޕޮއިންޓް",
+      "resultText": "ހޯދި 2 ޕޮއިންޓް"
+    },
+    "doi": {
+      "option": "+2 अंक ऐ",
+      "resultText": "2 अंक हासिल कीते"
+    },
+    "nl": {
+      "option": "+2 punten",
+      "resultText": "behaalde 2 punten"
+    },
+    "eo": {
+      "option": "+2 poentoj",
+      "resultText": "akiris 2 poentojn"
+    },
+    "et": {
+      "option": "+2 punkti",
+      "resultText": "sai 2 punkti"
+    },
+    "ee": {
+      "option": "+2 ƒe dzesiwo .",
+      "resultText": "Gained 2 points ."
+    },
+    "tl": {
+      "option": "+2 puntos",
+      "resultText": "Nakakuha ng 2 puntos"
+    },
+    "fi": {
+      "option": "+2 pistettä",
+      "resultText": "sai 2 pistettä"
+    },
+    "fr": {
+      "option": "+2 points",
+      "resultText": "a gagné 2 points"
+    },
+    "fy": {
+      "option": "+2 Punten",
+      "resultText": "2 punten krigen"
+    },
+    "gl": {
+      "option": "+2 puntos",
+      "resultText": "gañou 2 puntos"
+    },
+    "ka": {
+      "option": "+2 ქულა",
+      "resultText": "მოიპოვა 2 ქულა"
+    },
+    "de": {
+      "option": "+2 Punkte",
+      "resultText": "2 Punkte gewonnen"
+    },
+    "el": {
+      "option": "+2 βαθμοί",
+      "resultText": "κέρδισε 2 πόντους"
+    },
+    "gn": {
+      "option": "+2 Puntos rehegua .",
+      "resultText": "Ohupyty 2 punto ."
+    },
+    "gu": {
+      "option": "+2 પોઇન્ટ",
+      "resultText": "2 પોઇન્ટ મેળવ્યા"
+    },
+    "ht": {
+      "option": "+2 pwen",
+      "resultText": "te vin 2 pwen"
+    },
+    "ha": {
+      "option": "Maki +2",
+      "resultText": "ya samu maki 2"
+    },
+    "haw": {
+      "option": "+2 mau māka",
+      "resultText": "Loaʻa iā 2 mau wahi"
+    },
+    "iw": {
+      "option": "+2 נקודות",
+      "resultText": "צבר 2 נקודות"
+    },
+    "hi": {
+      "option": "+2 अंक",
+      "resultText": "2 अंक प्राप्त किए"
+    },
+    "hmn": {
+      "option": "+2 ntsiab lus",
+      "resultText": "tau 2 cov ntsiab lus"
+    },
+    "hu": {
+      "option": "+2 pont",
+      "resultText": "2 pontot szerzett"
+    },
+    "is": {
+      "option": "+2 stig",
+      "resultText": "náði 2 stigum"
+    },
+    "ig": {
+      "option": "+ Isi",
+      "resultText": "nwetara ihe abụọ"
+    },
+    "ilo": {
+      "option": "+2 nga puntos .",
+      "resultText": "Nagun-odna ti 2 a puntos ."
+    },
+    "id": {
+      "option": "+2 poin",
+      "resultText": "memperoleh 2 poin"
+    },
+    "ga": {
+      "option": "+2 pointe",
+      "resultText": "a fuarthas 2 phointe"
+    },
+    "it": {
+      "option": "+2 punti",
+      "resultText": "ha guadagnato 2 punti"
+    },
+    "ja": {
+      "option": "+2ポイント",
+      "resultText": "2ポイントを獲得しました"
+    },
+    "jw": {
+      "option": "+2 poin",
+      "resultText": "entuk 2 poin"
+    },
+    "kn": {
+      "option": "+2 ಅಂಕಗಳು",
+      "resultText": "2 ಅಂಕಗಳನ್ನು ಗಳಿಸಿದೆ"
+    },
+    "kk": {
+      "option": "+2 ұпай",
+      "resultText": "2 ұпай жинады"
+    },
+    "km": {
+      "option": "+2 ពិន្ទុ",
+      "resultText": "ទទួលបាន 2 ពិន្ទុ"
+    },
+    "rw": {
+      "option": "+2 Ingingo",
+      "resultText": "yungutse amanota 2"
+    },
+    "gom": {
+      "option": "+2 बिंदू 1 .",
+      "resultText": "2 गुण मेळयले ."
+    },
+    "ko": {
+      "option": "+2 포인트",
+      "resultText": "2 점을 얻었습니다"
+    },
+    "kri": {
+      "option": "+2 Point dɛn .",
+      "resultText": "bin gɛt 2 poɛnt ."
+    },
+    "ku": {
+      "option": "+2 xalên",
+      "resultText": "2 xalên bidestxistî"
+    },
+    "ckb": {
+      "option": "+2 خاڵ",
+      "resultText": "2 خاڵ بەدەست هێناوە"
+    },
+    "ky": {
+      "option": "+2 упай",
+      "resultText": "2 упай топтогон"
+    },
+    "lo": {
+      "option": "+2 ຄະແນນ",
+      "resultText": "ໄດ້ຮັບ 2 ຄະແນນ"
+    },
+    "la": {
+      "option": "II puncta",
+      "resultText": "II puncta lucrata"
+    },
+    "lv": {
+      "option": "+2 punkti",
+      "resultText": "ieguva 2 punktus"
+    },
+    "ln": {
+      "option": "+2 points .",
+      "resultText": "A gagné 2 points ."
+    },
+    "lt": {
+      "option": "+2 taškai",
+      "resultText": "surinko 2 taškus"
+    },
+    "lg": {
+      "option": "+2 obubonero .",
+      "resultText": "Yafunye obubonero 2 ."
+    },
+    "lb": {
+      "option": "+2 Punkten",
+      "resultText": "gewonnen 2 Punkten"
+    },
+    "mk": {
+      "option": "+2 поени",
+      "resultText": "се здоби со 2 поени"
+    },
+    "mai": {
+      "option": "+2 बिन्दु 10।",
+      "resultText": "प्राप्त 2 अंक"
+    },
+    "mg": {
+      "option": "+2 isa",
+      "resultText": "nahazo isa 2"
+    },
+    "ms": {
+      "option": "+2 mata",
+      "resultText": "memperoleh 2 mata"
+    },
+    "ml": {
+      "option": "+2 പോയിന്റുകൾ",
+      "resultText": "2 പോയിന്റുകൾ നേടി"
+    },
+    "mt": {
+      "option": "+2 punti",
+      "resultText": "kiseb 2 punti"
+    },
+    "mi": {
+      "option": "+2 tohu",
+      "resultText": "I whiwhi 2 tohu"
+    },
+    "mr": {
+      "option": "+2 गुण",
+      "resultText": "2 गुण मिळवले"
+    },
+    "mni-Mtei": {
+      "option": "+꯲ ꯄꯣꯏꯟꯇ ꯴.",
+      "resultText": "ꯄꯣꯏꯟꯇ ꯲ ꯍꯦꯟꯅꯥ ꯐꯪꯈꯤ꯫"
+    },
+    "lus": {
+      "option": "+2 points a ni.",
+      "resultText": "point 2 a hlawhchhuak a ni."
+    },
+    "mn": {
+      "option": "+2 оноо",
+      "resultText": "2 оноо авсан"
+    },
+    "my": {
+      "option": "+2 မှတ်",
+      "resultText": "2 မှတ်ရရှိခဲ့သည်"
+    },
+    "ne": {
+      "option": "+2 पोइन्ट",
+      "resultText": "2 पोइन्ट प्राप्त भयो"
+    },
+    "no": {
+      "option": "+2 poeng",
+      "resultText": "fikk 2 poeng"
+    },
+    "or": {
+      "option": "+2 ପଏଣ୍ଟ",
+      "resultText": "2 ପଏଣ୍ଟ ହାସଲ କଲା |"
+    },
+    "om": {
+      "option": "+2 qabxii .",
+      "resultText": "Qabxii 2 argate ."
+    },
+    "ps": {
+      "option": "+2",
+      "resultText": "2 ټکي ترلاسه کړل"
+    },
+    "fa": {
+      "option": "+2 امتیاز",
+      "resultText": "2 امتیاز کسب کرد"
+    },
+    "pl": {
+      "option": "+2 punkty",
+      "resultText": "zdobył 2 punkty"
+    },
+    "pt": {
+      "option": "+2 pontos",
+      "resultText": "ganhou 2 pontos"
+    },
+    "pa": {
+      "option": "+2 ਅੰਕ",
+      "resultText": "2 ਅੰਕ ਪ੍ਰਾਪਤ ਕੀਤੇ"
+    },
+    "qu": {
+      "option": "+2 puntos .",
+      "resultText": "2 puntos ganasqa ."
+    },
+    "ro": {
+      "option": "+2 puncte",
+      "resultText": "a câștigat 2 puncte"
+    },
+    "ru": {
+      "option": "+2 балла",
+      "resultText": "получил 2 балла"
+    },
+    "sm": {
+      "option": "+2 manatu",
+      "resultText": "maua 2 manatu"
+    },
+    "sa": {
+      "option": "+2 अंक 1 .",
+      "resultText": "प्राप्त 2 अंक"
+    },
+    "gd": {
+      "option": "+2 puingean",
+      "resultText": "fhuair e 2 phuing"
+    },
+    "nso": {
+      "option": "+2 dintlha .",
+      "resultText": "E hweditše dintlha tše 2 ."
+    },
+    "sr": {
+      "option": "+2 бодова",
+      "resultText": "стекао 2 бода"
+    },
+    "st": {
+      "option": "Lintlha +2 lintlha",
+      "resultText": "fumana lintlha tse 2"
+    },
+    "sn": {
+      "option": "+2 mapoinzi",
+      "resultText": "Wakawana 2 mapoinzi"
+    },
+    "sd": {
+      "option": "+2 پوائنٽون",
+      "resultText": "2 پوائنٽ حاصل ڪيا"
+    },
+    "si": {
+      "option": "+2 ලකුණු",
+      "resultText": "ලකුණු 2 ක් ලබා ගත්තා"
+    },
+    "sk": {
+      "option": "+2 body",
+      "resultText": "získali 2 body"
+    },
+    "sl": {
+      "option": "+2 točk",
+      "resultText": "pridobil 2 točki"
+    },
+    "so": {
+      "option": "+2 dhibcood",
+      "resultText": "helay 2 dhibcood"
+    },
+    "es": {
+      "option": "+2 puntos",
+      "resultText": "ganó 2 puntos"
+    },
+    "su": {
+      "option": "Poin +2",
+      "resultText": "kéngingkeun 2 poin"
+    },
+    "sw": {
+      "option": "Alama +2",
+      "resultText": "kupata alama 2"
+    },
+    "sv": {
+      "option": "+2 poäng",
+      "resultText": "fick 2 poäng"
+    },
+    "tg": {
+      "option": "+2 нуқта",
+      "resultText": "2 нуқта"
+    },
+    "ta": {
+      "option": "+2 புள்ளிகள்",
+      "resultText": "2 புள்ளிகளைப் பெற்றது"
+    },
+    "tt": {
+      "option": "+2 балл",
+      "resultText": "2 балл җыйды"
+    },
+    "te": {
+      "option": "+2 పాయింట్లు",
+      "resultText": "2 పాయింట్లు సాధించారు"
+    },
+    "th": {
+      "option": "+2 คะแนน",
+      "resultText": "ได้รับ 2 คะแนน"
+    },
+    "ti": {
+      "option": "+2 ነጥቢ .",
+      "resultText": "2 ነጥቢ ረኺቡ"
+    },
+    "ts": {
+      "option": "+2 wa tinhla .",
+      "resultText": "U kume 2 wa tinhla ."
+    },
+    "tr": {
+      "option": "+2 puan",
+      "resultText": "2 puan kazandı"
+    },
+    "tk": {
+      "option": "+2 bal",
+      "resultText": "2 bal gazandy"
+    },
+    "ak": {
+      "option": "+2 nsɛntitiriw .",
+      "resultText": "Nyaa nkontimmaa 2 ."
+    },
+    "uk": {
+      "option": "+2 бали",
+      "resultText": "набрав 2 очки"
+    },
+    "ur": {
+      "option": "+2 پوائنٹس",
+      "resultText": "2 پوائنٹس حاصل ہوئے"
+    },
+    "ug": {
+      "option": "+2 نومۇر",
+      "resultText": "2 نومۇرغا ئېرىشتى"
+    },
+    "uz": {
+      "option": "+2 ball",
+      "resultText": "2 ball to'pladi"
+    },
+    "vi": {
+      "option": "+2 điểm",
+      "resultText": "đạt 2 điểm"
+    },
+    "cy": {
+      "option": "+2 pwynt",
+      "resultText": "ennill 2 bwynt"
+    },
+    "xh": {
+      "option": "Amanqaku ayi -22",
+      "resultText": "ifumene amanqaku ama-2"
+    },
+    "yi": {
+      "option": "+2 פונקטן",
+      "resultText": "פארדינט 2 פונקטן"
+    },
+    "yo": {
+      "option": "+2 ojuami",
+      "resultText": "ni ibe 1 ojuami"
+    },
+    "zu": {
+      "option": "+2 amaphuzu",
+      "resultText": "uthole amaphuzu ama-2"
+    }
+  },
+  {
+    "ID": 2,
+    "effectOther": true,
+    "drinking": false,
+    "en": {
+      "option": "-1 point to player you choose",
+      "resultText": "to lose 1 point"
+    },
+    "af": {
+      "option": "-1 punt na die speler wat u kies",
+      "resultText": "om 1 punt te verloor"
+    },
+    "sq": {
+      "option": "-1 trego për lojtarin që ju zgjidhni",
+      "resultText": "për të humbur 1 pikë"
+    },
+    "am": {
+      "option": "-1 እርስዎ ለመረጡት ተጫዋች -1 ነጥብ",
+      "resultText": "1 ነጥብ ማጣት"
+    },
+    "ar": {
+      "option": "-1 نقطة للاعب الذي تختاره",
+      "resultText": "لتفقد نقطة واحدة"
+    },
+    "hy": {
+      "option": "-1 կետը, որը դուք ընտրում եք խաղացողին",
+      "resultText": "կորցնել 1 միավոր"
+    },
+    "as": {
+      "option": "-1 Point to Player",
+      "resultText": "1 পইন্ট হেৰুৱাবলৈ"
+    },
+    "ay": {
+      "option": "-1 Punto a Player Jumax ajlliwayta .",
+      "resultText": "1 punto chhaqhayañataki ."
+    },
+    "az": {
+      "option": "Seçdiyiniz oyunçuya göndərin",
+      "resultText": "1 xal itirmək"
+    },
+    "bm": {
+      "option": "-1 point to player i bɛ sugandi .",
+      "resultText": "ka bɔnɛ 1 point ."
+    },
+    "eu": {
+      "option": "-1 aukeratzen duzun jokalaria",
+      "resultText": "puntu 1 galtzeko"
+    },
+    "be": {
+      "option": "-1 бал на выбар, які вы выбіраеце",
+      "resultText": "страціць 1 бал"
+    },
+    "bn": {
+      "option": "আপনি চয়ন করা খেলোয়াড়ের প্রতি -1 পয়েন্ট",
+      "resultText": "1 পয়েন্ট হারাতে"
+    },
+    "bho": {
+      "option": "-1 बिंदु के लिए 1 बिंदु आप चुनतानी",
+      "resultText": "1 अंक खोवे खातिर"
+    },
+    "bs": {
+      "option": "-1 Point za igrača koji odaberete",
+      "resultText": "izgubiti 1 bod"
+    },
+    "bg": {
+      "option": "-1 точка към играча, който сте избрали",
+      "resultText": "да загубя 1 точка"
+    },
+    "ca": {
+      "option": "-1 apunteu al jugador que trieu",
+      "resultText": "Per perdre 1 punt"
+    },
+    "ceb": {
+      "option": "-1 punto sa player nga imong gipili",
+      "resultText": "Aron mawala ang 1 Point"
+    },
+    "ny": {
+      "option": "-1 mfundo yosewera yomwe mumasankha",
+      "resultText": "Kutaya 1 point"
+    },
+    "zh-CN": {
+      "option": "-1指向您选择的玩家",
+      "resultText": "输1分"
+    },
+    "zh-TW": {
+      "option": "-1指向您選擇的玩家",
+      "resultText": "輸1分"
+    },
+    "co": {
+      "option": "-1 puntu à u ghjucatore sceglite",
+      "resultText": "perde 1 puntu"
+    },
+    "hr": {
+      "option": "-1 UPOZNAČITE IGER -u koji odaberete",
+      "resultText": "izgubiti 1 bod"
+    },
+    "cs": {
+      "option": "-1 bod na hráče, kterého si vyberete",
+      "resultText": "ztratit 1 bod"
+    },
+    "da": {
+      "option": "-1 point på spiller, du vælger",
+      "resultText": "at miste 1 point"
+    },
+    "dv": {
+      "option": "-1 ތިބާ ހޮވާ ކުޅުންތެރިއަކަށް ޕޮއިންޓް",
+      "resultText": "1 ޕޮއިންޓް ގެއްލޭނެ"
+    },
+    "doi": {
+      "option": "-1 खिडाड़ी गी इशारा करो तुस चुनदे ओ",
+      "resultText": "1 बिंदु खोने के लिए"
+    },
+    "nl": {
+      "option": "-1 punt naar speler die je kiest",
+      "resultText": "Om 1 punt te verliezen"
+    },
+    "eo": {
+      "option": "-1 punkto al ludanto, kiun vi elektas",
+      "resultText": "perdi 1 poenton"
+    },
+    "et": {
+      "option": "-1 Punkti teie valitud mängijale",
+      "resultText": "kaotada 1 punkt"
+    },
+    "ee": {
+      "option": "-1 Fia asi fefewɔla si nàtia .",
+      "resultText": "be woabu 1 point ."
+    },
+    "tl": {
+      "option": "-1 point sa player na iyong pinili",
+      "resultText": "upang mawala ang 1 point"
+    },
+    "fi": {
+      "option": "-1 Piste valitsemasi pelaajalle",
+      "resultText": "menettää yhden pisteen"
+    },
+    "fr": {
+      "option": "-1 pointer le joueur que vous choisissez",
+      "resultText": "perdre 1 point"
+    },
+    "fy": {
+      "option": "-1-punt nei spiler dy't jo kieze",
+      "resultText": "1 punt te ferliezen"
+    },
+    "gl": {
+      "option": "-1 apunta ao xogador que escollas",
+      "resultText": "Para perder 1 punto"
+    },
+    "ka": {
+      "option": "-1 მიუთითეთ მოთამაშეს, რომელსაც აირჩევთ",
+      "resultText": "1 ქულის დასაკარგი"
+    },
+    "de": {
+      "option": "-1 Punkt auf den Spieler, den Sie wählen",
+      "resultText": "1 Punkt verlieren"
+    },
+    "el": {
+      "option": "-1 Σημειώστε τον παίκτη που επιλέγετε",
+      "resultText": "να χάσει 1 σημείο"
+    },
+    "gn": {
+      "option": "-1 punto a jugador reiporavóva .",
+      "resultText": "Ojeperde hagua 1 punto ."
+    },
+    "gu": {
+      "option": "-1 તમે પસંદ કરેલા ખેલાડી તરફ ધ્યાન દોરો",
+      "resultText": "1 પોઇન્ટ ગુમાવવો"
+    },
+    "ht": {
+      "option": "-1 pwen nan jwè ou chwazi pou ou",
+      "resultText": "pèdi 1 pwen"
+    },
+    "ha": {
+      "option": "-1 Nuna dan wasan da kuka zaba",
+      "resultText": "Don rasa maki 1"
+    },
+    "haw": {
+      "option": "-1 Poice i ka mea pāʻani āu e koho ai",
+      "resultText": "e lilo i 1 point"
+    },
+    "iw": {
+      "option": "-1 נקודה לשחקן שתבחר",
+      "resultText": "לאבד נקודה אחת"
+    },
+    "hi": {
+      "option": "-1 आपके द्वारा चुने गए खिलाड़ी को अंक",
+      "resultText": "1 अंक खोने के लिए"
+    },
+    "hmn": {
+      "option": "-1 taw tes rau player koj xaiv",
+      "resultText": "kom poob 1 taw tes"
+    },
+    "hu": {
+      "option": "-1 pont a választott lejátszóhoz",
+      "resultText": "1 pontot elveszteni"
+    },
+    "is": {
+      "option": "-1 stig fyrir leikmann sem þú velur",
+      "resultText": "Að missa 1 stig"
+    },
+    "ig": {
+      "option": "-1 rụtụ aka na onye ọkpụkpọ ị họọrọ",
+      "resultText": "tufuo 1 isi"
+    },
+    "ilo": {
+      "option": "-1 punto iti player a piliem .",
+      "resultText": "Tapno mapukaw ti 1 a punto ."
+    },
+    "id": {
+      "option": "-1 poin ke pemain yang Anda pilih",
+      "resultText": "Kehilangan 1 poin"
+    },
+    "ga": {
+      "option": "-1 pointe don imreoir a roghnaíonn tú",
+      "resultText": "1 phointe a chailleadh"
+    },
+    "it": {
+      "option": "-1 punta al giocatore che scegli",
+      "resultText": "Per perdere 1 punto"
+    },
+    "ja": {
+      "option": "-1選択したプレーヤーをポイントします",
+      "resultText": "1ポイントを失う"
+    },
+    "jw": {
+      "option": "-1 titik kanggo pamuter sing sampeyan pilih",
+      "resultText": "kelangan 1 titik"
+    },
+    "kn": {
+      "option": "-1 ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಆಟಗಾರನಿಗೆ ಸೂಚಿಸಿ",
+      "resultText": "1 ಪಾಯಿಂಟ್ ಕಳೆದುಕೊಳ್ಳಲು"
+    },
+    "kk": {
+      "option": "-1, сіз таңдаған ойнатқышқа нұсқаңыз",
+      "resultText": "1 ұпай жоғалту"
+    },
+    "km": {
+      "option": "-1 ចង្អុលទៅអ្នកលេងដែលអ្នកជ្រើសរើស",
+      "resultText": "បាត់បង់ 1 ចំណុច"
+    },
+    "rw": {
+      "option": "-1 yerekana umukinnyi wahisemo",
+      "resultText": "gutakaza ingingo 1"
+    },
+    "gom": {
+      "option": "-1 तुमी निवडटात त्या खेळगड्या कडेन निर्देशीत करात .",
+      "resultText": "1 गुण गमावप ."
+    },
+    "ko": {
+      "option": "선택한 플레이어에게 포인트",
+      "resultText": "1 포인트를 잃습니다"
+    },
+    "kri": {
+      "option": "-1 Point to pleya we yu pik",
+      "resultText": "Fɔ lɔs 1 pɔynt ."
+    },
+    "ku": {
+      "option": "-1 xal ji lîstikvanê ku hûn hilbijêrin",
+      "resultText": "wenda 1 xala"
+    },
+    "ckb": {
+      "option": "-1 ئاماژە بەو یاریزانە بکە کە تۆ هەڵیدەبژێریت",
+      "resultText": "بۆ لەدەستدانی 1 خاڵ"
+    },
+    "ky": {
+      "option": "-1 Сиз тандаган оюнчуга чекит",
+      "resultText": "1 чекит жоготуу"
+    },
+    "lo": {
+      "option": "-1 ຊີ້ໃຫ້ເຫັນເຖິງຜູ້ນທີ່ທ່ານເລືອກ",
+      "resultText": "ການສູນເສຍ 1 ຈຸດ"
+    },
+    "la": {
+      "option": "-1 punctum ad ludio ludius vos",
+      "resultText": "perdere I punctum"
+    },
+    "lv": {
+      "option": "-1 norādiet uz izvēlēto spēlētāju",
+      "resultText": "zaudēt 1 punktu"
+    },
+    "ln": {
+      "option": "-1 point na joueur oyo oponi .",
+      "resultText": "Ko perdre 1 point ."
+    },
+    "lt": {
+      "option": "-1 taškas į jūsų pasirinktą grotuvą",
+      "resultText": "prarasti 1 tašką"
+    },
+    "lg": {
+      "option": "-1 point ku muzannyi gw'olonze",
+      "resultText": "okufiirwa akabonero 1 ."
+    },
+    "lb": {
+      "option": "-1 Punkt fir Spiller déi Dir wielt",
+      "resultText": "1 Punkt ze verléieren"
+    },
+    "mk": {
+      "option": "-1 точка до играчот што ќе го изберете",
+      "resultText": "да изгуби 1 поен"
+    },
+    "mai": {
+      "option": "-1 पॉइंट के खिलाड़ी आप चुनें",
+      "resultText": "1 अंक गमाएब"
+    },
+    "mg": {
+      "option": "-1 manondro ny mpilalao hofidinao",
+      "resultText": "ho very 1 teboka"
+    },
+    "ms": {
+      "option": "-1 titik kepada pemain yang anda pilih",
+      "resultText": "kehilangan 1 mata"
+    },
+    "ml": {
+      "option": "-1 നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന കളിക്കാരന്റെ പോയിന്റ്",
+      "resultText": "1 പോയിന്റ് നഷ്ടപ്പെടാൻ"
+    },
+    "mt": {
+      "option": "-1 punt għall-plejer li tagħżel",
+      "resultText": "Biex titlef 1 punt"
+    },
+    "mi": {
+      "option": "-1 tohu ki te kaitakaro whiriwhiri koe",
+      "resultText": "kia ngaro 1 tohu"
+    },
+    "mr": {
+      "option": "-1 आपण निवडलेल्या खेळाडूकडे बिंदू",
+      "resultText": "बिंदु"
+    },
+    "mni-Mtei": {
+      "option": "-1 ꯅꯍꯥꯛꯅꯥ ꯈꯅꯒꯗꯕꯥ ꯄ꯭ꯂꯦꯌꯔ ꯑꯗꯨꯗꯥ ꯄꯣꯏꯟꯇ",
+      "resultText": "ꯄꯣꯏꯟꯇ ꯱ ꯃꯥꯡꯈꯤꯕꯥ ."
+    },
+    "lus": {
+      "option": "-1 Point to Player i thlang .",
+      "resultText": "Point 1 hloh tur ."
+    },
+    "mn": {
+      "option": "-1 тоглогчийг сонгоно уу",
+      "resultText": "1 цэг алдах"
+    },
+    "my": {
+      "option": "-1 သင်ရွေးချယ်သောကစားသမားထံသို့အမှတ်",
+      "resultText": "1 မှတ်ဆုံးရှုံးဖို့"
+    },
+    "ne": {
+      "option": "-1 पोइन्टमा प्लेयर तपाईंले छनौट गर्नुभयो",
+      "resultText": "1 पोइन्ट हराउन"
+    },
+    "no": {
+      "option": "-1 pek på spiller du velger",
+      "resultText": "å miste 1 poeng"
+    },
+    "or": {
+      "option": "ଆପଣ ବାଛିଥିବା ଖେଳାଳୀଙ୍କୁ -1 ପଏଣ୍ଟ |",
+      "resultText": "1 ପଏଣ୍ଟ ହରାଇବାକୁ |"
+    },
+    "om": {
+      "option": "-1 qabxii gara taphattootaa filattutti .",
+      "resultText": "qabxii 1 dhabuuf ."
+    },
+    "ps": {
+      "option": "-1 د هغه لوبغاړي ته نقطه چې تاسو یې غوره کوئ",
+      "resultText": "د 1 ټکي له لاسه ورکول"
+    },
+    "fa": {
+      "option": "-1 به بازیکنی که انتخاب می کنید اشاره کنید",
+      "resultText": "برای از دست دادن 1 امتیاز"
+    },
+    "pl": {
+      "option": "-1 punkt do wybranego przez Ciebie gracza",
+      "resultText": "stracić 1 punkt"
+    },
+    "pt": {
+      "option": "-1 aponte para o jogador que você escolher",
+      "resultText": "perder 1 ponto"
+    },
+    "pa": {
+      "option": "-1 ਤੁਹਾਡੇ ਦੁਆਰਾ ਚੁਣੇ ਖਿਡਾਰੀ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰੋ",
+      "resultText": "1 ਪੁਆਇੰਟ ਗੁਆਉਣ ਲਈ"
+    },
+    "qu": {
+      "option": "-1 Punto a Jugador Akllasqayki .",
+      "resultText": "1 puntota chinkachinapaq ."
+    },
+    "ro": {
+      "option": "-1 Punctul pentru jucător pe care îl alegeți",
+      "resultText": "a pierde 1 punct"
+    },
+    "ru": {
+      "option": "-1 укажите игроку, которого вы выберете",
+      "resultText": "потерять 1 очко"
+    },
+    "sm": {
+      "option": "-1 manatu i le tagata taalo e te filifilia",
+      "resultText": "Leiloa 1 manatu"
+    },
+    "sa": {
+      "option": "-1 भवन्तः चिनोतु खिलाडये बिन्दुम् .",
+      "resultText": "to los 1 point ."
+    },
+    "gd": {
+      "option": "-1 puing gu cluicheadair a thaghas tu",
+      "resultText": "Gus 1 phuing a chall"
+    },
+    "nso": {
+      "option": "-1 ntlha go sebapadi seo o se kgethago .",
+      "resultText": "Go lahlegelwa ke ntlha e 1 ."
+    },
+    "sr": {
+      "option": "-1 Поинт за играча који одаберете",
+      "resultText": "изгубити 1 бод"
+    },
+    "st": {
+      "option": "-1 supa ho sebapali seo u se khethang",
+      "resultText": "ho lahleheloa ke ntlha ea 1"
+    },
+    "sn": {
+      "option": "-1 inonongedzera kumutambi waunosarudza",
+      "resultText": "Kurasikirwa ne1 poindi"
+    },
+    "sd": {
+      "option": "-1 پليئر کي توهان چونڊيو",
+      "resultText": "1 پوائنٽ وڃائڻ"
+    },
+    "si": {
+      "option": "-1 ඔබ තෝරා ගන්නා ක්රීඩකයාට ලක්ෂ්යය",
+      "resultText": "1 ලක්ෂ්යයක් නැති කර ගැනීමට"
+    },
+    "sk": {
+      "option": "-1 bod k hráčovi, ktorý si vyberiete",
+      "resultText": "stratiť 1 bod"
+    },
+    "sl": {
+      "option": "-1 kaže na igralca, ki ga izberete",
+      "resultText": "izgubiti 1 točko"
+    },
+    "so": {
+      "option": "-1 dhibic in ciyaartoyga aad doorato",
+      "resultText": "In laga baxo 1 dhibic"
+    },
+    "es": {
+      "option": "-1 Punto al jugador que elijas",
+      "resultText": "perder 1 punto"
+    },
+    "su": {
+      "option": "-1 titik pikeun pamuter anu anjeun pilih",
+      "resultText": "leungit 1 titik"
+    },
+    "sw": {
+      "option": "-1 ongeza kwa mchezaji unayechagua",
+      "resultText": "kupoteza nukta 1"
+    },
+    "sv": {
+      "option": "-1 pekar på spelare du väljer",
+      "resultText": "att förlora 1 poäng"
+    },
+    "tg": {
+      "option": "-1 нуқта барои бозингари интихобкардаатон",
+      "resultText": "аз даст додани 1 нуқта"
+    },
+    "ta": {
+      "option": "-1 நீங்கள் தேர்ந்தெடுக்கும் பிளேயருக்கு புள்ளி",
+      "resultText": "1 புள்ளியை இழக்க"
+    },
+    "tt": {
+      "option": "-1 Сез сайлаган уенчы",
+      "resultText": "1 баллны югалту"
+    },
+    "te": {
+      "option": "-1 మీరు ఎంచుకున్న ప్లేయర్‌కు పాయింట్",
+      "resultText": "1 పాయింట్ కోల్పోవటానికి"
+    },
+    "th": {
+      "option": "-1 ชี้ไปที่ผู้เล่นที่คุณเลือก",
+      "resultText": "จะสูญเสีย 1 คะแนน"
+    },
+    "ti": {
+      "option": "-1 ናብ ዝመረጽካዮ ተጻዋታይ ኣመልክት .",
+      "resultText": "1 ነጥቢ ንምኽሳር"
+    },
+    "ts": {
+      "option": "-1 Point to player leyi u yi hlawulaka .",
+      "resultText": "Ku lahlekeriwa hi 1 point ."
+    },
+    "tr": {
+      "option": "-1 seçtiğiniz oyuncuya işaret edin",
+      "resultText": "1 puan kaybetmek"
+    },
+    "tk": {
+      "option": "-1 saýlaýan pleýer",
+      "resultText": "1 nokady ýitirmek"
+    },
+    "ak": {
+      "option": "-1 point to player a wopaw .",
+      "resultText": "Sɛnea ɛbɛyɛ a wobɛhwere 1 point ."
+    },
+    "uk": {
+      "option": "-1 бал до вибраного гравця",
+      "resultText": "втратити 1 бал"
+    },
+    "ur": {
+      "option": "-1 آپ کے منتخب کردہ کھلاڑی کی طرف اشارہ کریں",
+      "resultText": "1 پوائنٹ کھونے کے لئے"
+    },
+    "ug": {
+      "option": "-1 نومۇرلۇق قويغۇچنى تاللاڭ",
+      "resultText": "1 نومۇرنى يوقىتىش"
+    },
+    "uz": {
+      "option": "-1 Siz tanlagan o'yinchi uchun",
+      "resultText": "1 ballni yo'qotish"
+    },
+    "vi": {
+      "option": "-1 điểm cho người chơi bạn chọn",
+      "resultText": "Mất 1 điểm"
+    },
+    "cy": {
+      "option": "-1 pwynt i'r chwaraewr rydych chi'n ei ddewis",
+      "resultText": "i golli 1 pwynt"
+    },
+    "xh": {
+      "option": "-1 Inqaku kumdlali oyikhethayo",
+      "resultText": "Ukuphulukana nenqaku le-1"
+    },
+    "yi": {
+      "option": "-1 פונט צו שפּילער איר קלייַבן",
+      "resultText": "צו פאַרלירן 1 פונט"
+    },
+    "yo": {
+      "option": "-1 tọka si player ti o yan",
+      "resultText": "lati padanu aaye 1"
+    },
+    "zu": {
+      "option": "-1 Khomba kumdlali owukhethayo",
+      "resultText": "ukulahlekelwa yiphuzu eli-1"
+    }
+  },
+  {
+    "ID": 3,
+    "effectOther": false,
+    "drinking": false,
+    "en": {
+      "option": "Skip Your Next Turn (you will not get points)",
+      "resultText": "will skip their next turn (will not get points)"
+    },
+    "af": {
+      "option": "Slaan u volgende beurt oor (u kry nie punte nie)",
+      "resultText": "sal hul volgende beurt oorslaan (sal nie punte kry nie)"
+    },
+    "sq": {
+      "option": "Kalo kthesën tënde të ardhshme (nuk do të marrësh pikë)",
+      "resultText": "do të kalojnë kthesën e tyre të ardhshme (nuk do të marrin pikë)"
+    },
+    "am": {
+      "option": "የሚቀጥለውን ማዞሪያዎን ዝለል (ነጥቦችን አያገኙም)",
+      "resultText": "የሚቀጥለውን ማዞሪያቸውን ይዝለላሉ (ነጥቦችን አያገኝም)"
+    },
+    "ar": {
+      "option": "تخطي دورك التالي (لن تحصل على نقاط)",
+      "resultText": "سوف يتخطون دورهم التالي (لن يحصل على نقاط)"
+    },
+    "hy": {
+      "option": "Բաց թողեք ձեր հաջորդ շրջադարձը (միավորներ չեք ստանա)",
+      "resultText": "Բաց թողնելու է նրանց հաջորդ շրջադարձը (միավորներ չի ստանա)"
+    },
+    "as": {
+      "option": "আপোনাৰ পৰৱৰ্তী টাৰ্ণ এৰি দিয়ক (আপুনি পইণ্ট নাপাব)",
+      "resultText": "তেওঁলোকৰ পৰৱৰ্তী টাৰ্ণ এৰিব (পইণ্ট নাপাব)"
+    },
+    "ay": {
+      "option": "Jutïr turno ukar jaytañamawa (janiw puntos ukanakax jikxatkätati) .",
+      "resultText": "Jutïr turnopan jaytjatäni (janiw puntos katoqkaniti) ."
+    },
+    "az": {
+      "option": "Növbəti növbənizi atlayın (xal almayacaqsınız)",
+      "resultText": "növbəti növbələrini atlayacaq (xal almayacaq)"
+    },
+    "bm": {
+      "option": "Tɛmɛ i ka turn nata kan (i tɛna points sɔrɔ) .",
+      "resultText": "bɛna tɛmɛ u ka turn nata kan (a tɛna jate sɔrɔ) ."
+    },
+    "eu": {
+      "option": "Saltatu zure hurrengo txanda (ez dituzu puntuak lortuko)",
+      "resultText": "hurrengo txanda salto egingo du (ez ditu puntuak lortuko)"
+    },
+    "be": {
+      "option": "Прапусціце наступны паварот (вы не атрымаеце ачкоў)",
+      "resultText": "будзе прапусціць наступны паварот (не атрымае балаў)"
+    },
+    "bn": {
+      "option": "আপনার পরবর্তী পালা এড়িয়ে যান (আপনি পয়েন্ট পাবেন না)",
+      "resultText": "তাদের পরবর্তী পালা এড়িয়ে যাবে (পয়েন্ট পাবেন না)"
+    },
+    "bho": {
+      "option": "आपन अगिला मोड़ छोड़ दीं (रउरा अंक ना मिली)",
+      "resultText": "आपन अगिला मोड़ छोड़ दी (बिंदु ना मिली)"
+    },
+    "bs": {
+      "option": "Preskočite sljedeći okret (nećete dobiti bodove)",
+      "resultText": "preskočit će njihov sljedeći zaokret (neće dobiti bodove)"
+    },
+    "bg": {
+      "option": "Пропуснете следващия си завой (няма да получите точки)",
+      "resultText": "ще пропусне следващия си завой (няма да получи точки)"
+    },
+    "ca": {
+      "option": "Saltar el següent torn (no obtindràs punts)",
+      "resultText": "Saltarà el seu següent torn (no obtindrà punts)"
+    },
+    "ceb": {
+      "option": "Laktawan ang imong sunod nga turno (dili ka makakuha mga puntos)",
+      "resultText": "molaktaw sa ilang sunod nga turno (dili makakuha puntos)"
+    },
+    "ny": {
+      "option": "Dumphani nthawi yanu yotsatira (simungapeze mfundo)",
+      "resultText": "adzadumphira nthawi yawo yotsatira (sadzapeza)"
+    },
+    "zh-CN": {
+      "option": "跳过下一个回合（您不会得到积分）",
+      "resultText": "会跳过下一个回合（不会得到积分）"
+    },
+    "zh-TW": {
+      "option": "跳過下一個回合（您不會得到積分）",
+      "resultText": "會跳過下一個回合（不會得到積分）"
+    },
+    "co": {
+      "option": "Saltate a vostra prossima volta (ùn uttene micca punti)",
+      "resultText": "saltarà a so prossima volta (ùn uttene micca punti)"
+    },
+    "hr": {
+      "option": "Preskočite svoj sljedeći skretanje (nećete dobiti bodove)",
+      "resultText": "preskočit će svoj sljedeći zaokret (neće dobiti bodove)"
+    },
+    "cs": {
+      "option": "Přeskočte další kolo (nezískáte body)",
+      "resultText": "přeskočí další kolo (nedostane body)"
+    },
+    "da": {
+      "option": "Spring over din næste tur (du får ikke point)",
+      "resultText": "Vil springe over deres næste tur (får ikke point)"
+    },
+    "dv": {
+      "option": "ދެން އަންނަ ފަހަރު ދޫކޮށްލާށެވެ (ތިބާއަށް ޕޮއިންޓް ނުލިބޭނެ)",
+      "resultText": "އެމީހުންގެ ދެން އަންނަ ފަހަރު ސްކިޕް ކުރާނެ (ޕޮއިންޓް ނުލިބޭނެ)"
+    },
+    "doi": {
+      "option": "अपनी अगली बारी गी छोड़ो (तुसें गी अंक नेईं मिलग)",
+      "resultText": "अपनी अगली बारी गी छड्डी देग (बिंदु नेईं मिलग)"
+    },
+    "nl": {
+      "option": "Sla je volgende beurt over (je krijgt geen punten)",
+      "resultText": "Zal hun volgende beurt overslaan (geen punten krijgen)"
+    },
+    "eo": {
+      "option": "Saltu vian sekvan turnon (vi ne ricevos punktojn)",
+      "resultText": "saltos sian sekvan turnon (ne ricevos punktojn)"
+    },
+    "et": {
+      "option": "Jäta oma järgmine pöörde vahele (te ei saa punkte)",
+      "resultText": "jätab nende järgmise pöörde vahele (ei saa punkte)"
+    },
+    "ee": {
+      "option": "Tsɔ wò tɔtrɔ si gbɔna la ƒu gbe (màxɔ dzesiwo o) .",
+      "resultText": "Will skip woƒe tɔtrɔ si gbɔna (maxɔ points o) ."
+    },
+    "tl": {
+      "option": "Laktawan ang iyong susunod na pagliko (hindi ka makakakuha ng mga puntos)",
+      "resultText": "laktawan ang kanilang susunod na pagliko (hindi makakakuha ng mga puntos)"
+    },
+    "fi": {
+      "option": "Ohita seuraava käännös (et saa pisteitä)",
+      "resultText": "Ohitaan seuraavan käännöksensä (ei saa pisteitä)"
+    },
+    "fr": {
+      "option": "Sautez votre prochain tour (vous n'obtiendrez pas de points)",
+      "resultText": "Sautera leur prochain tour (n'obtiendra pas de points)"
+    },
+    "fy": {
+      "option": "Oerslaan jo folgjende beurt (jo sille gjin punten krije)",
+      "resultText": "Sil har folgjende beurt oerslaan (sille gjin punten krije)"
+    },
+    "gl": {
+      "option": "Saltar a túa próxima quenda (non obterás puntos)",
+      "resultText": "Saltará a súa próxima quenda (non obterá puntos)"
+    },
+    "ka": {
+      "option": "გამოტოვეთ თქვენი შემდეგი მხრივ (თქვენ არ მიიღებთ ქულებს)",
+      "resultText": "გამოტოვებთ მათ შემდეგ რიგს (არ მიიღებს ქულებს)"
+    },
+    "de": {
+      "option": "Überspringen Sie Ihre nächste Kurve (Sie erhalten keine Punkte)",
+      "resultText": "Wird ihre nächste Runde überspringen (wird keine Punkte bekommen)"
+    },
+    "el": {
+      "option": "Παραλείψτε την επόμενη στροφή σας (δεν θα λάβετε πόντους)",
+      "resultText": "θα παραλείψει την επόμενη στροφή τους (δεν θα λάβει πόντους)"
+    },
+    "gn": {
+      "option": "Embohasa nde turno oúva (ndaha'emo'ãi umi punto) .",
+      "resultText": "Osaltáta iturno oúva (ndohupytýi puntos)"
+    },
+    "gu": {
+      "option": "તમારો આગલો વળાંક છોડો (તમને પોઇન્ટ મળશે નહીં)",
+      "resultText": "તેમના આગલા વળાંકને અવગણશે (પોઇન્ટ મળશે નહીં)"
+    },
+    "ht": {
+      "option": "Sote pwochen vire ou (ou pa pral jwenn pwen)",
+      "resultText": "pral sote pwochen vire yo (pa pral jwenn pwen)"
+    },
+    "ha": {
+      "option": "Tsallake ku na gaba (ba za ku sami maki ba)",
+      "resultText": "Zai tsallake juya biyunsu na gaba (ba zai sami maki ba)"
+    },
+    "haw": {
+      "option": "E huli i kāu huli aʻe (ʻaʻoleʻoe e loaʻa i nā wahi)",
+      "resultText": "e hele a huli i kā lākou huliʻana (ʻaʻole e loaʻa nā wahi)"
+    },
+    "iw": {
+      "option": "דלג על התור הבא שלך (לא תקבל נקודות)",
+      "resultText": "ידלג על התור הבא שלהם (לא יקבל נקודות)"
+    },
+    "hi": {
+      "option": "अपना अगला मोड़ छोड़ें (आपको अंक नहीं मिलेंगे)",
+      "resultText": "अपने अगले मोड़ को छोड़ देंगे (अंक नहीं मिलेंगे)"
+    },
+    "hmn": {
+      "option": "Hla koj lem tom ntej (koj yuav tsis tau txais cov ntsiab lus)",
+      "resultText": "yuav hla lawv lem sab nraud (yuav tsis tau txais cov ntsiab lus)"
+    },
+    "hu": {
+      "option": "Hagyja ki a következő fordulatot (nem kap pontokat)",
+      "resultText": "kihagyja a következő fordulóját (nem kap pontokat)"
+    },
+    "is": {
+      "option": "Slepptu næstu beygju (þú færð ekki stig)",
+      "resultText": "mun sleppa næstu beygju þeirra (mun ekki fá stig)"
+    },
+    "ig": {
+      "option": "Ikwu ntụgharị ọzọ (ị gaghị enweta isi)",
+      "resultText": "ga-emegharị oge ọzọ (agaghị enweta isi)"
+    },
+    "ilo": {
+      "option": "Laktawan ti sumaruno a turnom (saanmo a makagun-od iti puntos) .",
+      "resultText": "Laktawanna ti sumaruno a turnoda (saan a makagun-od iti puntos) ."
+    },
+    "id": {
+      "option": "Lewati giliran Anda berikutnya (Anda tidak akan mendapatkan poin)",
+      "resultText": "akan melewatkan giliran berikutnya (tidak akan mendapatkan poin)"
+    },
+    "ga": {
+      "option": "Scipeáil do chéad chasadh eile (ní bhfaighidh tú pointí)",
+      "resultText": "Scaipfidh siad a gcéad cas eile (ní bhfaighidh mé pointí)"
+    },
+    "it": {
+      "option": "Salta il tuo prossimo turno (non otterrai punti)",
+      "resultText": "salterà il loro prossimo turno (non otterrà punti)"
+    },
+    "ja": {
+      "option": "次のターンをスキップします（ポイントが獲得できません）",
+      "resultText": "次のターンをスキップします（ポイントが取得されません）"
+    },
+    "jw": {
+      "option": "Langsung giliran sabanjure (sampeyan ora bakal entuk nilai)",
+      "resultText": "bakal ngliwati giliran sabanjure (ora bakal entuk nilai)"
+    },
+    "kn": {
+      "option": "ನಿಮ್ಮ ಮುಂದಿನ ತಿರುವು ಬಿಟ್ಟುಬಿಡಿ (ನಿಮಗೆ ಅಂಕಗಳು ಸಿಗುವುದಿಲ್ಲ)",
+      "resultText": "ಅವರ ಮುಂದಿನ ತಿರುವು ಬಿಟ್ಟುಬಿಡುತ್ತದೆ (ಅಂಕಗಳನ್ನು ಪಡೆಯುವುದಿಲ್ಲ)"
+    },
+    "kk": {
+      "option": "Келесі кезекті өткізіп жіберіңіз (сіз ұпай ала алмайсыз)",
+      "resultText": "келесі бұрылысты өткізіп жібереді (ұпай алмайды)"
+    },
+    "km": {
+      "option": "រំលងវេនបន្ទាប់របស់អ្នក (អ្នកនឹងមិនទទួលបានពិន្ទុទេ)",
+      "resultText": "នឹងរំលងវេនបន្ទាប់របស់ពួកគេ (នឹងមិនទទួលបានពិន្ទុ)"
+    },
+    "rw": {
+      "option": "Simbukira impinduka zawe zikurikira (ntuzabona amanota)",
+      "resultText": "azasimbukira impinduka zikurikira (ntazabona amanota)"
+    },
+    "gom": {
+      "option": "तुमचो फुडलो वळो वगडावचो (तुमकां पॉयंट मेळचे नात)",
+      "resultText": "आपलो फुडलो वळो वगडायतलो (पॉइंट मेळचो ना)"
+    },
+    "ko": {
+      "option": "다음 턴을 건너 뛰십시오 (포인트가 없습니다)",
+      "resultText": "다음 턴을 건너 뛸 것입니다 (포인트를 얻지 못함)"
+    },
+    "kri": {
+      "option": "Skip yu neks turn (yu no go get poin)",
+      "resultText": "go skip dɛn nɛks tɔn (nɔ go gɛt poɛnt)"
+    },
+    "ku": {
+      "option": "Rûniştina xwe ya din bişopînin (hûn ê notên xwe nedin)",
+      "resultText": "dê zivirîna xwe ya din bişopîne (dê neyên pêş)"
+    },
+    "ckb": {
+      "option": "نۆرەی داهاتووتان بەجێبهێڵن (خاڵ بەدەست ناهێنن)",
+      "resultText": "نۆرەی داهاتوویان بەجێدەهێڵێت (خاڵ بەدەست ناهێنن)"
+    },
+    "ky": {
+      "option": "Кийинки кезегиңизди өткөрүп жибериңиз (сиз ойлорду ала албайсыз)",
+      "resultText": "кийинки кезегин өткөрүп жиберет (упай албайт)"
+    },
+    "lo": {
+      "option": "ຂ້າມລ້ຽວຕໍ່ໄປຂອງທ່ານ (ທ່ານຈະບໍ່ໄດ້ຮັບຈຸດ)",
+      "resultText": "ຈະຂ້າມລ້ຽວຕໍ່ໄປຂອງພວກເຂົາ (ຈະບໍ່ໄດ້ຮັບຈຸດ)"
+    },
+    "la": {
+      "option": "Skip vestri proximus vertente (vos non adepto puncta)",
+      "resultText": "Et skip eorum altera rursus (non ut puncta)"
+    },
+    "lv": {
+      "option": "Izlaidiet savu nākamo pagriezienu (jūs nesaņemsit punktus)",
+      "resultText": "izlaidīs viņu nākamo pagriezienu (nesaņems punktus)"
+    },
+    "ln": {
+      "option": "Salá tour na yo ya sima (okozua ba points te)",
+      "resultText": "Eko sauter tour na bango ya sima (bakozua ba points te)"
+    },
+    "lt": {
+      "option": "Praleiskite kitą posūkį (negausite taškų)",
+      "resultText": "praleis kitą jų posūkį (negaus taškų)"
+    },
+    "lg": {
+      "option": "Skip your next turn (tojja kufuna bubonero)",
+      "resultText": "Ajja kubuuka ekkubo lyabwe eriddako (tebajja kufuna bubonero)"
+    },
+    "lb": {
+      "option": "Wiessel Ären nächsten Tour (Dir kritt keng Punkten)",
+      "resultText": "wäert hir nächst Wendungen iwwersprennen (kritt keng Punkten)"
+    },
+    "mk": {
+      "option": "Прескокнете го следниот ред (нема да добиете поени)",
+      "resultText": "ќе го прескокнат нивниот следен пресврт (нема да добие поени)"
+    },
+    "mai": {
+      "option": "अपन अगिला मोड़ छोड़ि दियौक (अहाँकेँ अंक नहि भेटत)",
+      "resultText": "अपन अगिला मोड़ छोड़ि देत (बिन्दु नहि भेटत)"
+    },
+    "mg": {
+      "option": "Halaviro ny anjaranao manaraka (tsy hahazo isa ianao)",
+      "resultText": "Hitsambikina ny anjarany manaraka (tsy hahazo isa)"
+    },
+    "ms": {
+      "option": "Langkau giliran seterusnya (anda tidak akan mendapat mata)",
+      "resultText": "akan melangkau giliran seterusnya (tidak akan mendapat mata)"
+    },
+    "ml": {
+      "option": "നിങ്ങളുടെ അടുത്ത ടേൺ ഒഴിവാക്കുക (നിങ്ങൾക്ക് പോയിന്റുകൾ ലഭിക്കില്ല)",
+      "resultText": "അവരുടെ അടുത്ത ടേൺ ഒഴിവാക്കും (പോയിന്റുകൾ ലഭിക്കില്ല)"
+    },
+    "mt": {
+      "option": "Aqbeż id-dawra li jmiss tiegħek (ma jkollokx punti)",
+      "resultText": "se jaqbżu d-dawra li jmiss tagħhom (mhux se jiksbu punti)"
+    },
+    "mi": {
+      "option": "Hūpeke to huringa o muri (kaore koe e whiwhi tohu)",
+      "resultText": "ka peke i to raatau tahuri (kaore e whiwhi tohu)"
+    },
+    "mr": {
+      "option": "आपली पुढील वळण वगळा (आपल्याला गुण मिळणार नाहीत)",
+      "resultText": "त्यांची पुढील वळण वगळेल (गुण मिळणार नाहीत)"
+    },
+    "mni-Mtei": {
+      "option": "ꯅꯍꯥꯛꯀꯤ ꯃꯊꯪꯒꯤ ꯇꯥꯔꯝ ꯑꯗꯨ ꯊꯥꯗꯣꯀꯎ (ꯅꯍꯥꯛꯅꯥ ꯄꯣꯏꯟꯇꯁꯤꯡ ꯐꯪꯂꯣꯏ)",
+      "resultText": "ꯃꯈꯣꯌꯒꯤ ꯃꯊꯪꯒꯤ ꯇꯥꯔꯝ ꯊꯥꯗꯣꯛꯀꯅꯤ (ꯄꯣꯏꯟꯇꯁꯤꯡ ꯐꯪꯂꯣꯏ)"
+    },
+    "lus": {
+      "option": "I turn leh tur chu skip rawh (point i hmu lo ang)",
+      "resultText": "an turn leh tur an skip ang (point an hmu lo ang)"
+    },
+    "mn": {
+      "option": "Дараагийн эргэлтийг алгасах (та оноо авахгүй)",
+      "resultText": "тэдний дараагийн эргэлтийг алгасах болно (оноо авахгүй)"
+    },
+    "my": {
+      "option": "သင်၏နောက်လှည့်ကိုကျော်သွားပါ (သင်ရမှတ်များမရလိမ့်မည်)",
+      "resultText": "သူတို့ရဲ့နောက်လှည့်ကိုကျော်သွားလိမ့်မည် (ရမှတ်များမရလိမ့်မည်)"
+    },
+    "ne": {
+      "option": "तपाईंको अर्को पालो छोड्नुहोस् (तपाईं पोइन्ट प्राप्त गर्नुहुने छैन)",
+      "resultText": "उनीहरूको अर्को पालो छोड्छ (पोइन्ट प्राप्त गर्दैन)"
+    },
+    "no": {
+      "option": "Hopp over neste sving (du får ikke poeng)",
+      "resultText": "vil hoppe over neste sving (vil ikke få poeng)"
+    },
+    "or": {
+      "option": "ପରବର୍ତ୍ତୀ ମୋଡ଼କୁ ଛାଡିଦିଅ (ତୁମେ ପଏଣ୍ଟ ପାଇବ ନାହିଁ)",
+      "resultText": "ସେମାନଙ୍କର ପରବର୍ତ୍ତୀ ଟର୍ନକୁ ଏଡ଼ାଇ ଦେବ (ପଏଣ୍ଟ ପାଇବ ନାହିଁ)"
+    },
+    "om": {
+      "option": "Dabaree itti aanuu (qabxii hin argattu) darbii .",
+      "resultText": "Dabaree isaanii itti aanu ni darbu (qabxii hin argatu) ."
+    },
+    "ps": {
+      "option": "خپل راتلونکی وار ته لاړشئ (تاسو به ټکي ترلاسه نکړئ)",
+      "resultText": "د دوی راتلونکی څانګه به پریږدي (ټکي به نه وي)"
+    },
+    "fa": {
+      "option": "نوبت بعدی خود را پرش کنید (امتیاز نخواهید گرفت)",
+      "resultText": "نوبت بعدی خود را رد خواهد کرد (امتیاز نمی گیرد)"
+    },
+    "pl": {
+      "option": "Pomiń następną turę (nie dostaniesz punktów)",
+      "resultText": "pominę ich następny tura (nie dostanie punktów)"
+    },
+    "pt": {
+      "option": "Pule seu próximo turno (você não receberá pontos)",
+      "resultText": "Vai pular o próximo turno (não receberá pontos)"
+    },
+    "pa": {
+      "option": "ਆਪਣੀ ਅਗਲੀ ਵਾਰੀ ਛੱਡੋ (ਤੁਹਾਨੂੰ ਅੰਕ ਨਹੀਂ ਮਿਲੇਗਾ)",
+      "resultText": "ਉਨ੍ਹਾਂ ਦੀ ਅਗਲੀ ਵਾਰੀ ਛੱਡ ਦੇਵੇਗੀ (ਬਿੰਦੂ ਨਹੀਂ ਮਿਲੇਗਾ)"
+    },
+    "qu": {
+      "option": "Salta tu siguiente giro (no obtengas puntos)",
+      "resultText": "saltar su siguiente turno (no obtenerá puntos)"
+    },
+    "ro": {
+      "option": "Săriți următoarea tură (nu veți primi puncte)",
+      "resultText": "va sări următoarea tură (nu va primi puncte)"
+    },
+    "ru": {
+      "option": "Пропустите свой следующий ход (вы не получите очки)",
+      "resultText": "Пропустит свой следующий ход (не получит очки)"
+    },
+    "sm": {
+      "option": "Skip lau isi taimi (o le ae le maua manatu)",
+      "resultText": "o le a oso i latou i le isi taimi (o le a le maua manatu)"
+    },
+    "sa": {
+      "option": "स्वस्य अग्रिमं वारं त्यजन्तु (भवन्तः अंकं न प्राप्नुवन्ति)",
+      "resultText": "तेषां अग्रिमः वारं स्किप् करिष्यति (विन्दून् न प्राप्स्यति)"
+    },
+    "gd": {
+      "option": "Thoir leum air an ath cheum agad (chan fhaigh thu puingean)",
+      "resultText": "seallaidh e an ath thionndadh aca (cha bhith e a 'faighinn puingean)"
+    },
+    "nso": {
+      "option": "Tlolela go retologela ga gago mo go latelago (o ka se hwetše dintlha)",
+      "resultText": "tla tlola bona e latelang retelehela (tla ke fumana lintlha) ."
+    },
+    "sr": {
+      "option": "Прескочите следећи ред (нећете добити бодове)",
+      "resultText": "прескочиће свој следећи заокрет (неће добити бодове)"
+    },
+    "st": {
+      "option": "Tlosa phetoho ea hau e latelang (u ke ke ua fumana lintlha)",
+      "resultText": "e tla tlola nako e latelang e latelang (e ke ke ea fumana lintlha)"
+    },
+    "sn": {
+      "option": "Skip yako inotevera kutendeuka (hauzowani mapoinzi)",
+      "resultText": "ichasvetuka kutendeuka kwavo (haizowani mapoinzi)"
+    },
+    "sd": {
+      "option": "توهان جي ايندڙ موڙ کي ڇڏي ڏيو (توهان پوائنٽس نه حاصل ڪندا)",
+      "resultText": "انهن جي ايندڙ موڙ کي ڇڏي ڏيندو (پوائنٽون نه ملنديون)"
+    },
+    "si": {
+      "option": "ඔබගේ ඊළඟ වාරය මඟ හරින්න (ඔබට ලකුණු නොලැබෙනු ඇත)",
+      "resultText": "ඔවුන්ගේ ඊළඟ වාරය මඟ හරිනු ඇත (ලකුණු ලබා නොගනී)"
+    },
+    "sk": {
+      "option": "Preskočte ďalšie otočenie (nedostanete body)",
+      "resultText": "preskočia ich ďalšie otočenie (nedostanete body)"
+    },
+    "sl": {
+      "option": "Preskočite svoj naslednji zavoj (ne boste dobili točk)",
+      "resultText": "Ali bodo preskočili svoj naslednji zavoj (ne bo dobil točk)"
+    },
+    "so": {
+      "option": "Ka gudub dhankaaga xigta (ma heli doontid dhibco)",
+      "resultText": "waxay ka boodi doontaa waqtigooda xigta (dhibco ma heli doono)"
+    },
+    "es": {
+      "option": "Omita su próximo turno (no obtendrá puntos)",
+      "resultText": "saltará su próximo turno (no obtendrá puntos)"
+    },
+    "su": {
+      "option": "Luncat hurung salajengna (anjeun moal kéngingkeun titik)",
+      "resultText": "bakal skip giliran salajengna (moal kéngingkeun titik)"
+    },
+    "sw": {
+      "option": "Ruka zamu yako inayofuata (hautapata alama)",
+      "resultText": "wataruka zamu yao inayofuata (haitapata alama)"
+    },
+    "sv": {
+      "option": "Hoppa över nästa tur (du får inte poäng)",
+      "resultText": "kommer att hoppa över nästa tur (kommer inte att få poäng)"
+    },
+    "tg": {
+      "option": "Навбатии навбатии худро гузаред (шумо нуқтаҳои худро намегиред)",
+      "resultText": "навбати навбатии худро гузаронида мешавад (нуқтаҳои ба даст намеояд)"
+    },
+    "ta": {
+      "option": "உங்கள் அடுத்த திருப்பத்தைத் தவிர்க்கவும் (உங்களுக்கு புள்ளிகள் கிடைக்காது)",
+      "resultText": "அவர்களின் அடுத்த திருப்பத்தைத் தவிர்க்கும் (புள்ளிகள் கிடைக்காது)"
+    },
+    "tt": {
+      "option": "Киләсе борылышны атлагыз (сез баллар алмассыз)",
+      "resultText": "киләсе борылышын калдырачак (баллар алмаячак)"
+    },
+    "te": {
+      "option": "మీ తదుపరి మలుపును దాటవేయండి (మీకు పాయింట్లు లభించవు)",
+      "resultText": "వారి తదుపరి మలుపును దాటవేస్తుంది (పాయింట్లు లభించవు)"
+    },
+    "th": {
+      "option": "ข้ามเทิร์นถัดไปของคุณ (คุณจะไม่ได้รับคะแนน)",
+      "resultText": "จะข้ามเทิร์นถัดไปของพวกเขา (จะไม่ได้รับคะแนน)"
+    },
+    "ti": {
+      "option": "ዝቕጽል ተራኻ ስኪፕ (ነጥቢ ኣይትረክብን ኢኻ)",
+      "resultText": "ዝቕጽል ተራኦም ክዘልል እዩ (ነጥቢ ኣይረክብን እዩ)"
+    },
+    "ts": {
+      "option": "Tlula turn ya wena leyi landzelaka (a wu nge kumi ti points) .",
+      "resultText": "va ta skipa turn ya vona leyi landzelaka (a yi nge kumi ti points) ."
+    },
+    "tr": {
+      "option": "Bir sonraki dönüşünüzü atla (puan alamayacaksınız)",
+      "resultText": "Bir sonraki turlarını atlayacak (puan almayacak)"
+    },
+    "tk": {
+      "option": "Indiki öwrümiňizi taşlaň (bal alarsyňyz)",
+      "resultText": "indiki öwrümini geçirer (bal almaz)"
+    },
+    "ak": {
+      "option": "Skip wo turn a edi hɔ no (worennya nsɛntitiriw) .",
+      "resultText": "Wobehuruw wɔn dan a edi hɔ no so (wɔrennya nsɛntitiriw) ."
+    },
+    "uk": {
+      "option": "Пропустіть наступний поворот (ви не отримаєте бали)",
+      "resultText": "Пропустить наступний поворот (не отримає бали)"
+    },
+    "ur": {
+      "option": "اپنی اگلی موڑ چھوڑیں (آپ کو پوائنٹس نہیں ملے گا)",
+      "resultText": "ان کی اگلی باری کو چھوڑ دیں گے (پوائنٹس نہیں ملے گا)"
+    },
+    "ug": {
+      "option": "كېيىنكى نۆۋىتىڭىزنى ئاتلاڭ (نومۇر ئالمايسىز)",
+      "resultText": "ئۇلارنىڭ كېيىنكى نۆۋىتىنى ئاتلاپ كېتىدۇ (نۇقتىغا ئېرىشەلمەيدۇ)"
+    },
+    "uz": {
+      "option": "Keyingi navbatingizni o'tkazib yuboring (ballar olmaysiz)",
+      "resultText": "keyingi navbatni o'tkazib yuboradi (ballar olinmaydi)"
+    },
+    "vi": {
+      "option": "Bỏ qua lượt tiếp theo của bạn (bạn sẽ không nhận được điểm)",
+      "resultText": "Sẽ bỏ qua lượt tiếp theo của họ (sẽ không nhận được điểm)"
+    },
+    "cy": {
+      "option": "Sgipiwch eich tro nesaf (ni chewch bwyntiau)",
+      "resultText": "yn hepgor eu tro nesaf (ni fydd yn cael pwyntiau)"
+    },
+    "xh": {
+      "option": "Tsiba ijika lakho elilandelayo (awuyi kufumana amanqaku)",
+      "resultText": "Ndiza kutsiba ijika labo elilandelayo (aliyi kufumana amanqaku)"
+    },
+    "yi": {
+      "option": "האָפּקען דיין ווייַטער קער (איר וועט נישט באַקומען פונקטן)",
+      "resultText": "וועט האָפּקען זייער ווייַטער קער (וועט נישט באַקומען פונקטן)"
+    },
+    "yo": {
+      "option": "Rekọja Tan rẹ ti o tẹle (iwọ kii yoo gba awọn aaye)",
+      "resultText": "yoo fo yipada atẹle wọn (kii yoo gba awọn aaye)"
+    },
+    "zu": {
+      "option": "Yeqa ithuba lakho elilandelayo (ngeke uthole amaphuzu)",
+      "resultText": "uzokweqa ithuba labo elilandelayo (ngeke athole amaphuzu)"
+    }
+  },
+  {
+    "ID": 4,
+    "effectOther": false,
+    "drinking": false,
+    "en": {
+      "option": "Spin Again",
+      "resultText": "spun again"
+    },
+    "af": {
+      "option": "Spin",
+      "resultText": "weer gespin"
+    },
+    "sq": {
+      "option": "Rrotullohem përsëri",
+      "resultText": "rrotulloj përsëri"
+    },
+    "am": {
+      "option": "እንደገና ይሽከረከሩ",
+      "resultText": "እንደገና ይሽከረከሩ"
+    },
+    "ar": {
+      "option": "تدور مرة أخرى",
+      "resultText": "نسج مرة أخرى"
+    },
+    "hy": {
+      "option": "Նորից պտտվել",
+      "resultText": "նորից պտտվել"
+    },
+    "as": {
+      "option": "আকৌ ঘূৰাওক",
+      "resultText": "আকৌ এবাৰ spun"
+    },
+    "ay": {
+      "option": "Ukhama mayampi muyuntaña .",
+      "resultText": "Spun ukax wasitat ."
+    },
+    "az": {
+      "option": "Yenidən fırlatmaq",
+      "resultText": "yenidən bükmək"
+    },
+    "bm": {
+      "option": "Spin tugun .",
+      "resultText": "Aw bɛ a sɔgɔ tuguni ."
+    },
+    "eu": {
+      "option": "Berriro bira",
+      "resultText": "berriro spun"
+    },
+    "be": {
+      "option": "Зноў круціцца",
+      "resultText": "Зноў круціцца"
+    },
+    "bn": {
+      "option": "আবার স্পিন",
+      "resultText": "আবার কাটা"
+    },
+    "bho": {
+      "option": "फेर से घूमे के बा .",
+      "resultText": "फेरु से स्पिन कइल जाव ."
+    },
+    "bs": {
+      "option": "Okrenuti se ponovo",
+      "resultText": "popne ponovo"
+    },
+    "bg": {
+      "option": "Завъртете отново",
+      "resultText": "се завъртя отново"
+    },
+    "ca": {
+      "option": "Torneu a girar",
+      "resultText": "va tornar a girar"
+    },
+    "ceb": {
+      "option": "Pag-usab",
+      "resultText": "spun pag-usab"
+    },
+    "ny": {
+      "option": "Spin kachiwiri",
+      "resultText": "swan kachiwiri"
+    },
+    "zh-CN": {
+      "option": "再次旋转",
+      "resultText": "再次旋转"
+    },
+    "zh-TW": {
+      "option": "再次旋轉",
+      "resultText": "再次旋轉"
+    },
+    "co": {
+      "option": "Spin torna",
+      "resultText": "spuntò di novu"
+    },
+    "hr": {
+      "option": "Ponovno se vrtjeti",
+      "resultText": "ponovno se okrenuo"
+    },
+    "cs": {
+      "option": "Opět se točí",
+      "resultText": "znovu se točit"
+    },
+    "da": {
+      "option": "Spin igen",
+      "resultText": "spundet igen"
+    },
+    "dv": {
+      "option": "އަނެއްކާވެސް ސްޕިން",
+      "resultText": "އަނެއްކާވެސް ސްޕަން"
+    },
+    "doi": {
+      "option": "फिर घुमाओ",
+      "resultText": "फिर स्पिन"
+    },
+    "nl": {
+      "option": "Weer spinnen",
+      "resultText": "weer gesponnen"
+    },
+    "eo": {
+      "option": "Ŝpinu denove",
+      "resultText": "Spun denove"
+    },
+    "et": {
+      "option": "Uuesti keerutama",
+      "resultText": "uuesti keerutatud"
+    },
+    "ee": {
+      "option": "Tsɔe ake .",
+      "resultText": "Gaƒoe ake ."
+    },
+    "tl": {
+      "option": "Paikutin ulit",
+      "resultText": "spun ulit"
+    },
+    "fi": {
+      "option": "Pyöriä uudelleen",
+      "resultText": "kehrätty uudelleen"
+    },
+    "fr": {
+      "option": "Remonter",
+      "resultText": "tourné à nouveau"
+    },
+    "fy": {
+      "option": "Spin wer",
+      "resultText": "spun wer"
+    },
+    "gl": {
+      "option": "Xira de novo",
+      "resultText": "xirou de novo"
+    },
+    "ka": {
+      "option": "ისევ ტრიალი",
+      "resultText": "ისევ ტრიალებ"
+    },
+    "de": {
+      "option": "Wieder drehen",
+      "resultText": "wieder gedreht"
+    },
+    "el": {
+      "option": "Γυρίστε ξανά",
+      "resultText": "ξανά"
+    },
+    "gn": {
+      "option": "Ejevy jey .",
+      "resultText": "Ojere jey ."
+    },
+    "gu": {
+      "option": "ફરીથી સ્પિન સ્પિન",
+      "resultText": "ફરી જોગવાઈ"
+    },
+    "ht": {
+      "option": "Vire ankò",
+      "resultText": "file ankò"
+    },
+    "ha": {
+      "option": "Juya sake",
+      "resultText": "spun sake"
+    },
+    "haw": {
+      "option": "E nānā hou",
+      "resultText": "hui hou"
+    },
+    "iw": {
+      "option": "מסתובב שוב",
+      "resultText": "הסתובב שוב"
+    },
+    "hi": {
+      "option": "फिर से स्पिन करो",
+      "resultText": "फिर से"
+    },
+    "hmn": {
+      "option": "Tig dua",
+      "resultText": "spun dua"
+    },
+    "hu": {
+      "option": "Újra forog",
+      "resultText": "megint megpördült"
+    },
+    "is": {
+      "option": "Snúðu aftur",
+      "resultText": "spunnið aftur"
+    },
+    "ig": {
+      "option": "Gbazee ọzọ",
+      "resultText": "spun ọzọ"
+    },
+    "ilo": {
+      "option": "I-spin manen .",
+      "resultText": "nagtuyok manen ."
+    },
+    "id": {
+      "option": "Putar lagi",
+      "resultText": "berputar lagi"
+    },
+    "ga": {
+      "option": "Cas arís",
+      "resultText": "Spun arís"
+    },
+    "it": {
+      "option": "Girare di nuovo",
+      "resultText": "girato di nuovo"
+    },
+    "ja": {
+      "option": "もう一度スピンします",
+      "resultText": "再び紡がれます"
+    },
+    "jw": {
+      "option": "Muter maneh",
+      "resultText": "spun maneh"
+    },
+    "kn": {
+      "option": "ಮತ್ತೆ ಸ್ಪಿನ್ ಮಾಡಿ",
+      "resultText": "ಮತ್ತೆ ತಿರುಗಿತು"
+    },
+    "kk": {
+      "option": "Қайтадан айналдыру",
+      "resultText": "қайтадан"
+    },
+    "km": {
+      "option": "បង្វិលម្តងទៀត",
+      "resultText": "spun ម្តងទៀត"
+    },
+    "rw": {
+      "option": "Ongera uzunguruke",
+      "resultText": "Ongera"
+    },
+    "gom": {
+      "option": "परतून घुंवडावप .",
+      "resultText": "परतून घुंवडावप ."
+    },
+    "ko": {
+      "option": "다시 회전하십시오",
+      "resultText": "다시 회전하십시오"
+    },
+    "kri": {
+      "option": "Spin bak .",
+      "resultText": "Spun bak ."
+    },
+    "ku": {
+      "option": "Dîsa dîsa",
+      "resultText": "dîsa spun bikin"
+    },
+    "ckb": {
+      "option": "دووبارە بخولێنەرەوە",
+      "resultText": "دووبارە بیخولێنەرەوە"
+    },
+    "ky": {
+      "option": "Дагы айлануу",
+      "resultText": "кайрадан ийилген"
+    },
+    "lo": {
+      "option": "ຫມຸນອີກຄັ້ງ",
+      "resultText": "spun ອີກເທື່ອຫນຶ່ງ"
+    },
+    "la": {
+      "option": "Iterum",
+      "resultText": "ITER"
+    },
+    "lv": {
+      "option": "Atkal griezties",
+      "resultText": "atkal savērpties"
+    },
+    "ln": {
+      "option": "Spiner lisusu .",
+      "resultText": "Kobalusa lisusu ."
+    },
+    "lt": {
+      "option": "Vėl sukasi",
+      "resultText": "Vėl sukosi"
+    },
+    "lg": {
+      "option": "Ddamu ositule .",
+      "resultText": "okuddamu okuwummuza ."
+    },
+    "lb": {
+      "option": "Spin erëm",
+      "resultText": "spond erëm"
+    },
+    "mk": {
+      "option": "Повторно вртете се",
+      "resultText": "повторно се откачи"
+    },
+    "mai": {
+      "option": "फेर स्पिन करू",
+      "resultText": "फेर घुमाउ"
+    },
+    "mg": {
+      "option": "Mihodina indray",
+      "resultText": "Spun indray"
+    },
+    "ms": {
+      "option": "Berputar lagi",
+      "resultText": "berputar lagi"
+    },
+    "ml": {
+      "option": "വീണ്ടും സ്പിൻ ചെയ്യുക",
+      "resultText": "വീണ്ടും സ്പൂൺ"
+    },
+    "mt": {
+      "option": "Dawwar mill-ġdid",
+      "resultText": "mibrum mill-ġdid"
+    },
+    "mi": {
+      "option": "Hurihuri ano",
+      "resultText": "hurihuri ano"
+    },
+    "mr": {
+      "option": "पुन्हा फिरकी",
+      "resultText": "पुन्हा स्पॅन"
+    },
+    "mni-Mtei": {
+      "option": "ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯁ꯭ꯄꯤꯟ ꯇꯧꯕꯥ",
+      "resultText": "ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯁ꯭ꯄꯨꯟ ꯇꯧꯕꯥ"
+    },
+    "lus": {
+      "option": "Spin leh rawh .",
+      "resultText": "Spun leh rawh ."
+    },
+    "mn": {
+      "option": "Дахин ээрэх",
+      "resultText": "дахин эргүүл"
+    },
+    "my": {
+      "option": "နောက်တဖန်လှည့်ပါ",
+      "resultText": "နောက်တဖန်ဂလူး"
+    },
+    "ne": {
+      "option": "फेरि स्पिन",
+      "resultText": "फेरि फेरी"
+    },
+    "no": {
+      "option": "Spinn igjen",
+      "resultText": "snurret igjen"
+    },
+    "or": {
+      "option": "ପୁଣି ସ୍ପିନ୍ |",
+      "resultText": "ପୁଣି ସ୍ପନ୍ |"
+    },
+    "om": {
+      "option": "Ammas naanna'aa .",
+      "resultText": "Ammas fincila ."
+    },
+    "ps": {
+      "option": "بیا سپین",
+      "resultText": "بیا سپین"
+    },
+    "fa": {
+      "option": "دوباره بچرخانید",
+      "resultText": "دوباره چرخیدن"
+    },
+    "pl": {
+      "option": "Obrócić ponownie",
+      "resultText": "obrócić ponownie"
+    },
+    "pt": {
+      "option": "Gire de novo",
+      "resultText": "girou novamente"
+    },
+    "pa": {
+      "option": "ਦੁਬਾਰਾ ਸਪਿਨ",
+      "resultText": "ਦੁਬਾਰਾ ਸਪੂਨ"
+    },
+    "qu": {
+      "option": "Yapamanta muyuchiy .",
+      "resultText": "Hukmanta muyuchisqa ."
+    },
+    "ro": {
+      "option": "Rotiți -vă din nou",
+      "resultText": "s -a învârtit din nou"
+    },
+    "ru": {
+      "option": "Снова спите",
+      "resultText": "Снова крутится"
+    },
+    "sm": {
+      "option": "Toe alu",
+      "resultText": "toe"
+    },
+    "sa": {
+      "option": "पुनः स्पिनं कुर्वन्तु .",
+      "resultText": "पुनः स्पिन 1 ."
+    },
+    "gd": {
+      "option": "Spin a-rithist",
+      "resultText": "snìomh a-rithist"
+    },
+    "nso": {
+      "option": "Go dikologa gape .",
+      "resultText": "o ile a dikologa gape ."
+    },
+    "sr": {
+      "option": "Поново окренути",
+      "resultText": "поново се смањује"
+    },
+    "st": {
+      "option": "Spin hape",
+      "resultText": "Spun hape"
+    },
+    "sn": {
+      "option": "Spin zvakare",
+      "resultText": "spun zvakare"
+    },
+    "sd": {
+      "option": "وري اسپن ڪريو",
+      "resultText": "ٻيهر اسپن"
+    },
+    "si": {
+      "option": "නැවත භ්රමණය වන්න",
+      "resultText": "නැවත භ්රමණය වන්න"
+    },
+    "sk": {
+      "option": "Znova",
+      "resultText": "Opäť sa otočil"
+    },
+    "sl": {
+      "option": "Spet zavrti",
+      "resultText": "spet zavrtel"
+    },
+    "so": {
+      "option": "Mar labaad ku wareeji",
+      "resultText": "mar labaad spun"
+    },
+    "es": {
+      "option": "Girar de nuevo",
+      "resultText": "hilado de nuevo"
+    },
+    "su": {
+      "option": "Muter deui",
+      "resultText": "spun deui"
+    },
+    "sw": {
+      "option": "Spin tena",
+      "resultText": "spun tena"
+    },
+    "sv": {
+      "option": "Snurra igen",
+      "resultText": "spunnen igen"
+    },
+    "tg": {
+      "option": "Боз чарх мезанед",
+      "resultText": "боз spun"
+    },
+    "ta": {
+      "option": "மீண்டும் சுழலும்",
+      "resultText": "மீண்டும் சுழன்றது"
+    },
+    "tt": {
+      "option": "Кабат әйләнү",
+      "resultText": "кабат әйләнәләр"
+    },
+    "te": {
+      "option": "మళ్ళీ స్పిన్",
+      "resultText": "మళ్ళీ తిప్పండి"
+    },
+    "th": {
+      "option": "หมุนอีกครั้ง",
+      "resultText": "หมุนอีกครั้ง"
+    },
+    "ti": {
+      "option": "እንደገና ስፒን",
+      "resultText": "እንደገና ፍንጭሕ ይብል"
+    },
+    "ts": {
+      "option": "Spin nakambe .",
+      "resultText": "Spun nakambe ."
+    },
+    "tr": {
+      "option": "Tekrar döndürmek",
+      "resultText": "tekrar döndürülmüş"
+    },
+    "tk": {
+      "option": "Ýene aýlanýar",
+      "resultText": "Againene-de bir gezek çyk"
+    },
+    "ak": {
+      "option": "Spin bio .",
+      "resultText": "spun bio ."
+    },
+    "uk": {
+      "option": "Знову крутитися",
+      "resultText": "знову крутити"
+    },
+    "ur": {
+      "option": "پھر گھومیں",
+      "resultText": "ایک بار پھر گھوم"
+    },
+    "ug": {
+      "option": "Spin again",
+      "resultText": "SPun"
+    },
+    "uz": {
+      "option": "Yana aylantiring",
+      "resultText": "yana aylaning"
+    },
+    "vi": {
+      "option": "Quay một lần nữa",
+      "resultText": "quay lại"
+    },
+    "cy": {
+      "option": "Troelli eto",
+      "resultText": "nyddu eto"
+    },
+    "xh": {
+      "option": "Spin kwakhona",
+      "resultText": "Sun kwakhona"
+    },
+    "yi": {
+      "option": "ומדריי ווידער",
+      "resultText": "ספּון ווידער"
+    },
+    "yo": {
+      "option": "Spin lẹẹkansi",
+      "resultText": "Sisun lẹẹkansi"
+    },
+    "zu": {
+      "option": "Spin futhi",
+      "resultText": "Spen futhi"
+    }
+  },
+  {
+    "ID": 5,
+    "effectOther": true,
+    "drinking": false,
+    "en": {
+      "option": "Swap Points with Player you choose",
+      "resultText": "swap points with him"
+    },
+    "af": {
+      "option": "Ruil punte met die speler wat jy kies",
+      "resultText": "ruil punte met hom"
+    },
+    "sq": {
+      "option": "Ndërroni pikat me lojtarin që zgjidhni",
+      "resultText": "Swap pikë me të"
+    },
+    "am": {
+      "option": "ከሚመርጡት ተጫዋች ጋር ይቀያይሩ",
+      "resultText": "ከእሱ ጋር ይቀያይሩ"
+    },
+    "ar": {
+      "option": "نقاط التبادل مع اللاعب الذي تختاره",
+      "resultText": "نقاط مبادلة معه"
+    },
+    "hy": {
+      "option": "Փոխեք միավորներ ձեր ընտրած խաղացողի հետ",
+      "resultText": "Կարգավորեք կետերը նրա հետ"
+    },
+    "as": {
+      "option": "আপুনি বাছনি কৰা খেলুৱৈৰ সৈতে পইন্টসমূহ শ্বেপ কৰক",
+      "resultText": "তেওঁৰ সৈতে পইণ্ট শ্বেপ কৰক"
+    },
+    "ay": {
+      "option": "Puntos de intercambio ukax anatañampiw ajlliñama .",
+      "resultText": "Jupampi chika swap puntonaka ."
+    },
+    "az": {
+      "option": "Seçdiyiniz oyunçu ilə nöqtələri dəyişdirin",
+      "resultText": "Onunla nöqtələri dəyişdirin"
+    },
+    "bm": {
+      "option": "swap points ni player ye i bɛ min sugandi .",
+      "resultText": "Swap points ni a ye ."
+    },
+    "eu": {
+      "option": "Swap puntuak aukeratzen dituzun jokalariekin",
+      "resultText": "Trukatu puntuak berarekin"
+    },
+    "be": {
+      "option": "Памяняйце кропкі з выбраным гульцом",
+      "resultText": "памяняць кропкі з ім"
+    },
+    "bn": {
+      "option": "আপনি চয়ন করা প্লেয়ার সঙ্গে পয়েন্ট অদলবদল",
+      "resultText": "তার সাথে অদলবদল পয়েন্ট"
+    },
+    "bho": {
+      "option": "रउरा चुनल खिलाड़ी के साथे अंक के स्वैप करीं",
+      "resultText": "ओकरा साथे बिंदु के अदला-बदली"
+    },
+    "bs": {
+      "option": "Swap bodove s igračem koji odaberete",
+      "resultText": "swap bodove s njim"
+    },
+    "bg": {
+      "option": "Разменяйте точки с играч, който сте избрали",
+      "resultText": "Разменяйте точки с него"
+    },
+    "ca": {
+      "option": "Intercanvi els punts amb el jugador que trieu",
+      "resultText": "Intercanvi amb ell"
+    },
+    "ceb": {
+      "option": "Swap nga mga puntos sa player nga imong gipili",
+      "resultText": "swap point uban kaniya"
+    },
+    "ny": {
+      "option": "Kusintha kwa Swap ndi wosewera yemwe mumasankha",
+      "resultText": "Kusintha kwa Swap ndi iye"
+    },
+    "zh-CN": {
+      "option": "与您选择的玩家交换点",
+      "resultText": "与他交换点"
+    },
+    "zh-TW": {
+      "option": "與您選擇的玩家交換點",
+      "resultText": "與他交換點"
+    },
+    "co": {
+      "option": "Scambià punti cù u ghjucatore chì sceglite",
+      "resultText": "Scambià punti cun ellu"
+    },
+    "hr": {
+      "option": "Zamijenite bodove s igračem koji odaberete",
+      "resultText": "Zamijenite bodove s njim"
+    },
+    "cs": {
+      "option": "SWAP body s hráčem, kterého si vyberete",
+      "resultText": "Swap body s ním"
+    },
+    "da": {
+      "option": "Swap -point med spiller, du vælger",
+      "resultText": "Swap Points med ham"
+    },
+    "dv": {
+      "option": "ތިބާ ހޮވާ ކުޅުންތެރިއަކާ ޕޮއިންޓް ސްވޮޕް ކުރާށެވެ .",
+      "resultText": "އޭނާއާ ޕޮއިންޓް ސްވޮޕް ކޮށްލާށެވެ ."
+    },
+    "doi": {
+      "option": "तुस चुनदे ओ खिलाड़ी कन्नै अंक स्वैप करो",
+      "resultText": "अदला-बदली दे कन्नै बिंदु"
+    },
+    "nl": {
+      "option": "Swap -punten met speler die je kiest",
+      "resultText": "ruil punten met hem"
+    },
+    "eo": {
+      "option": "Interŝanĝu punktojn kun ludanto, kiun vi elektas",
+      "resultText": "interŝanĝu punktojn kun li"
+    },
+    "et": {
+      "option": "Valige punkte teie valitud mängijaga",
+      "resultText": "vahetage punkte temaga"
+    },
+    "ee": {
+      "option": "Swap points with player si nàtia .",
+      "resultText": "Swap fia asi eyama ."
+    },
+    "tl": {
+      "option": "Ipagpalit ang mga puntos sa player na iyong pinili",
+      "resultText": "magpalit ng mga puntos sa kanya"
+    },
+    "fi": {
+      "option": "Vaihda pisteitä valitsemasi pelaajan kanssa",
+      "resultText": "Vaihda pisteitä hänen kanssaan"
+    },
+    "fr": {
+      "option": "Échanger des points avec le joueur que vous choisissez",
+      "resultText": "échanger des points avec lui"
+    },
+    "fy": {
+      "option": "Ruilje punten mei spiler dy't jo kieze",
+      "resultText": "Ruilje punten mei him"
+    },
+    "gl": {
+      "option": "Cambiar puntos co xogador que escollas",
+      "resultText": "Cambiar puntos con el"
+    },
+    "ka": {
+      "option": "გაცვალეთ ქულები მოთამაშესთან ერთად",
+      "resultText": "გაცვლა მასთან ერთად"
+    },
+    "de": {
+      "option": "Tauschen Sie Punkte mit dem Spieler aus, den Sie wählen",
+      "resultText": "Tauschen Sie Punkte mit ihm aus"
+    },
+    "el": {
+      "option": "Ανταλλάξτε τα σημεία με τον παίκτη που επιλέγετε",
+      "resultText": "Ανταλλαγή σημείων μαζί του"
+    },
+    "gn": {
+      "option": "Umi punto intercambio rehegua jugador reiporavóva ndive .",
+      "resultText": "intercambio puntos hendive ."
+    },
+    "gu": {
+      "option": "તમે પસંદ કરો છો તે ખેલાડી સાથે સ્વેપ પોઇન્ટ્સ",
+      "resultText": "તેની સાથે સ્વેપ પોઇન્ટ્સ"
+    },
+    "ht": {
+      "option": "Swap pwen ak jwè ou chwazi pou ou",
+      "resultText": "Swap pwen avè l '"
+    },
+    "ha": {
+      "option": "Canza maki tare da dan wasa da kuka zaba",
+      "resultText": "Canza maki tare da shi"
+    },
+    "haw": {
+      "option": "Nā Kūlana Swap me nā mea pāʻani āu e koho ai",
+      "resultText": "nā wahi swap me ia"
+    },
+    "iw": {
+      "option": "החלף נקודות עם שחקן שתבחר",
+      "resultText": "החלף נקודות איתו"
+    },
+    "hi": {
+      "option": "आपके द्वारा चुने गए खिलाड़ी के साथ स्वैप अंक",
+      "resultText": "उसके साथ स्वैप अंक"
+    },
+    "hmn": {
+      "option": "Sib pauv cov ntsiab lus nrog neeg uas ua ntawv koj xaiv",
+      "resultText": "Sib pauv cov ntsiab lus nrog nws"
+    },
+    "hu": {
+      "option": "Cserélje ki a pontokat a választott lejátszóval",
+      "resultText": "Cserélje ki vele a pontokat"
+    },
+    "is": {
+      "option": "Skiptu um stig með leikmanni sem þú velur",
+      "resultText": "Skiptu um stig með honum"
+    },
+    "ig": {
+      "option": "Swap isi na onye ọkpụkpọ ị họọrọ",
+      "resultText": "Swap na-eme ya"
+    },
+    "ilo": {
+      "option": "SWAP points iti player a piliem .",
+      "resultText": "SWAP points kenkuana ."
+    },
+    "id": {
+      "option": "Swap point dengan pemain yang Anda pilih",
+      "resultText": "menukar poin dengannya"
+    },
+    "ga": {
+      "option": "Pointí babhtála leis an imreoir a roghnaíonn tú",
+      "resultText": "Pointí babhtála leis"
+    },
+    "it": {
+      "option": "Scambia punti con il giocatore che scegli",
+      "resultText": "Swap punta con lui"
+    },
+    "ja": {
+      "option": "選択したプレーヤーとポイントを交換します",
+      "resultText": "ポイントを彼と交換します"
+    },
+    "jw": {
+      "option": "Tukar titik kanthi pamuter sing sampeyan pilih",
+      "resultText": "Tukar titik karo dheweke"
+    },
+    "kn": {
+      "option": "ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಆಟಗಾರನೊಂದಿಗೆ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಿ",
+      "resultText": "ಅವರೊಂದಿಗೆ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಿ"
+    },
+    "kk": {
+      "option": "Сіз таңдаған ойнатқышпен своп нүктелері",
+      "resultText": "онымен айырбастау"
+    },
+    "km": {
+      "option": "ការប្តូរពិន្ទុជាមួយអ្នកលេងដែលអ្នកជ្រើសរើស",
+      "resultText": "ប្តូរពិន្ទុជាមួយគាត់"
+    },
+    "rw": {
+      "option": "Swap amanota hamwe numukinnyi wahisemo",
+      "resultText": "Guhinduranya hamwe na we"
+    },
+    "gom": {
+      "option": "तुमी निवडटात त्या खेळगड्या वांगडा गुणांक स्वॅप करात",
+      "resultText": "ताचे वांगडा बिंदू अदलाबदल करतात ."
+    },
+    "ko": {
+      "option": "선택한 플레이어와 함께 포인트를 바꾸십시오",
+      "resultText": "그와 함께 포인트를 교환합니다"
+    },
+    "kri": {
+      "option": "Swap poin wit pleya yu pik",
+      "resultText": "Swap point wit am ."
+    },
+    "ku": {
+      "option": "Bi lîstikvanê ku hûn hilbijêrin xalên swap",
+      "resultText": "bi wî re xalên swap"
+    },
+    "ckb": {
+      "option": "خاڵەکانی گۆڕینەوە لەگەڵ ئەو یاریزانەی کە هەڵیدەبژێریت",
+      "resultText": "خاڵەکانی گۆڕینەوە لەگەڵیدا"
+    },
+    "ky": {
+      "option": "Сиз тандаган оюнчу менен алмаштыруу",
+      "resultText": "Аны менен алмаштыруу"
+    },
+    "lo": {
+      "option": "ແລກປ່ຽນຈຸດທີ່ມີເຄື່ອງຫຼີ້ນທີ່ທ່ານເລືອກ",
+      "resultText": "ແລກປ່ຽນຈຸດກັບລາວ"
+    },
+    "la": {
+      "option": "PERMUTO Points cum Player Vis",
+      "resultText": "PERMUTO puncta cum eo"
+    },
+    "lv": {
+      "option": "Apmainiet punktus ar izvēlēto spēlētāju",
+      "resultText": "apmainiet punktus ar viņu"
+    },
+    "ln": {
+      "option": "Swap points na joueur oyo oponi .",
+      "resultText": "Swap ba points na ye ."
+    },
+    "lt": {
+      "option": "Apsikeitimo taškai su pasirinktu grotuvu",
+      "resultText": "apsikeitimo taškai su juo"
+    },
+    "lg": {
+      "option": "swap points n'omuzannyi gw'olonze",
+      "resultText": "swap points naye ."
+    },
+    "lb": {
+      "option": "Swap Punkte mam Spiller deen Dir gewielt hutt",
+      "resultText": "Swap Punkte mat him"
+    },
+    "mk": {
+      "option": "Разменете ги поени со играч што го избирате",
+      "resultText": "разменете ги поени со него"
+    },
+    "mai": {
+      "option": "अहाँ चुनू खिलाड़ी के संग पॉइंट के स्वैप पॉइंट",
+      "resultText": "हुनका संग बिन्दु अदला-बदली"
+    },
+    "mg": {
+      "option": "Swap teboka miaraka amin'ny mpilalao nofidinao",
+      "resultText": "Manondro azy ny swap"
+    },
+    "ms": {
+      "option": "Mata pertukaran dengan pemain yang anda pilih",
+      "resultText": "Tukar mata dengannya"
+    },
+    "ml": {
+      "option": "നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന കളിക്കാരനോടൊപ്പം പോയിന്റുകൾ സ്വാപ്പ് ചെയ്യുക",
+      "resultText": "അവനോടൊപ്പം സ്വാപ്പ് പോയിന്റുകൾ"
+    },
+    "mt": {
+      "option": "SWAP Punti mal-plejer li tagħżel",
+      "resultText": "Tpartit Punti miegħu"
+    },
+    "mi": {
+      "option": "Ka huri te tohu me te kaitakaro e whiriwhiri ana koe",
+      "resultText": "Ka huri te tohu me ia"
+    },
+    "mr": {
+      "option": "आपण निवडलेल्या प्लेयरसह स्वॅप पॉईंट्स",
+      "resultText": "त्याच्याबरोबर स्वॅप पॉईंट्स"
+    },
+    "mni-Mtei": {
+      "option": "ꯄ꯭ꯂꯦꯌꯔꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯈꯅꯒꯗꯕꯥ ꯄꯣꯏꯟꯇꯁꯤꯡ ꯑꯗꯨ ꯁꯣꯌꯗ ꯇꯧꯕꯤꯌꯨ",
+      "resultText": "ꯃꯍꯥꯛꯀꯥ ꯂꯣꯌꯅꯅꯥ ꯄꯣꯏꯟꯇ ꯄꯣꯏꯟꯇꯁꯤꯡ ."
+    },
+    "lus": {
+      "option": "Swap Points 1000 ah hian .",
+      "resultText": "Swap points a nei bawk a ."
+    },
+    "mn": {
+      "option": "Сонгосон тоглогчтойгоо солих цэгүүд",
+      "resultText": "түүнтэй хамт цэгүүд"
+    },
+    "my": {
+      "option": "သင်ရွေးချယ်သောကစားသမားနှင့်အတူလဲလှယ်ရေးအစီအစဉ်များ",
+      "resultText": "သူ့ကိုနှင့်အတူ swap အချက်များ"
+    },
+    "ne": {
+      "option": "तपाईंले छनौट गर्नुभएको खेलाडीको साथ पोइन्टहरू",
+      "resultText": "उसलाई स्वैप अंक"
+    },
+    "no": {
+      "option": "Bytt poeng med spiller du velger",
+      "resultText": "Bytt poeng med ham"
+    },
+    "or": {
+      "option": "ଆପଣ ବାଛିଥିବା ଖେଳାଳୀ ସହିତ ଅଦଳବଦଳ |",
+      "resultText": "ତାଙ୍କ ସହିତ ଅଦଳବଦଳ ବିନ୍ଦୁ |"
+    },
+    "om": {
+      "option": "Qabxii taphattuu filatte waliin jijjiiri .",
+      "resultText": "Isa waliin qabxii jijjiiri ."
+    },
+    "ps": {
+      "option": "د هغه لوبغاړي سره د بدمرغي سره د بدلولو ځایونه",
+      "resultText": "د هغه سره"
+    },
+    "fa": {
+      "option": "امتیاز را با بازیکنی که انتخاب می کنید تعویض کنید",
+      "resultText": "مبادله با او"
+    },
+    "pl": {
+      "option": "Zmień punkty z wybierzeszym graczem",
+      "resultText": "Zamień punkty z nim"
+    },
+    "pt": {
+      "option": "Troque os pontos com o jogador que você escolhe",
+      "resultText": "trocar pontos com ele"
+    },
+    "pa": {
+      "option": "ਤੁਹਾਡੇ ਦੁਆਰਾ ਚੁਣੇ ਖਿਡਾਰੀ ਦੇ ਨਾਲ ਸਵੈਪ ਪੁਆਇੰਟ",
+      "resultText": "ਉਸ ਨਾਲ ਸਵੈਪ ਬਿੰਦੂ"
+    },
+    "qu": {
+      "option": "Puntos de intercambio con jugador que seleccionas .",
+      "resultText": "Paywan kuska intercambio puntos ."
+    },
+    "ro": {
+      "option": "Swap puncte cu jucătorul pe care îl alegeți",
+      "resultText": "Schimbă punctele cu el"
+    },
+    "ru": {
+      "option": "Обмен баллы с игроком, которого вы выбираете",
+      "resultText": "обмениваться очками с ним"
+    },
+    "sm": {
+      "option": "Swap togi ma tagata taalo oe filifilia",
+      "resultText": "Swap manatu ma ia"
+    },
+    "sa": {
+      "option": "भवन्तः चिनोतु खिलाडी सह स्वैप् बिन्दुः .",
+      "resultText": "स्वैप तस्य सह बिन्दुः ."
+    },
+    "gd": {
+      "option": "Puingean iomlaid leis a 'chluicheadair a thaghas tu",
+      "resultText": "Bidh iomain a 'dol air adhart leis"
+    },
+    "nso": {
+      "option": "swap lintlha le sebapali o khetha .",
+      "resultText": "swap dintlha le yena ."
+    },
+    "sr": {
+      "option": "Замените бодове са играчем који одаберете",
+      "resultText": "Замените бодове са њим"
+    },
+    "st": {
+      "option": "Swap lintlha tse nang le sebapali seo u se khethang",
+      "resultText": "ho fetola lintlha le eena"
+    },
+    "sn": {
+      "option": "Swap mapoinzi ane mutambi waunosarudza",
+      "resultText": "Chinjana chinongedzo naye"
+    },
+    "sd": {
+      "option": "پليئر سان توهان جو انتخاب ڪيو",
+      "resultText": "هن سان گڏ اشارو"
+    },
+    "si": {
+      "option": "ඔබ තෝරා ගන්නා ක්රීඩකයා සමඟ හුවමාරු ලකුණු",
+      "resultText": "ඔහු සමඟ හුවමාරු ලකුණු"
+    },
+    "sk": {
+      "option": "Vymeniť body s hráčom, ktorý si vyberiete",
+      "resultText": "vymeniť body s ním"
+    },
+    "sl": {
+      "option": "Zamenjajte točke z igralcem, ki ga izberete",
+      "resultText": "Zamenjajte točke z njim"
+    },
+    "so": {
+      "option": "Dhibco ku beddela ciyaartoy aad dooratay",
+      "resultText": "dhibco isku-darka leh"
+    },
+    "es": {
+      "option": "Cambiar puntos con el jugador que elijas",
+      "resultText": "Cambiar puntos con él"
+    },
+    "su": {
+      "option": "Titik swap sareng pamuter anu anjeun pilih",
+      "resultText": "titik swap sareng anjeunna"
+    },
+    "sw": {
+      "option": "Badili vidokezo na mchezaji unayechagua",
+      "resultText": "ubadilishane na yeye"
+    },
+    "sv": {
+      "option": "Swap Points med spelare du väljer",
+      "resultText": "byta pekar med honom"
+    },
+    "tg": {
+      "option": "Нуқтаҳои своп бо бозингари интихобкардаатон",
+      "resultText": "Бо ӯ нуқтаҳои своп"
+    },
+    "ta": {
+      "option": "நீங்கள் தேர்ந்தெடுக்கும் பிளேயருடன் புள்ளிகளை மாற்றவும்",
+      "resultText": "அவருடன் புள்ளிகளை மாற்றவும்"
+    },
+    "tt": {
+      "option": "Сез сайлаган уенчы белән танышу",
+      "resultText": "аның белән своп нокталар"
+    },
+    "te": {
+      "option": "మీరు ఎంచుకున్న ప్లేయర్‌తో పాయింట్లను స్వాప్ చేయండి",
+      "resultText": "స్వాప్ అతనితో పాయింట్లు"
+    },
+    "th": {
+      "option": "คะแนนแลกเปลี่ยนกับผู้เล่นที่คุณเลือก",
+      "resultText": "คะแนนแลกเปลี่ยนกับเขา"
+    },
+    "ti": {
+      "option": "ነጥቢ ምስ ዝመረጽካዮ ተጻዋታይ ምልውዋጥ .",
+      "resultText": "ምስኡ ነጥቢ ምልውዋጥ"
+    },
+    "ts": {
+      "option": "Swap points na mutlangi loyi u n'wi hlawulaka .",
+      "resultText": "swap points na yena ."
+    },
+    "tr": {
+      "option": "Seçtiğiniz oyuncu ile noktaları değiştirin",
+      "resultText": "Onunla Puanları Değiştir"
+    },
+    "tk": {
+      "option": "Saýlaýan oýunçy bilen swap ballary",
+      "resultText": "bilen swap ballary"
+    },
+    "ak": {
+      "option": "Swap points ne player a wopaw .",
+      "resultText": "Swap points ne no ."
+    },
+    "uk": {
+      "option": "Обробіть очки з гравцем, який ви вибрали",
+      "resultText": "обмін вказує на нього"
+    },
+    "ur": {
+      "option": "اپنے منتخب کردہ پلیئر کے ساتھ پوائنٹس کو تبدیل کریں",
+      "resultText": "اس کے ساتھ پوائنٹس تبدیل کریں"
+    },
+    "ug": {
+      "option": "سىز تاللىغان قويغۇچ بىلەن ئالماشتۇرۇش نۇقتىسى",
+      "resultText": "ئۇنىڭ بىلەن ئالماشتۇرۇش"
+    },
+    "uz": {
+      "option": "Siz tanlagan o'yinchi bilan pchamp",
+      "resultText": "u bilan ish joylarini almashtirish"
+    },
+    "vi": {
+      "option": "Điểm hoán đổi với người chơi bạn chọn",
+      "resultText": "Điểm hoán đổi với anh ấy"
+    },
+    "cy": {
+      "option": "Cyfnewid pwyntiau gyda'r chwaraewr rydych chi'n ei ddewis",
+      "resultText": "Cyfnewid pwyntiau gydag ef"
+    },
+    "xh": {
+      "option": "Ukutshintsha amanqaku ngomdlali okhethayo",
+      "resultText": "tshintsha amanqaku kunye naye"
+    },
+    "yi": {
+      "option": "ויסבייַטן פונקטן מיט שפּילער איר קלייַבן",
+      "resultText": "ויסבייַטן פונקטן מיט אים"
+    },
+    "yo": {
+      "option": "Awọn aaye Swap pẹlu ẹrọ orin o yan",
+      "resultText": "Swap tọka pẹlu rẹ"
+    },
+    "zu": {
+      "option": "Shintsha amaphuzu ngesidlali osikhethayo",
+      "resultText": "Shintsha amaphuzu naye"
+    }
+  },
+  {
+    "ID": 6,
+    "effectOther": false,
+    "drinking": false,
+    "en": {
+      "option": "Double Points Next Round",
+      "resultText": "will double their points in the next round"
+    },
+    "af": {
+      "option": "Dubbelpunte volgende ronde",
+      "resultText": "sal hul punte in die volgende ronde verdubbel"
+    },
+    "sq": {
+      "option": "Pikat e dyfishta në raundin tjetër",
+      "resultText": "do të dyfishojnë pikët e tyre në raundin tjetër"
+    },
+    "am": {
+      "option": "የሚቀጥለው ዙር ቀጣይ ነጥቦች",
+      "resultText": "በሚቀጥለው ዙር ውስጥ ነጥቦቻቸውን በእጥፍ ይጨምራል"
+    },
+    "ar": {
+      "option": "نقاط مزدوجة الجولة التالية",
+      "resultText": "سوف يضاعف نقاطهم في الجولة التالية"
+    },
+    "hy": {
+      "option": "Կրկնակի միավոր Հաջորդ տուր",
+      "resultText": "հաջորդ փուլում կկրկնապատկվի իրենց միավորները"
+    },
+    "as": {
+      "option": "ডাবল পইণ্ট পৰৱৰ্তী ৰাউণ্ড",
+      "resultText": "পৰৱৰ্তী ৰাউণ্ডত তেওঁলোকৰ পইণ্ট দুগুণ কৰিব ৷"
+    },
+    "ay": {
+      "option": "Doble Puntos ukax jutir muyuntat .",
+      "resultText": "Jutïr muyuntat ukanx pä kutiw puntos ukanakap churapxani ."
+    },
+    "az": {
+      "option": "Növbəti dəyirmi ikiqat xal",
+      "resultText": "növbəti turda xallarını iki qat artıracaq"
+    },
+    "bm": {
+      "option": "Double Points Next Round .",
+      "resultText": "bɛna u ka kuru fila sɔrɔ ɲɔgɔndan nata la ."
+    },
+    "eu": {
+      "option": "Puntu bikoitzak hurrengo txanda",
+      "resultText": "hurrengo txandan bikoiztuko ditu puntuak"
+    },
+    "be": {
+      "option": "Падвойныя кропкі ў наступным раўндзе",
+      "resultText": "падвоіць свае балы ў наступным раўндзе"
+    },
+    "bn": {
+      "option": "ডাবল পয়েন্ট পরের রাউন্ড",
+      "resultText": "পরবর্তী রাউন্ডে তাদের পয়েন্টগুলি দ্বিগুণ করবে"
+    },
+    "bho": {
+      "option": "अगिला दौर में डबल अंक 2019 के बा।",
+      "resultText": "अगिला दौर में आपन अंक दुगुना कर दी"
+    },
+    "bs": {
+      "option": "Dvostruke bodove sljedeće kolo",
+      "resultText": "udvostručit će njihove bodove u narednom kolu"
+    },
+    "bg": {
+      "option": "Двойни точки следващия кръг",
+      "resultText": "ще удвои точките им в следващия кръг"
+    },
+    "ca": {
+      "option": "Punts dobles a la propera ronda",
+      "resultText": "doblarà els seus punts a la propera ronda"
+    },
+    "ceb": {
+      "option": "Doble nga puntos sa sunod nga round",
+      "resultText": "Doblehon ang ilang mga punto sa sunod nga hugna"
+    },
+    "ny": {
+      "option": "Kuwunikira kawiri kozungulira",
+      "resultText": "adzachulukitsa mfundo zawo mozungulira"
+    },
+    "zh-CN": {
+      "option": "下一轮双分",
+      "resultText": "在下一轮中将加倍"
+    },
+    "zh-TW": {
+      "option": "下一輪雙分",
+      "resultText": "在下一輪中將加倍"
+    },
+    "co": {
+      "option": "Punti doppia prossima volta",
+      "resultText": "Doppiu i so punti in a prossima volta"
+    },
+    "hr": {
+      "option": "Dvostruki bodovi sljedeći krug",
+      "resultText": "udvostručit će svoje bodove u sljedećem krugu"
+    },
+    "cs": {
+      "option": "Dvojité body příští kolo",
+      "resultText": "v dalším kole zdvojnásobí své body"
+    },
+    "da": {
+      "option": "Dobbeltpoint næste runde",
+      "resultText": "vil fordoble deres point i næste runde"
+    },
+    "dv": {
+      "option": "ޑަބަލް ޕޮއިންޓް އަންނަ ބުރު",
+      "resultText": "އަންނަ ބުރުގައި އެމީހުންގެ ޕޮއިންޓް ދެގުނަ ކުރާނެ"
+    },
+    "doi": {
+      "option": "अगले दौर च डबल अंक",
+      "resultText": "अगले दौर च अपने अंक दोगुना करग"
+    },
+    "nl": {
+      "option": "Dubbele punten de volgende ronde",
+      "resultText": "zal hun punten verdubbelen in de volgende ronde"
+    },
+    "eo": {
+      "option": "Duoblaj poentoj Sekva Rondo",
+      "resultText": "duobligos siajn punktojn en la sekva rondo"
+    },
+    "et": {
+      "option": "Järgmisel ringil topeltpunktid",
+      "resultText": "kahekordistub nende punktid järgmises voorus"
+    },
+    "ee": {
+      "option": "Teƒe eve siwo kplɔe ɖo ƒe ƒoƒo .",
+      "resultText": "Woawɔ woƒe teƒewo zi gbɔ zi eve le ƒoƒo si kplɔe ɖo me ."
+    },
+    "tl": {
+      "option": "Dobleng puntos sa susunod na pag -ikot",
+      "resultText": "ay doble ang kanilang mga puntos sa susunod na pag -ikot"
+    },
+    "fi": {
+      "option": "Kaksinkertainen piste seuraavalle kierrokselle",
+      "resultText": "kaksinkertaistaa heidän pisteensä seuraavalla kierroksella"
+    },
+    "fr": {
+      "option": "Points doubles suivants",
+      "resultText": "doublera leurs points au prochain tour"
+    },
+    "fy": {
+      "option": "Dûbelpunten folgjende ronde",
+      "resultText": "sil har punten dûbelje yn 'e folgjende ronde"
+    },
+    "gl": {
+      "option": "Puntos dobres seguintes rolda",
+      "resultText": "duplicará os seus puntos na seguinte rolda"
+    },
+    "ka": {
+      "option": "ორმაგი ქულა შემდეგ რაუნდში",
+      "resultText": "გაორმაგდება მათი ქულები შემდეგ ტურში"
+    },
+    "de": {
+      "option": "Doppelte Punkte in der nächsten Runde",
+      "resultText": "wird ihre Punkte in der nächsten Runde verdoppeln"
+    },
+    "el": {
+      "option": "Διπλά σημεία Επόμενο γύρο",
+      "resultText": "θα διπλασιάσει τα σημεία τους στον επόμενο γύρο"
+    },
+    "gn": {
+      "option": "Doble puntos Ronda oúva .",
+      "resultText": "ombojoajúta umi punto orekóva hikuái ronda oúvape ."
+    },
+    "gu": {
+      "option": "ડબલ પોઇન્ટ આગામી રાઉન્ડ",
+      "resultText": "આગામી રાઉન્ડમાં તેમના પોઇન્ટ બમણા થશે"
+    },
+    "ht": {
+      "option": "Double pwen pwochen tou",
+      "resultText": "pral double pwen yo nan pwochen tou an"
+    },
+    "ha": {
+      "option": "Maki biyu na gaba",
+      "resultText": "Zai ninka maki biyu a zagaye na gaba"
+    },
+    "haw": {
+      "option": "Mau wahiʻelua e puni ana",
+      "resultText": "E pāpālua i kā lākou mau wahi i ka puni aʻe"
+    },
+    "iw": {
+      "option": "נקודות כפולות בסיבוב הבא",
+      "resultText": "יכפיל את הנקודות שלהם בסיבוב הבא"
+    },
+    "hi": {
+      "option": "डबल अंक अगले दौर",
+      "resultText": "अगले दौर में अपने अंक दोगुना कर देंगे"
+    },
+    "hmn": {
+      "option": "Ob lub ntsiab lus tom ntej",
+      "resultText": "yuav muab ob npaug rau lawv cov ntsiab lus nyob rau tom ntej"
+    },
+    "hu": {
+      "option": "Dupla pontok a következő fordulóban",
+      "resultText": "megduplázza pontjaikat a következő fordulóban"
+    },
+    "is": {
+      "option": "Tvöföld stig í næstu umferð",
+      "resultText": "Mun tvöfalda stig þeirra í næstu umferð"
+    },
+    "ig": {
+      "option": "Isi ihe abụọ na-esote gburugburu",
+      "resultText": "ga-eme okpukpu abụọ nke na-esote gburugburu"
+    },
+    "ilo": {
+      "option": "Doble nga puntos Sumaruno nga round",
+      "resultText": "Doble ti puntosda iti sumaruno a round ."
+    },
+    "id": {
+      "option": "Poin ganda Babak berikutnya",
+      "resultText": "akan menggandakan poin mereka di babak berikutnya"
+    },
+    "ga": {
+      "option": "Pointí dúbailte an chéad bhabhta eile",
+      "resultText": "beidh a gcuid pointí dúbailte sa chéad bhabhta eile"
+    },
+    "it": {
+      "option": "Doppia punta il prossimo round",
+      "resultText": "raddoppierà i loro punti nel prossimo turno"
+    },
+    "ja": {
+      "option": "次のラウンドでダブルポイント",
+      "resultText": "次のラウンドでポイントを2倍にします"
+    },
+    "jw": {
+      "option": "Titik kaping pindho Putaran Sabanjure",
+      "resultText": "bakal tikel kaping pindho ing babak sabanjure"
+    },
+    "kn": {
+      "option": "ಮುಂದಿನ ಸುತ್ತಿನಲ್ಲಿ ಡಬಲ್ ಪಾಯಿಂಟ್‌ಗಳು",
+      "resultText": "ಮುಂದಿನ ಸುತ್ತಿನಲ್ಲಿ ಅವರ ಅಂಕಗಳನ್ನು ದ್ವಿಗುಣಗೊಳಿಸುತ್ತದೆ"
+    },
+    "kk": {
+      "option": "Келесі кезең",
+      "resultText": "келесі айналымдағы ұпайларын екі есе арттырады"
+    },
+    "km": {
+      "option": "ពិន្ទុទ្វេរដងជុំបន្ទាប់",
+      "resultText": "នឹងបង្កើនពិន្ទុរបស់ពួកគេទ្វេដងនៅជុំបន្ទាប់"
+    },
+    "rw": {
+      "option": "Amanota abiri kuruhande",
+      "resultText": "Bizakuba kabiri amanota yabo mucyiciro gikurikira"
+    },
+    "gom": {
+      "option": "डबल पॉइंट फुडली फेरी 2019।",
+      "resultText": "फुडल्या फेरयेंत आपले गुण दुप्पट करतले ."
+    },
+    "ko": {
+      "option": "다음 라운드에서 더블 포인트",
+      "resultText": "다음 라운드에서 점수를 두 배로 늘립니다"
+    },
+    "kri": {
+      "option": "Dabl Points Neks Raun .",
+      "resultText": "go dubl dɛn pɔynt dɛn na di nɛks raun ."
+    },
+    "ku": {
+      "option": "Double Points Duyemîn",
+      "resultText": "dê di dora duyemîn de xalên xwe dubare bikin"
+    },
+    "ckb": {
+      "option": "دوو خاڵ لە قۆناغی داهاتوودا",
+      "resultText": "لە قۆناغی داهاتوودا خاڵەکانیان دوو هێندە دەکات"
+    },
+    "ky": {
+      "option": "Кош упайлар Кийинки тур",
+      "resultText": "кийинки турда алардын упайларын эки эсе көбөйтөт"
+    },
+    "lo": {
+      "option": "ຈຸດຄູ່ໄດ້ຕະຫຼອດຕໍ່ໄປ",
+      "resultText": "ຈະເພີ່ມຈຸດຂອງພວກເຂົາສອງເທົ່າໃນຮອບຕໍ່ໄປ"
+    },
+    "la": {
+      "option": "Duplici puncta deinde per",
+      "resultText": "et duplicia eorum puncta in altera circum"
+    },
+    "lv": {
+      "option": "Divkāršie punkti nākamajā kārtā",
+      "resultText": "Divkāršos savus punktus nākamajā kārtā"
+    },
+    "ln": {
+      "option": "Double Points Next Round .",
+      "resultText": "eko doubler ba points na bango na tour oyo ekoya ."
+    },
+    "lt": {
+      "option": "Dvigubi taškai kitą turą",
+      "resultText": "kitame ture padvigubins jų taškus"
+    },
+    "lg": {
+      "option": "Obubinja bwa Double round next round .",
+      "resultText": "Ajja kukubisaamu emirundi ebiri obubonero bwabwe mu lawundi eddako ."
+    },
+    "lb": {
+      "option": "Duebel Punkte nächst Ronn",
+      "resultText": "wäert hir Punkten an der nächster Ronn duebel"
+    },
+    "mk": {
+      "option": "Двојни поени следната рунда",
+      "resultText": "ќе ги удвои своите поени во следната рунда"
+    },
+    "mai": {
+      "option": "अगिला दौर मे डबल पॉइंट",
+      "resultText": "अगिला राउंड मे अपन अंक दुगुना करत।"
+    },
+    "mg": {
+      "option": "Teboka roa manaraka",
+      "resultText": "dia hasiany isa ny teboka manaraka"
+    },
+    "ms": {
+      "option": "Poin Double Seterusnya",
+      "resultText": "akan menggandakan mata mereka dalam pusingan seterusnya"
+    },
+    "ml": {
+      "option": "അടുത്ത റ round ണ്ട് ഇരട്ട പോയിന്റുകൾ",
+      "resultText": "അടുത്ത റൗണ്ടിൽ അവരുടെ പോയിന്റുകൾ ഇരട്ടിയാക്കും"
+    },
+    "mt": {
+      "option": "Punti doppji li jmiss",
+      "resultText": "se jirdoppjaw il-punti tagħhom fir-rawnd li jmiss"
+    },
+    "mi": {
+      "option": "Takirua takirua a tawhio noa",
+      "resultText": "Ka takirua a raatau tohu i roto i te rauna o muri"
+    },
+    "mr": {
+      "option": "पुढील फेरी डबल पॉइंट्स",
+      "resultText": "पुढच्या फेरीत त्यांचे गुण दुप्पट होईल"
+    },
+    "mni-Mtei": {
+      "option": "ꯗꯕꯜ ꯄꯣꯏꯟꯇ ꯃꯊꯪꯒꯤ ꯔꯥꯎꯟꯗ",
+      "resultText": "ꯃꯊꯪꯒꯤ ꯔꯥꯎꯟꯗ ꯑꯗꯨꯗꯥ ꯃꯈꯣꯌꯒꯤ ꯄꯣꯏꯟꯇꯁꯤꯡ ꯑꯗꯨ ꯁꯔꯨꯛ ꯑꯅꯤ ꯍꯦꯅꯒꯠꯍꯅꯒꯅꯤ꯫"
+    },
+    "lus": {
+      "option": "Round leh lamah double points a awm leh dawn.",
+      "resultText": "round dangah an point hmuh theih loh chu a let hnih zetin a let hnih a ni ang"
+    },
+    "mn": {
+      "option": "Дараагийн тойрогт давхар оноо",
+      "resultText": "дараагийн тойрогтоо хоёр дахин нэмэгдүүлнэ"
+    },
+    "my": {
+      "option": "လာမယ့်ပတ်ပတ်လည်နှစ်ဆအချက်များ",
+      "resultText": "လာမယ့်ပတ်ပတ်လည်မှာသူတို့ရဲ့အချက်နှစ်ဆပါလိမ့်မယ်"
+    },
+    "ne": {
+      "option": "अर्को चरणमा डबल पोइन्टहरू",
+      "resultText": "अर्को चरणमा उनीहरूको पोइन्ट डबल हुनेछ"
+    },
+    "no": {
+      "option": "Doble poeng neste runde",
+      "resultText": "vil doble poengene sine i neste runde"
+    },
+    "or": {
+      "option": "ପରବର୍ତ୍ତୀ ରାଉଣ୍ଡ ପରେ ଡବଲ୍ ପଏଣ୍ଟ |",
+      "resultText": "ପରବର୍ତ୍ତୀ ରାଉଣ୍ଡରେ ସେମାନଙ୍କର ପଏଣ୍ଟ ଦୁଇଗୁଣ କରିବ |"
+    },
+    "om": {
+      "option": "Qabxii dachaa marsaa itti aanu",
+      "resultText": "marsaa itti aanutti qabxii isaanii dachaa lama ta'a ."
+    },
+    "ps": {
+      "option": "دوه ځله دوه ځله",
+      "resultText": "په راتلونکي پړاو کې به د دوی ټکي دوه چنده کړي"
+    },
+    "fa": {
+      "option": "دور بعدی دو امتیاز",
+      "resultText": "امتیازات خود را در دور بعدی دو برابر خواهد کرد"
+    },
+    "pl": {
+      "option": "Podwójne punkty następne runda",
+      "resultText": "podwoi swoje punkty w następnej rundzie"
+    },
+    "pa": {
+      "option": "ਅਗਲੇ ਗੇੜ ਦੇ ਦੋਹਰੇ ਬਿੰਦੂ",
+      "resultText": "ਅਗਲੇ ਗੇੜ ਵਿੱਚ ਉਨ੍ਹਾਂ ਦੇ ਬਿੰਦੂਆਂ ਨੂੰ ਦੁਗਣਾ ਕਰ ਦੇਵੇਗਾ"
+    },
+    "qu": {
+      "option": "Iskay puntokuna qatiqnin muyu .",
+      "resultText": "qatiqnin muyupi iskay kutita puntonkutaqa ."
+    },
+    "ro": {
+      "option": "Puncte duble următoare runda",
+      "resultText": "își va dubla punctele în runda următoare"
+    },
+    "ru": {
+      "option": "Двойные очки в следующем раунде",
+      "resultText": "удвоит свои очки в следующем раунде"
+    },
+    "sm": {
+      "option": "Lua itu i le isi taamilosaga",
+      "resultText": "o le a faaluaina a latou manatu i le isi taamilosaga"
+    },
+    "sa": {
+      "option": "डबल अंक अगले दौर",
+      "resultText": "अग्रिमे दौरे तेषां अंकं दुगुणं करिष्यति।"
+    },
+    "gd": {
+      "option": "Puingean dùbailte an ath chuairt",
+      "resultText": "bidh na puingean aca a 'dùblachadh an ath chuairt"
+    },
+    "nso": {
+      "option": "Double dintlha potoloho e latelang .",
+      "resultText": "tla menagana le dintlha tša bona gabedi mo tikologong ye e latelago ."
+    },
+    "sr": {
+      "option": "Двоструки бодови следећи круг",
+      "resultText": "удвостручиће своје бодове у следећем кругу"
+    },
+    "st": {
+      "option": "Lintlha tse peli tse latelang",
+      "resultText": "e tla hlahisa lintlha tsa bona habeli ho potoloha e latelang"
+    },
+    "sn": {
+      "option": "Kaviri mapoinzi anotevera kutenderera",
+      "resultText": "ichapetwa kaviri mapoinzi avo anotevera kutenderera"
+    },
+    "sd": {
+      "option": "ٻي طرف ٻيڻو پوائنٽون",
+      "resultText": "ايندڙ دور ۾ انهن جا پوائنٽ ٻيڻو ڪندو"
+    },
+    "si": {
+      "option": "ඊළඟ වටයේ ද්විත්ව ලකුණු",
+      "resultText": "ඊළඟ වටයේ දී ඔවුන්ගේ ලකුණු දෙගුණ කරයි"
+    },
+    "sk": {
+      "option": "Dvojité body nasledujúce kolo",
+      "resultText": "v nasledujúcom kole zdvojnásobí svoje body"
+    },
+    "sl": {
+      "option": "Dvojne točke naslednji krog",
+      "resultText": "bodo v naslednjem krogu podvojili svoje točke"
+    },
+    "so": {
+      "option": "Laba meelood oo dhawac wareega xiga",
+      "resultText": "waxay labanlaabmi doonaan dhibcaha wareega xiga"
+    },
+    "es": {
+      "option": "Puntos dobles la próxima ronda",
+      "resultText": "duplicará sus puntos en la próxima ronda"
+    },
+    "su": {
+      "option": "Titik dua kali",
+      "resultText": "bakal ganda poin di buleud salajengna"
+    },
+    "sw": {
+      "option": "Pointi mbili zinazofuata",
+      "resultText": "wataongeza alama zao mara mbili katika raundi inayofuata"
+    },
+    "sv": {
+      "option": "Dubbelpoäng nästa omgång",
+      "resultText": "kommer att fördubbla sina poäng i nästa omgång"
+    },
+    "tg": {
+      "option": "Нуқтаҳои дугона даврашакл",
+      "resultText": "нуқтаҳои худро дар даври оянда дучанд хоҳад кард"
+    },
+    "ta": {
+      "option": "அடுத்த சுற்றில் இரட்டை புள்ளிகள்",
+      "resultText": "அடுத்த சுற்றில் அவர்களின் புள்ளிகளை இரட்டிப்பாக்கும்"
+    },
+    "tt": {
+      "option": "Киләсе турда икеләтә пункт",
+      "resultText": "киләсе турда балларын икеләтә арттырачак"
+    },
+    "te": {
+      "option": "తదుపరి రౌండ్ డబుల్ పాయింట్లు",
+      "resultText": "తదుపరి రౌండ్లో వారి పాయింట్లను రెట్టింపు చేస్తుంది"
+    },
+    "th": {
+      "option": "คะแนนสองเท่าในรอบถัดไป",
+      "resultText": "จะเพิ่มคะแนนเป็นสองเท่าในรอบต่อไป"
+    },
+    "ti": {
+      "option": "ድርብ ነጥቢ ኣብ ዝመጽእ ዙርያ",
+      "resultText": "ኣብ ዝቕጽል ዙር ነጥብታቶም ብዕጽፊ ክውስኽ እዩ"
+    },
+    "ts": {
+      "option": "Double points round leyi landzelaka .",
+      "resultText": "swi ta andzisa tinhla ta vona kambirhi eka round leyi landzelaka ."
+    },
+    "tr": {
+      "option": "Bir sonraki turda çift puan",
+      "resultText": "Bir sonraki turda puanlarını ikiye katlayacak"
+    },
+    "tk": {
+      "option": "Indiki tapgyr iki gezek",
+      "resultText": "indiki tapgyrda ballaryny iki esse artdyrar"
+    },
+    "ak": {
+      "option": "Nsɛntitiriw a ɛbɔ ho abien Next round .",
+      "resultText": "bɛma wɔn nsɛntitiriw mmɔho abien wɔ round a edi hɔ no mu ."
+    },
+    "uk": {
+      "option": "Подвійні бали наступного раунду",
+      "resultText": "У наступному раунді подвоїть свої очки"
+    },
+    "ur": {
+      "option": "اگلے دور ڈبل پوائنٹس",
+      "resultText": "اگلے راؤنڈ میں اپنے پوائنٹس کو دوگنا کردیں گے"
+    },
+    "ug": {
+      "option": "كېيىنكى باسقۇچ",
+      "resultText": "كېيىنكى باسقۇچتىكى نۇقتىلىرىنى بىر قاتلايدۇ"
+    },
+    "uz": {
+      "option": "Keyingi bosqich",
+      "resultText": "keyingi bosqichda ularning fikrlarini ikki baravar oshiradi"
+    },
+    "vi": {
+      "option": "Hai điểm tiếp theo",
+      "resultText": "sẽ tăng gấp đôi điểm của họ trong vòng tiếp theo"
+    },
+    "cy": {
+      "option": "Pwyntiau dwbl rownd nesaf",
+      "resultText": "yn dyblu eu pwyntiau yn y rownd nesaf"
+    },
+    "xh": {
+      "option": "Amanqaku aphindwe kabini ngokulandelayo",
+      "resultText": "iya kuphinda kabini amanqaku abo kumjikelo olandelayo"
+    },
+    "yi": {
+      "option": "טאָפּל פונקטן ווייַטער קייַלעכיק",
+      "resultText": "וועט טאָפּל זייער פונקטן אין דער ווייַטער קייַלעכיק"
+    },
+    "yo": {
+      "option": "Awọn aaye meji lẹgbẹẹ yika",
+      "resultText": "yoo ilọpo meji awọn aaye wọn ni iyipo keji"
+    },
+    "zu": {
+      "option": "Amaphuzu aphindwe kabili umjikelezo olandelayo",
+      "resultText": "izophinda kabili amaphuzu abo emzuliswaneni olandelayo"
+    },
+    "pt": {
+      "option": "Pontos duplos na próxima rodada",
+      "resultText": "vai dobrar seus pontos na próxima rodada"
+    }
+  },
+  {
+    "ID": 7,
+    "effectOther": true,
+    "drinking": false,
+    "en": {
+      "option": "Steal 1 Point from the other Player",
+      "resultText": "give him 1 of his points"
+    },
+    "af": {
+      "option": "Steel 1 punt van die ander speler",
+      "resultText": "Gee hom 1 van sy punte"
+    },
+    "sq": {
+      "option": "Vjedhin 1 pikë nga lojtari tjetër",
+      "resultText": "Jepi atij 1 nga pikat e tij"
+    },
+    "am": {
+      "option": "ከሌላው ተጫዋች 1 ነጥብ 1 ነጥብ",
+      "resultText": "ነጥቡን ስጠው"
+    },
+    "ar": {
+      "option": "سرقة نقطة واحدة من اللاعب الآخر",
+      "resultText": "أعطه 1 من نقاطه"
+    },
+    "hy": {
+      "option": "Գողացեք 1 միավոր մյուս խաղացողից",
+      "resultText": "տվեք նրան իր կետերից 1-ը"
+    },
+    "as": {
+      "option": "1 পয়েন্ট চুরি",
+      "resultText": "তেওঁৰ ১ টা পইণ্ট দিয়ক ৷"
+    },
+    "ay": {
+      "option": "Mayni anatirit 1 punto lunthatasiña .",
+      "resultText": "Juparux 1 puntop churañamawa ."
+    },
+    "az": {
+      "option": "Digər oyunçunun 1 xalını oğurlayın",
+      "resultText": "ona 1 xalını verin"
+    },
+    "bm": {
+      "option": "Aw bɛ 1 point sonya ka bɔ ntolatanna tɔ kelen na .",
+      "resultText": "A ka 1 di a ma ."
+    },
+    "eu": {
+      "option": "Lapurtu 1 puntuko beste jokalari batetik",
+      "resultText": "eman bere puntuetako 1"
+    },
+    "be": {
+      "option": "Скрасці 1 бал у іншага гульца",
+      "resultText": "Дайце яму 1 сваіх пунктаў"
+    },
+    "bn": {
+      "option": "অন্য খেলোয়াড়ের কাছ থেকে 1 পয়েন্ট চুরি করুন",
+      "resultText": "তাকে তার পয়েন্ট 1 দিন"
+    },
+    "bho": {
+      "option": "दूसरा खिलाड़ी से 1 अंक चोरी करे के बा",
+      "resultText": "ओकरा के 1 बिन्दु दे दीं ."
+    },
+    "bs": {
+      "option": "Ukradite 1 bod od drugog igrača",
+      "resultText": "Dajte mu 1 njegovih bodova"
+    },
+    "bg": {
+      "option": "Кражба на 1 точка от другия играч",
+      "resultText": "Дайте му 1 от неговите точки"
+    },
+    "ca": {
+      "option": "Robar 1 punt de l'altre jugador",
+      "resultText": "Doneu -li 1 dels seus punts"
+    },
+    "ceb": {
+      "option": "Nangawat 1 Point gikan sa Uban nga Player",
+      "resultText": "Hatagi siya sa 1 sa iyang mga puntos"
+    },
+    "ny": {
+      "option": "Kuba 1 mfundo kuchokera kwa wosewera wina",
+      "resultText": "mpatseni 1 mwa mfundo zake"
+    },
+    "zh-CN": {
+      "option": "从另一个球员偷1分",
+      "resultText": "给他1个要点"
+    },
+    "zh-TW": {
+      "option": "從另一個球員偷1分",
+      "resultText": "給他1個要點"
+    },
+    "co": {
+      "option": "Steal 1 puntu da l'altru ghjucatore",
+      "resultText": "da ellu 1 di i so punti"
+    },
+    "hr": {
+      "option": "Ukradite 1 bod od drugog igrača",
+      "resultText": "Dajte mu 1 svoje bodove"
+    },
+    "cs": {
+      "option": "Ukrást 1 bod od druhého hráče",
+      "resultText": "Dej mu 1 z jeho bodů"
+    },
+    "da": {
+      "option": "Stjæle 1 point fra den anden spiller",
+      "resultText": "Giv ham 1 af hans point"
+    },
+    "dv": {
+      "option": "އަނެއް ކުޅުންތެރިޔާގެ އަތުން 1 ޕޮއިންޓް ވަގަށް ނަގާށެވެ .",
+      "resultText": "އޭނާގެ ޕޮއިންޓްތަކުގެ ތެރެއިން 1 ޕޮއިންޓް ދޭށެވެ ."
+    },
+    "doi": {
+      "option": "दूसरे खिलाड़ी से 1 अंक चोरी करें",
+      "resultText": "उसी 1 अपने अंक दे"
+    },
+    "nl": {
+      "option": "Steel 1 punt van de andere speler",
+      "resultText": "Geef hem 1 van zijn punten"
+    },
+    "eo": {
+      "option": "Ŝteli 1 poenton de la alia ludanto",
+      "resultText": "Donu al li 1 el liaj punktoj"
+    },
+    "et": {
+      "option": "Varastage teiselt mängijalt 1 punkt",
+      "resultText": "Andke talle 1 tema punktist"
+    },
+    "ee": {
+      "option": "Fi dzesi 1 tso fefewɔla kemɛa gbɔ .",
+      "resultText": "Na eƒe nya 1 lae ."
+    },
+    "tl": {
+      "option": "Magnanakaw ng 1 point mula sa iba pang manlalaro",
+      "resultText": "Bigyan mo siya ng 1 ng kanyang mga puntos"
+    },
+    "fi": {
+      "option": "Varastaa 1 piste toiselta pelaajalta",
+      "resultText": "Anna hänelle yksi hänen pisteensä"
+    },
+    "fr": {
+      "option": "Voler 1 point de l'autre joueur",
+      "resultText": "Donnez-lui 1 de ses points"
+    },
+    "fy": {
+      "option": "Stiel 1 punt fan 'e oare spiler",
+      "resultText": "jou him 1 fan syn punten"
+    },
+    "gl": {
+      "option": "Roubar 1 punto do outro xogador",
+      "resultText": "Dálle 1 dos seus puntos"
+    },
+    "ka": {
+      "option": "მოიპარეთ 1 ქულა სხვა მოთამაშისგან",
+      "resultText": "მიეცით მას 1 მისი წერტილი"
+    },
+    "de": {
+      "option": "Stehlen Sie 1 Punkt vom anderen Spieler",
+      "resultText": "Gib ihm 1 seiner Punkte"
+    },
+    "el": {
+      "option": "Κλέψτε 1 σημείο από τον άλλο παίκτη",
+      "resultText": "Δώστε του 1 από τα σημεία του"
+    },
+    "gn": {
+      "option": "Emonda 1 punto ambue jugador-gui .",
+      "resultText": "ome'ê chupe 1 umi punto orekóva ."
+    },
+    "gu": {
+      "option": "બીજા ખેલાડીથી 1 પોઇન્ટ ચોરી",
+      "resultText": "તેને તેના 1 મુદ્દાઓ આપો"
+    },
+    "ht": {
+      "option": "Vòlè 1 pwen soti nan lòt jwè a",
+      "resultText": "Ba l '1 nan pwen l' yo"
+    },
+    "ha": {
+      "option": "Sata 1 daga ɗayan ɗan wasa",
+      "resultText": "ba shi 1 daga cikin maki"
+    },
+    "haw": {
+      "option": "ʻAihue i ka 1 kuhikuhi mai ka mea pāʻani'ē aʻe",
+      "resultText": "hāʻawi iā ia i 1 o kāna mau wahi"
+    },
+    "iw": {
+      "option": "לגנוב נקודה אחת מהשחקן האחר",
+      "resultText": "תן לו 1 מהנקודות שלו"
+    },
+    "hi": {
+      "option": "दूसरे खिलाड़ी से 1 अंक चोरी करें",
+      "resultText": "उसे उसके 1 अंक दें"
+    },
+    "hmn": {
+      "option": "Nyiag 1 taw tes los ntawm lwm tus neeg ua si",
+      "resultText": "muab rau nws 1 ntawm nws cov ntsiab lus"
+    },
+    "hu": {
+      "option": "Lopjon el 1 pontot a másik lejátszótól",
+      "resultText": "Adj neki 1 pontját"
+    },
+    "is": {
+      "option": "Stela 1 stig frá hinum leikmanninum",
+      "resultText": "Gefðu honum 1 af stigum sínum"
+    },
+    "ig": {
+      "option": "Ohi 1 isi site na onye ọkpụkpọ ọzọ",
+      "resultText": "nye ya 1 n'ime isi ihe ya"
+    },
+    "ilo": {
+      "option": "takawen ti 1 a punto manipud iti sabali nga agay-ayam .",
+      "resultText": "Itedmo kenkuana ti 1 kadagiti puntosna ."
+    },
+    "id": {
+      "option": "Mencuri 1 poin dari pemain lain",
+      "resultText": "Beri dia 1 poinnya"
+    },
+    "ga": {
+      "option": "Steal 1 phointe ón imreoir eile",
+      "resultText": "Tabhair 1 dá phointí dó"
+    },
+    "it": {
+      "option": "Rubare 1 punto dall'altro giocatore",
+      "resultText": "Dagli 1 dei suoi punti"
+    },
+    "ja": {
+      "option": "他のプレーヤーから1ポイントを盗みます",
+      "resultText": "彼に彼のポイントの1つを与えてください"
+    },
+    "jw": {
+      "option": "Nyolong 1 titik saka pamuter liyane",
+      "resultText": "Menehi dheweke 1 poin"
+    },
+    "kn": {
+      "option": "ಇತರ ಆಟಗಾರರಿಂದ 1 ಪಾಯಿಂಟ್ ಅನ್ನು ಕದಿಯಿರಿ",
+      "resultText": "ಅವನ 1 ಅಂಕಗಳನ್ನು ಅವನಿಗೆ ನೀಡಿ"
+    },
+    "kk": {
+      "option": "Басқа ойнатқыштан 1 ұпай ұрлау",
+      "resultText": "оған оның 1 ұпайын беріңіз"
+    },
+    "km": {
+      "option": "លួច 1 ចំណុចពីអ្នកលេងផ្សេងទៀត",
+      "resultText": "ផ្តល់ឱ្យគាត់នូវចំណុចមួយរបស់គាត់"
+    },
+    "rw": {
+      "option": "Kwiba 1 yerekana undi mukinnyi",
+      "resultText": "umuhe 1 mu ngingo ze"
+    },
+    "gom": {
+      "option": "दुसऱ्या खेळगड्या कडल्यान 1 गूण चोरप .",
+      "resultText": "ताका ताच्या 1 मुद्द्यांचो 1 ."
+    },
+    "ko": {
+      "option": "다른 플레이어로부터 1 점을 훔칩니다",
+      "resultText": "그에게 그의 요점 중 하나를 준다"
+    },
+    "kri": {
+      "option": "Steal 1 poin frɔm di ɔda pleya .",
+      "resultText": "Gi am 1 pan in pɔynt dɛn ."
+    },
+    "ku": {
+      "option": "1 xala ji lîstikvanê din dizîne",
+      "resultText": "wî 1 xalên xwe bide wî"
+    },
+    "ckb": {
+      "option": "1 خاڵ لە یاریزانەکەی تر بدزە",
+      "resultText": "یەک لە خاڵەکانی پێ بدە"
+    },
+    "ky": {
+      "option": "Башка ойноткучтан 1 чекит уурдап алыңыз",
+      "resultText": "ага 1 баллды бер"
+    },
+    "lo": {
+      "option": "ລັກ 1 ຈຸດຈາກຜູ້ນອື່ນໆ",
+      "resultText": "ໃຫ້ 1 ຈຸດຂອງລາວ"
+    },
+    "la": {
+      "option": "Furantur I punctum ab aliis ludio",
+      "resultText": "Da ei I de punctorum"
+    },
+    "lv": {
+      "option": "Zagt 1 punktu no otra spēlētāja",
+      "resultText": "Dodiet viņam 1 no viņa punktiem"
+    },
+    "ln": {
+      "option": "Koyiba 1 point na joueur mosusu .",
+      "resultText": "Pesa ye 1 ya ba points na ye ."
+    },
+    "lt": {
+      "option": "Pavogti 1 tašką nuo kito žaidėjo",
+      "resultText": "duok jam 1 savo taškų"
+    },
+    "lg": {
+      "option": "Okubba akabonero 1 ku muzannyi omulala .",
+      "resultText": "Muwe 1 ku bubonero bwe ."
+    },
+    "lb": {
+      "option": "Klauen 1 Punkt vum aneren Spiller",
+      "resultText": "gitt him 1 vu senge Punkten"
+    },
+    "mk": {
+      "option": "Украде 1 поен од другиот играч",
+      "resultText": "Дајте му 1 од неговите поени"
+    },
+    "mai": {
+      "option": "दोसर खिलाड़ी सँ 1 अंक चोरा लिअ",
+      "resultText": "हुनका अपन 1 टा बात दियौन ."
+    },
+    "mg": {
+      "option": "Mangalatra 1 teboka avy amin'ny mpilalao hafa",
+      "resultText": "Omeo azy ny heviny 1"
+    },
+    "ms": {
+      "option": "Mencuri 1 mata dari pemain lain",
+      "resultText": "Beri dia 1 mata"
+    },
+    "ml": {
+      "option": "മറ്റ് കളിക്കാരിൽ നിന്ന് 1 പോയിന്റ് മോഷ്ടിക്കുക",
+      "resultText": "അവന്റെ പോയിന്റുകളിൽ ഒന്ന് നൽകുക"
+    },
+    "mt": {
+      "option": "Jisraq 1 punt mill-plejer l-ieħor",
+      "resultText": "Agħtih 1 mill-punti tiegħu"
+    },
+    "mi": {
+      "option": "Tahaetia 1 tohu mai i tera kaitakaro",
+      "resultText": "Hoatu ki a ia 1 o ana tohu"
+    },
+    "mr": {
+      "option": "दुसर्‍या खेळाडूकडून 1 गुण चोरी करा",
+      "resultText": "त्याला त्याचे 1 मुद्दे द्या"
+    },
+    "mni-Mtei": {
+      "option": "ꯑꯇꯣꯞꯄꯥ ꯄ꯭ꯂꯦꯌꯔ ꯑꯗꯨꯗꯒꯤ ꯄꯣꯏꯟꯇ ꯱ ꯆꯨꯃꯊꯣꯀꯄꯥ",
+      "resultText": "ꯃꯍꯥꯛꯀꯤ ꯄꯣꯏꯟꯇ ꯱ ꯄꯤꯌꯨ ."
+    },
+    "lus": {
+      "option": "Player dang atanga point 1 steal .",
+      "resultText": "A point 1 1 pe rawh ."
+    },
+    "mn": {
+      "option": "Бусад тоглогчоос 1 цэгийг хулгайлах",
+      "resultText": "түүнд түүний оноог 1 өг"
+    },
+    "my": {
+      "option": "အခြားကစားသမားထံမှ 1 မှတ်ခိုးယူ",
+      "resultText": "သူ၏အချက်များအနက် 1 ကိုပေးပါ"
+    },
+    "ne": {
+      "option": "अन्य खेलाडीबाट 1 बिन्दु चोर्नुहोस्",
+      "resultText": "उसलाई उसको अंक दिनुहोस्"
+    },
+    "no": {
+      "option": "Stjele 1 poeng fra den andre spilleren",
+      "resultText": "Gi ham 1 av poengene hans"
+    },
+    "or": {
+      "option": "ଅନ୍ୟ ଖେଳାଳୀ ଠାରୁ 1 ପଏଣ୍ଟ ଚୋରି କରନ୍ତୁ |",
+      "resultText": "ତାଙ୍କୁ ତାଙ୍କ ପଏଣ୍ଟ ମଧ୍ୟରୁ 1 ଦିଅ |"
+    },
+    "om": {
+      "option": "Taphataan biraa irraa qabxii 1 hatuu .",
+      "resultText": "Qabxii isaa 1 itti kenni ."
+    },
+    "ps": {
+      "option": "د بل لوبغاړي څخه 1 نقطه غلا کړئ",
+      "resultText": "هغه ته د هغه 1 ټکي ورکړئ"
+    },
+    "fa": {
+      "option": "1 امتیاز را از بازیکن دیگر سرقت کنید",
+      "resultText": "1 نکته خود را به او بدهید"
+    },
+    "pl": {
+      "option": "Kradnij 1 punkt od drugiego gracza",
+      "resultText": "Daj mu 1 z jego punktów"
+    },
+    "pt": {
+      "option": "Roubar 1 ponto do outro jogador",
+      "resultText": "Dê a ele 1 de seus pontos"
+    },
+    "pa": {
+      "option": "ਦੂਜੇ ਖਿਡਾਰੀ ਤੋਂ 1 ਪੁਆਇੰਟ ਚੋਰੀ ਕਰੋ",
+      "resultText": "ਉਸ ਨੂੰ ਉਸ ਦੇ 1 ਬਿੰਦੂ ਦੇ ਦਿਓ"
+    },
+    "qu": {
+      "option": "Huknin pukllaqmanta 1 puntota suwakuy .",
+      "resultText": "Payman 1 puntonkunata qoy ."
+    },
+    "ro": {
+      "option": "Fura 1 punct de la celălalt jucător",
+      "resultText": "Dă -i 1 din punctele sale"
+    },
+    "ru": {
+      "option": "Украсть 1 очко у другого игрока",
+      "resultText": "дать ему 1 из его очков"
+    },
+    "sm": {
+      "option": "Gaoi 1 manatu mai le isi tagata taalo",
+      "resultText": "avatu ia te ia 1 ona manatu"
+    },
+    "sa": {
+      "option": "अन्य खिलाड़ी से 1 बिन्दु को चोरी करें",
+      "resultText": "तस्मै तस्य बिन्दुषु १ तस्मै ददातु ।"
+    },
+    "gd": {
+      "option": "A 'goid 1 phuing bhon chluicheadair eile",
+      "resultText": "thoir dha 1 de na puingean aige"
+    },
+    "nso": {
+      "option": "Utsoa 1 ntlha ho tloha sebapali se seng .",
+      "resultText": "Mo fe 1 ya dintlha tša gagwe ."
+    },
+    "sr": {
+      "option": "Украсти 1 бод од другог играча",
+      "resultText": "Дајте му 1 његових поена"
+    },
+    "st": {
+      "option": "Utsoa ntlha e le 'ngoe ho tsoa ho sebapali se seng",
+      "resultText": "mo fe 1 ea lintlha tsa hae"
+    },
+    "sn": {
+      "option": "Kuba 1 point kubva kune mumwe mutambi",
+      "resultText": "umupe 1 of the ake"
+    },
+    "sd": {
+      "option": "ٻئي پليئر کان 1 پوائنٽ چوري ڪريو",
+      "resultText": "هن کي پنهنجي پوائنٽن جو 1 ڏيو"
+    },
+    "si": {
+      "option": "අනෙක් ක්රීඩකයාගෙන් 1 ලක්ෂ්යය සොරකම් කරන්න",
+      "resultText": "ඔහුගේ ලකුණු 1 ක් ඔහුට දෙන්න"
+    },
+    "sk": {
+      "option": "Ukradnúť 1 bod od druhého hráča",
+      "resultText": "Dajte mu 1 z jeho bodov"
+    },
+    "sl": {
+      "option": "Ukradite 1 točko od drugega igralca",
+      "resultText": "Dajte mu 1 od njegovih točk"
+    },
+    "so": {
+      "option": "Xatooyo 1 dhibic oo ka socota ciyaaryahanka kale",
+      "resultText": "Sii 1 ka mid ah qodobtiisii"
+    },
+    "es": {
+      "option": "Robar 1 punto del otro jugador",
+      "resultText": "Dale 1 de sus puntos"
+    },
+    "su": {
+      "option": "Maok 1 titik tina pamuter sanés",
+      "resultText": "pasihan anjeunna 1 poin na"
+    },
+    "sw": {
+      "option": "Kuiba hatua 1 kutoka kwa mchezaji mwingine",
+      "resultText": "Mpe 1 ya vidokezo vyake"
+    },
+    "sv": {
+      "option": "Stjäla 1 poäng från den andra spelaren",
+      "resultText": "Ge honom 1 av sina poäng"
+    },
+    "tg": {
+      "option": "Дуздидани 1 нуқтаи аз бозигари дигар",
+      "resultText": "ба ӯ 1 аз нуқтаҳои худ бидиҳед"
+    },
+    "ta": {
+      "option": "மற்ற வீரரிடமிருந்து 1 புள்ளியைத் திருடுங்கள்",
+      "resultText": "அவரது 1 புள்ளிகளை அவருக்குக் கொடுங்கள்"
+    },
+    "tt": {
+      "option": "Башка уенчының 1 пунктын урлау",
+      "resultText": "аңа аның очын бирегез"
+    },
+    "te": {
+      "option": "ఇతర ఆటగాడి నుండి 1 పాయింట్ దొంగిలించండి",
+      "resultText": "అతని పాయింట్లలో 1 ఇవ్వండి"
+    },
+    "th": {
+      "option": "ขโมย 1 คะแนนจากผู้เล่นคนอื่น",
+      "resultText": "ให้ 1 คะแนนของเขา"
+    },
+    "ti": {
+      "option": "ካብቲ ካልእ ተጻዋታይ 1 ነጥቢ ስርቂ",
+      "resultText": "1 ካብ ነጥብታቱ ሃብዎ"
+    },
+    "ts": {
+      "option": "Yiva 1 point eka mutlangi un'wana .",
+      "resultText": "N'wi nyike 1 wa tinhla ta yena ."
+    },
+    "tr": {
+      "option": "Diğer oyuncudan 1 puan çal",
+      "resultText": "Ona 1 puan ver"
+    },
+    "tk": {
+      "option": "Beýleki oýunçynyň 1 nokady ogurlaň",
+      "resultText": "Olary 1-den 1-e beriň"
+    },
+    "ak": {
+      "option": "wia 1 point fi player foforo no hɔ .",
+      "resultText": "Ma no ne nsɛntitiriw no mu 1 ."
+    },
+    "uk": {
+      "option": "Краде 1 бал у іншого гравця",
+      "resultText": "Дайте йому 1 з його балів"
+    },
+    "ur": {
+      "option": "دوسرے کھلاڑی سے 1 پوائنٹ چوری کریں",
+      "resultText": "اسے اس کے 1 پوائنٹس دیں"
+    },
+    "ug": {
+      "option": "باشقا قويغۇچتىن 1 نومۇر ئوغرىلاڭ",
+      "resultText": "ئۇنىڭ نومۇرىنى بېرىڭ"
+    },
+    "uz": {
+      "option": "Boshqa pleyerdan 1 ballni o'g'irlash",
+      "resultText": "unga uning 1 ochkolarini bering"
+    },
+    "vi": {
+      "option": "Đánh cắp 1 điểm từ người chơi khác",
+      "resultText": "Cho anh ta 1 điểm của anh ta"
+    },
+    "cy": {
+      "option": "Dwyn 1 pwynt oddi wrth y chwaraewr arall",
+      "resultText": "Rhowch 1 o'i bwyntiau iddo"
+    },
+    "xh": {
+      "option": "Inqaku le-1 ukusuka komnye umdlali",
+      "resultText": "mnike i-1 yamanqaku akhe"
+    },
+    "yi": {
+      "option": "גאַנווענען 1 פונט פון די אנדערע שפּילער",
+      "resultText": "געבן אים 1 פון זיין פונקטן"
+    },
+    "yo": {
+      "option": "Jiji 1 Ojuami lati ẹrọ orin miiran",
+      "resultText": "fun u 1 ti awọn aaye rẹ"
+    },
+    "zu": {
+      "option": "Weba iphuzu eli-1 elivela komunye umdlali",
+      "resultText": "Mnike amaphuzu angu-1"
+    }
+  },
+  {
+    "ID": 8,
+    "effectOther": true,
+    "drinking": false,
+    "en": {
+      "option": "Give 1 Point to other Player",
+      "resultText": "take 1 point from him"
+    },
+    "af": {
+      "option": "Gee 1 punt aan ander speler",
+      "resultText": "Neem 1 punt van hom af"
+    },
+    "sq": {
+      "option": "Jepni 1 pikë lojtarit tjetër",
+      "resultText": "Merrni 1 pikë nga ai"
+    },
+    "am": {
+      "option": "ወደ ሌላ ተጫዋች 1 ነጥብ ይስጡ",
+      "resultText": "ከሱ 1 ነጥብ ይውሰዱ"
+    },
+    "ar": {
+      "option": "إعطاء نقطة واحدة للاعب الآخر",
+      "resultText": "خذ نقطة واحدة منه"
+    },
+    "hy": {
+      "option": "1 միավոր տվեք մյուս խաղացողին",
+      "resultText": "վերցրեք նրանից 1 միավոր"
+    },
+    "as": {
+      "option": "1 পয়েন্ট দিয়ে অন্য খেলুৱৈ",
+      "resultText": "তেওঁৰ পৰা ১ পইণ্ট লওক"
+    },
+    "ay": {
+      "option": "Yaqha anatiriru 1 punto churañamawa .",
+      "resultText": "Jupat 1 punto apsuñamawa ."
+    },
+    "az": {
+      "option": "Digər oyunçuya 1 xal verin",
+      "resultText": "Ondan 1 xal götür"
+    },
+    "bm": {
+      "option": "Aw ye 1 point di ntolatanna wɛrɛ ma .",
+      "resultText": "Aw ye 1 ta a fɛ ."
+    },
+    "eu": {
+      "option": "Eman puntu bat beste jokalari bati",
+      "resultText": "Hartu 1 puntu berarengandik"
+    },
+    "be": {
+      "option": "Дайце 1 бал іншаму гульцу",
+      "resultText": "Вазьміце ад яго 1 бал"
+    },
+    "bn": {
+      "option": "অন্য খেলোয়াড়কে 1 পয়েন্ট দিন",
+      "resultText": "তাঁর কাছ থেকে 1 পয়েন্ট নিন"
+    },
+    "bho": {
+      "option": "अन्य खिलाड़ी के 1 बिंदु दीं",
+      "resultText": "ओकरा से 1 अंक ले लीं ."
+    },
+    "bs": {
+      "option": "Dati 1 bod drugom igraču",
+      "resultText": "Uzmi 1 poenta od njega"
+    },
+    "bg": {
+      "option": "Дайте 1 точка на другия играч",
+      "resultText": "Вземете 1 точка от него"
+    },
+    "ca": {
+      "option": "Doneu 1 punt a un altre jugador",
+      "resultText": "Preneu -li 1 punt"
+    },
+    "ceb": {
+      "option": "Hatagi ang 1 Point sa Ubang Player",
+      "resultText": "Kuhaa ang 1 nga punto gikan kaniya"
+    },
+    "ny": {
+      "option": "Perekani mfundo imodzi kwa wosewera wina",
+      "resultText": "Tengani mfundo imodzi kuchokera kwa iye"
+    },
+    "zh-CN": {
+      "option": "给其他球员1分",
+      "resultText": "从他那里得到1分"
+    },
+    "zh-TW": {
+      "option": "給其他球員1分",
+      "resultText": "從他那裡得到1分"
+    },
+    "co": {
+      "option": "Dà 1 puntu à l'altru ghjucatore",
+      "resultText": "piglià 1 puntu da ellu"
+    },
+    "hr": {
+      "option": "Dajte 1 bod drugom igraču",
+      "resultText": "Uzmi 1 bod od njega"
+    },
+    "cs": {
+      "option": "Dejte 1 bod jinému hráči",
+      "resultText": "Vezměte od něj 1 bod"
+    },
+    "da": {
+      "option": "Giv 1 point til anden spiller",
+      "resultText": "Tag 1 point fra ham"
+    },
+    "dv": {
+      "option": "އެހެން ކުޅުންތެރިއަކަށް 1 ޕޮއިންޓް ދިނުން",
+      "resultText": "އޭނާގެ އަތުން 1 ޕޮއިންޓް ނަގާށެވެ ."
+    },
+    "doi": {
+      "option": "दे 1 बिंदु होर खिलाड़ी",
+      "resultText": "1 अंक ले लिया उसदे कोला"
+    },
+    "nl": {
+      "option": "Geef 1 punt aan andere spelers",
+      "resultText": "Neem 1 punt van hem"
+    },
+    "eo": {
+      "option": "Donu 1 punkton al alia ludanto",
+      "resultText": "prenu 1 poenton de li"
+    },
+    "et": {
+      "option": "Andke teisele mängijale 1 punkt",
+      "resultText": "Võtke temalt 1 punkt"
+    },
+    "ee": {
+      "option": "Na 1 dzesi na fefewɔla bubuwo .",
+      "resultText": "Xɔ dzesi 1 tso egbɔ ."
+    },
+    "tl": {
+      "option": "Bigyan ang 1 point sa iba pang manlalaro",
+      "resultText": "Kumuha ng 1 point mula sa kanya"
+    },
+    "fi": {
+      "option": "Anna 1 piste toiselle pelaajalle",
+      "resultText": "ottaa häneltä yhden pisteen"
+    },
+    "fr": {
+      "option": "Donnez 1 point à un autre joueur",
+      "resultText": "prendre 1 point de lui"
+    },
+    "fy": {
+      "option": "Jou 1 punt nei oare spiler",
+      "resultText": "Nim 1 punt fan him"
+    },
+    "gl": {
+      "option": "Dálle 1 punto a outro xogador",
+      "resultText": "Toma 1 punto del"
+    },
+    "ka": {
+      "option": "მიეცით 1 ქულა სხვა მოთამაშეს",
+      "resultText": "აიღეთ 1 ქულა მისგან"
+    },
+    "de": {
+      "option": "Geben Sie einem anderen Spieler 1 Punkt",
+      "resultText": "Nehmen Sie 1 Punkt von ihm"
+    },
+    "el": {
+      "option": "Δώστε 1 σημείο σε άλλο παίκτη",
+      "resultText": "Πάρτε 1 σημείο από αυτόν"
+    },
+    "gn": {
+      "option": "Ome'ê 1 punto ambue jugador-pe .",
+      "resultText": "Ejagarra 1 punto chugui ."
+    },
+    "gu": {
+      "option": "અન્ય ખેલાડીને 1 પોઇન્ટ આપો",
+      "resultText": "તેની પાસેથી 1 પોઇન્ટ લો"
+    },
+    "ht": {
+      "option": "Bay 1 pwen nan lòt jwè",
+      "resultText": "Pran 1 pwen nan men l '"
+    },
+    "ha": {
+      "option": "Ba 1 maki ga wasu player",
+      "resultText": "dauki 1 ma'ana daga gare shi"
+    },
+    "haw": {
+      "option": "Hāʻawi i ka 1 kuhikuhi i nā mea pāʻani'ē aʻe",
+      "resultText": "lawe 1"
+    },
+    "iw": {
+      "option": "תן נקודה אחת לשחקן אחר",
+      "resultText": "קח ממנו נקודה אחת"
+    },
+    "hi": {
+      "option": "अन्य खिलाड़ी को 1 अंक दें",
+      "resultText": "उससे 1 अंक लें"
+    },
+    "hmn": {
+      "option": "Muab 1 point rau lwm tus neeg ua si",
+      "resultText": "noj 1 taw tes los ntawm nws"
+    },
+    "hu": {
+      "option": "Adj 1 pontot a többi játékosnak",
+      "resultText": "Vegyen be 1 pontot tőle"
+    },
+    "is": {
+      "option": "Gefðu 1 stig fyrir annan leikmann",
+      "resultText": "Taktu 1 stig frá honum"
+    },
+    "ig": {
+      "option": "Nye 1 rụtụ aka na ọkpụkpọ ndị ọzọ",
+      "resultText": "Were isi site na ya"
+    },
+    "ilo": {
+      "option": "Ikkan ti 1 a puntos iti sabali nga agay-ayam .",
+      "resultText": "Alaen ti 1 a punto manipud kenkuana ."
+    },
+    "id": {
+      "option": "Berikan 1 poin ke pemain lain",
+      "resultText": "Ambil 1 poin darinya"
+    },
+    "ga": {
+      "option": "Tabhair 1 phointe d’imreoir eile",
+      "resultText": "Tóg 1 phointe uaidh"
+    },
+    "it": {
+      "option": "Dai 1 punto all'altro giocatore",
+      "resultText": "Prendi 1 punto da lui"
+    },
+    "ja": {
+      "option": "他のプレイヤーに1つのポイントを与えます",
+      "resultText": "彼から1ポイント取ります"
+    },
+    "jw": {
+      "option": "Menehi 1 titik kanggo pamuter liyane",
+      "resultText": "njupuk 1 titik saka dheweke"
+    },
+    "kn": {
+      "option": "ಇತರ ಆಟಗಾರರಿಗೆ 1 ಪಾಯಿಂಟ್ ನೀಡಿ",
+      "resultText": "ಅವನಿಂದ 1 ಪಾಯಿಂಟ್ ತೆಗೆದುಕೊಳ್ಳಿ"
+    },
+    "kk": {
+      "option": "Басқа ойыншыға 1 ұпай беріңіз",
+      "resultText": "Одан 1 ұпай алыңыз"
+    },
+    "km": {
+      "option": "ផ្តល់ឱ្យ 1 ពិន្ទុដល់អ្នកលេងផ្សេងទៀត",
+      "resultText": "យក 1 ពិន្ទុពីគាត់"
+    },
+    "rw": {
+      "option": "Tanga 1 yerekeza kubandi bakinnyi",
+      "resultText": "fata ingingo 1 kuri we"
+    },
+    "gom": {
+      "option": "हेर खेळगड्याक 1 गूण दिवप .",
+      "resultText": "ताचे कडल्यान 1 गूण मेळोवचे ."
+    },
+    "ko": {
+      "option": "다른 플레이어에게 1 점을주십시오",
+      "resultText": "그에게서 1 점을 얻으십시오"
+    },
+    "kri": {
+      "option": "Gi 1 point to ɔda pleya .",
+      "resultText": "Tek 1 poin frɔm am ."
+    },
+    "ku": {
+      "option": "1 xala ji lîstikvanê din re bidin",
+      "resultText": "1 xal ji wî bigirin"
+    },
+    "ckb": {
+      "option": "1 خاڵ بدە بە یاریزانی تر",
+      "resultText": "1 خاڵ لە ئەو وەربگرە"
+    },
+    "ky": {
+      "option": "Башка оюнчуга 1 чекит бериңиз",
+      "resultText": "андан 1 чекит ал"
+    },
+    "lo": {
+      "option": "ໃຫ້ 1 ຈຸດໃຫ້ກັບເຄື່ອງຫຼີ້ນອື່ນໆ",
+      "resultText": "ເອົາ 1 ຈຸດຈາກລາວ"
+    },
+    "la": {
+      "option": "Da I ​​Point aliis ludio",
+      "resultText": "Tolle I punctum ab eo"
+    },
+    "lv": {
+      "option": "Dod 1 punktu citam spēlētājam",
+      "resultText": "ņem 1 punktu no viņa"
+    },
+    "ln": {
+      "option": "Pesa 1 point na joueur mosusu .",
+      "resultText": "Bozua 1 point epayi na ye ."
+    },
+    "lt": {
+      "option": "Suteikite 1 tašką kitam žaidėjui",
+      "resultText": "Paimk 1 tašką iš jo"
+    },
+    "lg": {
+      "option": "Muwe akabonero 1 eri omuzannyi omulala .",
+      "resultText": "Mutwale obubonero 1 okuva gy'ali ."
+    },
+    "lb": {
+      "option": "Gitt 1 Punkt fir eeler Spiller",
+      "resultText": "huelt 1 Punkt vun him"
+    },
+    "mk": {
+      "option": "Дајте 1 поен на друг играч",
+      "resultText": "Земете 1 поен од него"
+    },
+    "mai": {
+      "option": "अन्य खिलाड़ी को 1 पॉइंट दें",
+      "resultText": "हुनका सँ 1 अंक निकालू"
+    },
+    "mg": {
+      "option": "Omeo teboka 1 amin'ny mpilalao hafa",
+      "resultText": "Makà teboka 1 avy aminy"
+    },
+    "ms": {
+      "option": "Beri 1 mata kepada pemain lain",
+      "resultText": "Ambil 1 mata dari dia"
+    },
+    "ml": {
+      "option": "മറ്റ് കളിക്കാരന് 1 പോയിന്റ് നൽകുക",
+      "resultText": "അവനിൽ നിന്ന് 1 പോയിന്റ് എടുക്കുക"
+    },
+    "mt": {
+      "option": "Agħti 1 punt lil plejer ieħor",
+      "resultText": "Ħu 1 punt mingħandu"
+    },
+    "mi": {
+      "option": "Hoatu 1 tohu ki etahi atu kaitakaro",
+      "resultText": "Tangohia 1 tohu mai ia ia"
+    },
+    "mr": {
+      "option": "इतर खेळाडूला 1 बिंदू द्या",
+      "resultText": "त्याच्याकडून 1 बिंदू घ्या"
+    },
+    "mni-Mtei": {
+      "option": "ꯑꯇꯣꯞꯄꯥ ꯄ꯭ꯂꯦꯌꯔꯗꯥ ꯱ ꯄꯣꯏꯟꯇ ꯄꯤꯌꯨ",
+      "resultText": "ꯃꯍꯥꯛꯀꯤ ꯃꯐꯃꯗꯒꯤ ꯄꯣꯏꯟꯇ ꯱ ꯂꯧꯕꯥ"
+    },
+    "lus": {
+      "option": "Player dang hnenah point 1 pe rawh .",
+      "resultText": "A hnen atangin point 1 la rawh ."
+    },
+    "mn": {
+      "option": "Бусад тоглогчдод 1 цэг өг",
+      "resultText": "түүнээс 1 оноо ав"
+    },
+    "my": {
+      "option": "အခြားကစားသမားကို 1 မှတ်ပေးပါ",
+      "resultText": "သူ့ကိုထံမှ 1 မှတ်ယူပါ"
+    },
+    "ne": {
+      "option": "अन्य प्लेयरलाई 1 पोइन्ट दिनुहोस्",
+      "resultText": "उहाँबाट 1 पोइन्ट लिनुहोस्"
+    },
+    "no": {
+      "option": "Gi 1 poeng til andre spiller",
+      "resultText": "Ta 1 poeng fra ham"
+    },
+    "or": {
+      "option": "ଅନ୍ୟ ଖେଳାଳିଙ୍କୁ 1 ପଏଣ୍ଟ ଦିଅ |",
+      "resultText": "ତାଙ୍କଠାରୁ 1 ପଏଣ୍ଟ ନିଅନ୍ତୁ |"
+    },
+    "om": {
+      "option": "Taphataan biroof qabxii 1 kenni .",
+      "resultText": "Qabxii 1 isa irraa fudhadhaa ."
+    },
+    "ps": {
+      "option": "بل لوبغاړي ته 1 ټکی ورکړئ",
+      "resultText": "له هغه څخه 1 ټکی واخلئ"
+    },
+    "fa": {
+      "option": "به بازیکن دیگر 1 امتیاز بدهید",
+      "resultText": "از او 1 امتیاز بگیرید"
+    },
+    "pl": {
+      "option": "Daj 1 punkt innym graczowi",
+      "resultText": "Odejdź od niego 1 punkt"
+    },
+    "pt": {
+      "option": "Dê 1 ponto a outro jogador",
+      "resultText": "Pegue 1 ponto dele"
+    },
+    "pa": {
+      "option": "ਦੂਜੇ ਖਿਡਾਰੀ ਨੂੰ 1 ਪੁਆਇੰਟ ਦਿਓ",
+      "resultText": "ਉਸ ਤੋਂ 1 ਬਿੰਦੂ ਲਓ"
+    },
+    "qu": {
+      "option": "Huk pukllaqman 1 puntota quy .",
+      "resultText": "Paymanta 1 puntota hap'iy ."
+    },
+    "ro": {
+      "option": "Dați un punct altui jucător",
+      "resultText": "Ia 1 punct de la el"
+    },
+    "ru": {
+      "option": "Дайте 1 пункт другому игроку",
+      "resultText": "заберите от него 1 очко"
+    },
+    "sm": {
+      "option": "Tuu atu le 1 manatu i isi tagata taalo",
+      "resultText": "ave 1 manatu mai ia te ia"
+    },
+    "sa": {
+      "option": "अन्य खिलाड़ी को 1 बिन्दु दें 1 बिन्दु दें .",
+      "resultText": "तस्मात् १ बिन्दुं गृह्यताम् ।"
+    },
+    "gd": {
+      "option": "Thoir seachad 1 phuing air cluicheadair eile",
+      "resultText": "Gabh 1 puing bhuaithe"
+    },
+    "nso": {
+      "option": "Efa ntlha e 1 go sebapadi se sengwe .",
+      "resultText": "Nka ntlha e 1 go yena ."
+    },
+    "sr": {
+      "option": "Дајте 1 бод према другом играчу",
+      "resultText": "Узми 1 бод од њега"
+    },
+    "st": {
+      "option": "Fana ka ntlha e le 'ngoe ho sebapali se seng",
+      "resultText": "Nka ntlha e le 'ngoe ho eena"
+    },
+    "sn": {
+      "option": "Ipa 1 poindi kune mumwe mutambi",
+      "resultText": "tora 1 point kubva kwaari"
+    },
+    "sd": {
+      "option": "ٻئي پليئر کي 1 پوائنٽ ڏيو",
+      "resultText": "هن کان 1 پوائنٽ وٺو"
+    },
+    "si": {
+      "option": "වෙනත් ක්රීඩකයාට 1 ක් දෙන්න",
+      "resultText": "ඔහුගෙන් 1 ක් ගන්න"
+    },
+    "sk": {
+      "option": "Ukážte 1 bod inému hráčovi",
+      "resultText": "Zoberme si od neho 1 bod"
+    },
+    "sl": {
+      "option": "Dajte 1 točko drugim igralcem",
+      "resultText": "Vzemite 1 točko od njega"
+    },
+    "so": {
+      "option": "Sii 1 dhibic ciyaaryahan kale",
+      "resultText": "Qaado 1 dhibic isaga"
+    },
+    "es": {
+      "option": "Dar 1 punto a otro jugador",
+      "resultText": "tomar 1 punto de él"
+    },
+    "su": {
+      "option": "Pasihan 1 nunjuk ka pamuter sanés",
+      "resultText": "Candak 1 titik ti anjeunna"
+    },
+    "sw": {
+      "option": "Toa alama 1 kwa mchezaji mwingine",
+      "resultText": "Chukua hatua 1 kutoka kwake"
+    },
+    "sv": {
+      "option": "Ge 1 poäng till andra spelare",
+      "resultText": "Ta 1 poäng från honom"
+    },
+    "tg": {
+      "option": "1 хол ба бозингари дигар диҳед",
+      "resultText": "1 хол аз ӯ гиред"
+    },
+    "ta": {
+      "option": "மற்ற வீரருக்கு 1 புள்ளி கொடுங்கள்",
+      "resultText": "அவரிடமிருந்து 1 புள்ளியை எடுத்துக் கொள்ளுங்கள்"
+    },
+    "tt": {
+      "option": "Башка уенчыга 1 балл бирегез",
+      "resultText": "Аннан 1 балл алыгыз"
+    },
+    "te": {
+      "option": "ఇతర ఆటగాడికి 1 పాయింట్ ఇవ్వండి",
+      "resultText": "అతని నుండి 1 పాయింట్ తీసుకోండి"
+    },
+    "th": {
+      "option": "ให้ 1 ชี้ไปยังผู้เล่นคนอื่น ๆ",
+      "resultText": "ใช้เวลา 1 แต้มจากเขา"
+    },
+    "ti": {
+      "option": "ንኻልኦት ተጻወትቲ 1 ነጥቢ ሃቡ",
+      "resultText": "ካብኡ 1 ነጥቢ ውሰድ"
+    },
+    "ts": {
+      "option": "Nyika 1 point eka mutlangi un'wana .",
+      "resultText": "Teka 1 point eka yena ."
+    },
+    "tr": {
+      "option": "Diğer oyuncuya 1 puan ver",
+      "resultText": "Ondan 1 puan al"
+    },
+    "tk": {
+      "option": "Beýleki oýunçynyň 1 nokady beriň",
+      "resultText": "ondan 1 bal al"
+    },
+    "ak": {
+      "option": "Ma 1 point ma player foforo .",
+      "resultText": "Fa 1 point fi ne hɔ ."
+    },
+    "uk": {
+      "option": "Дайте 1 балам іншому гравцеві",
+      "resultText": "Візьміть у нього 1 бал"
+    },
+    "ur": {
+      "option": "دوسرے کھلاڑی کو 1 پوائنٹ دیں",
+      "resultText": "اس سے 1 پوائنٹ لے لو"
+    },
+    "ug": {
+      "option": "باشقا قويغۇچلارغا 1 نومۇر بېرىڭ",
+      "resultText": "ئۇنىڭدىن 1 نومۇر ئېلىڭ"
+    },
+    "uz": {
+      "option": "Boshqa o'yinchiga 1 ball bering",
+      "resultText": "Undan 1 ball oling"
+    },
+    "vi": {
+      "option": "Cung cấp 1 điểm cho người chơi khác",
+      "resultText": "Lấy 1 điểm từ anh ấy"
+    },
+    "cy": {
+      "option": "Rhowch 1 pwynt i chwaraewr arall",
+      "resultText": "Cymerwch 1 pwynt oddi wrtho"
+    },
+    "xh": {
+      "option": "Nika inqaku elinye ukuya komnye umdlali",
+      "resultText": "Thatha inqaku eli-1 kuye"
+    },
+    "yi": {
+      "option": "געבן 1 פונט צו אנדערע שפּילער",
+      "resultText": "נעמען 1 פונט פון אים"
+    },
+    "yo": {
+      "option": "Fun 1 aaye si ẹrọ orin miiran",
+      "resultText": "Mu aaye 1 lati ọdọ rẹ"
+    },
+    "zu": {
+      "option": "Nikeza iphuzu elilodwa komunye umdlali",
+      "resultText": "Thatha iphuzu eli-1 kuye"
+    }
+  },
+  {
+    "ID": 9,
+    "effectOther": false,
+    "drinking": true,
+    "en": {
+      "option": "You Drink Cheers",
+      "resultText": "had to drink"
+    },
+    "af": {
+      "option": "Jy drink cheers",
+      "resultText": "moes drink"
+    },
+    "sq": {
+      "option": "Ju pini brohoritje",
+      "resultText": "duhej të pinte"
+    },
+    "am": {
+      "option": "ደስተኞች ትጠጣለህ",
+      "resultText": "መጠጣት ነበረበት"
+    },
+    "ar": {
+      "option": "أنت تشرب هتافات",
+      "resultText": "اضطرار للشرب"
+    },
+    "hy": {
+      "option": "Դուք խմում եք ուրախություն",
+      "resultText": "ստիպված էր խմել"
+    },
+    "as": {
+      "option": "আপুনি উল্লাস পান কৰে",
+      "resultText": "পান কৰিবলগীয়া হৈছিল"
+    },
+    "ay": {
+      "option": "Jumax manq’añanaka umañawa .",
+      "resultText": "Umañapänwa ."
+    },
+    "az": {
+      "option": "Alqışlayırsan",
+      "resultText": "İçməli idi"
+    },
+    "bm": {
+      "option": "Aw bɛ nisɔndiya min .",
+      "resultText": "A tun ka kan ka min ."
+    },
+    "eu": {
+      "option": "Alaiak edaten dituzu",
+      "resultText": "edan behar izan zuen"
+    },
+    "be": {
+      "option": "Вы п'еце ўра",
+      "resultText": "прыйшлося піць"
+    },
+    "bn": {
+      "option": "আপনি চিয়ার্স পান করুন",
+      "resultText": "পান করতে হয়েছিল"
+    },
+    "bho": {
+      "option": "तू चीयर पीये के बा .",
+      "resultText": "पीये के पड़ल ."
+    },
+    "bs": {
+      "option": "Pijete veselje",
+      "resultText": "morao piti"
+    },
+    "bg": {
+      "option": "Пиете наздравици",
+      "resultText": "трябваше да пие"
+    },
+    "ca": {
+      "option": "Beus ànims",
+      "resultText": "havia de beure"
+    },
+    "ceb": {
+      "option": "Nag-inom ka mga cheers",
+      "resultText": "kinahanglan nga moinom"
+    },
+    "ny": {
+      "option": "Mumamwa",
+      "resultText": "amayenera kumwa"
+    },
+    "zh-CN": {
+      "option": "你喝欢呼",
+      "resultText": "必须喝"
+    },
+    "zh-TW": {
+      "option": "你喝歡呼",
+      "resultText": "必須喝"
+    },
+    "co": {
+      "option": "Bevi cheers",
+      "resultText": "avia da beie"
+    },
+    "hr": {
+      "option": "Piješ navijači",
+      "resultText": "morao piti"
+    },
+    "cs": {
+      "option": "Pijete na zdraví",
+      "resultText": "musel pít"
+    },
+    "da": {
+      "option": "Du drikker jubel",
+      "resultText": "måtte drikke"
+    },
+    "dv": {
+      "option": "ޔޫ ބޯން ޗިއާރސް",
+      "resultText": "ބޯން ޖެހުނީ"
+    },
+    "doi": {
+      "option": "तुसीं चीयर पीओ",
+      "resultText": "पीना पड़े"
+    },
+    "nl": {
+      "option": "Je drinkt gejuich",
+      "resultText": "moest drinken"
+    },
+    "eo": {
+      "option": "Vi trinkas huraojn",
+      "resultText": "devis trinki"
+    },
+    "et": {
+      "option": "Sa joote rõõmsameelseid",
+      "resultText": "pidi jooma"
+    },
+    "ee": {
+      "option": "Ènoa dzidzɔdonamenuwo .",
+      "resultText": "Ele be wòano aha ."
+    },
+    "tl": {
+      "option": "Uminom ka ng tagay",
+      "resultText": "Kailangang uminom"
+    },
+    "fi": {
+      "option": "Juo hurraa",
+      "resultText": "piti juoda"
+    },
+    "fr": {
+      "option": "Tu bois des acclamations",
+      "resultText": "devait boire"
+    },
+    "fy": {
+      "option": "Jo drinke cheers",
+      "resultText": "moast drinke"
+    },
+    "gl": {
+      "option": "Bebes alegres",
+      "resultText": "Tivo que beber"
+    },
+    "ka": {
+      "option": "თქვენ სვამთ Cheers",
+      "resultText": "დალევა მოუწია"
+    },
+    "de": {
+      "option": "Du trinkst Jubel",
+      "resultText": "musste trinken"
+    },
+    "el": {
+      "option": "Πίνεις χαμόγελα",
+      "resultText": "έπρεπε να πίνει"
+    },
+    "gn": {
+      "option": "Nde re'u vy'apavẽ .",
+      "resultText": "Omboy'u va'erã kuri ."
+    },
+    "gu": {
+      "option": "તમે ઉત્સાહ પીવો",
+      "resultText": "પીવું પડ્યું"
+    },
+    "ht": {
+      "option": "Ou bwè cheers",
+      "resultText": "te oblije bwè"
+    },
+    "ha": {
+      "option": "Kun sha Cheers",
+      "resultText": "ya sha"
+    },
+    "haw": {
+      "option": "Inuʻoe i nā cerers",
+      "resultText": "e inu"
+    },
+    "iw": {
+      "option": "אתה שותה לחיים",
+      "resultText": "היה צריך לשתות"
+    },
+    "hi": {
+      "option": "आप चीयर्स पीते हैं",
+      "resultText": "पीना था"
+    },
+    "hmn": {
+      "option": "Koj haus cov neeg haus",
+      "resultText": "yuav tsum haus"
+    },
+    "hu": {
+      "option": "Igyálsz ujjongást",
+      "resultText": "inni kellett"
+    },
+    "is": {
+      "option": "Þú drekkur skál",
+      "resultText": "Þurfti að drekka"
+    },
+    "ig": {
+      "option": "Ị na-a toụ ụtọ",
+      "resultText": "ọ ga-a drinkụ mmanya"
+    },
+    "ilo": {
+      "option": "Inumen ti panagrag-o .",
+      "resultText": "Masapul nga uminum ."
+    },
+    "id": {
+      "option": "Anda minum sorakan",
+      "resultText": "harus minum"
+    },
+    "ga": {
+      "option": "Ólann tú Cheers",
+      "resultText": "bhí le hól"
+    },
+    "it": {
+      "option": "Bevi applausi",
+      "resultText": "Ho dovuto bere"
+    },
+    "ja": {
+      "option": "あなたは乾杯を飲みます",
+      "resultText": "飲まなければならなかった"
+    },
+    "jw": {
+      "option": "Sampeyan ngombe sorak",
+      "resultText": "kudu ngombe"
+    },
+    "kn": {
+      "option": "ನೀವು ಚೀರ್ಸ್ ಕುಡಿಯುತ್ತೀರಿ",
+      "resultText": "ಕುಡಿಯಬೇಕಾಗಿತ್ತು"
+    },
+    "kk": {
+      "option": "Сіз жемді ішесіз",
+      "resultText": "ішуге тура келді"
+    },
+    "km": {
+      "option": "អ្នកផឹកស្រាបៀរ",
+      "resultText": "ត្រូវតែផឹក"
+    },
+    "rw": {
+      "option": "Unywa impundu",
+      "resultText": "yagombaga kunywa"
+    },
+    "gom": {
+      "option": "तुमी जयजयकार पितात .",
+      "resultText": "पियेवचें पडलें ."
+    },
+    "ko": {
+      "option": "당신은 건배를 마신다",
+      "resultText": "마셔야했다"
+    },
+    "kri": {
+      "option": "Yu drink cheers .",
+      "resultText": "bin gɛt fɔ drink ."
+    },
+    "ku": {
+      "option": "Hûn cheers vedixwin",
+      "resultText": "neçar bû ku vexwe"
+    },
+    "ckb": {
+      "option": "تۆ دەخۆیتەوە هاوار",
+      "resultText": "ناچار بوو بخواتەوە"
+    },
+    "ky": {
+      "option": "Сиз кубанычтуу ичесиз",
+      "resultText": "ичиш керек болчу"
+    },
+    "lo": {
+      "option": "ທ່ານດື່ມ cheers",
+      "resultText": "ໄດ້ດື່ມ"
+    },
+    "la": {
+      "option": "Et bibere iubentium",
+      "resultText": "habebat ad bibendum"
+    },
+    "lv": {
+      "option": "Jūs dzerat uzmundrinājumus",
+      "resultText": "Nācās dzert"
+    },
+    "ln": {
+      "option": "Omelaka ba cheers .",
+      "resultText": "Asengelaki komɛla ."
+    },
+    "lt": {
+      "option": "Jūs geriate džiaugsmą",
+      "resultText": "Turėjo gerti"
+    },
+    "lg": {
+      "option": "Ggwe munywa Cheers .",
+      "resultText": "yalina okunywa ."
+    },
+    "lb": {
+      "option": "Dir drénkt Cheers",
+      "resultText": "huet missen drénken"
+    },
+    "mk": {
+      "option": "Пиете овации",
+      "resultText": "мораше да пие"
+    },
+    "mai": {
+      "option": "अहाँ जयकार पीबैत छी",
+      "resultText": "पीबय पड़ल छल ."
+    },
+    "mg": {
+      "option": "Misotro cheers ianao",
+      "resultText": "tsy maintsy nisotro"
+    },
+    "ms": {
+      "option": "Anda minum sorakan",
+      "resultText": "terpaksa minum"
+    },
+    "ml": {
+      "option": "നിങ്ങൾ ചിയേഴ്സ് കുടിക്കുന്നു",
+      "resultText": "കുടിക്കേണ്ടി വന്നു"
+    },
+    "mt": {
+      "option": "Tixrob cheers",
+      "resultText": "kellu jixrob"
+    },
+    "mi": {
+      "option": "Ka inu koe i nga tinihanga",
+      "resultText": "me inu"
+    },
+    "mr": {
+      "option": "आपण चीअर्स प्या",
+      "resultText": "प्यायला लागले"
+    },
+    "mni-Mtei": {
+      "option": "ꯅꯍꯥꯛꯅꯥ ꯆꯦꯌꯥꯔꯁꯤꯡ ꯊꯀꯄꯤꯌꯨ .",
+      "resultText": "ꯊꯀꯄꯥ ꯇꯥꯈꯤ"
+    },
+    "lus": {
+      "option": "Cheers i in thin .",
+      "resultText": "in tur a ni ."
+    },
+    "mn": {
+      "option": "Та хацар ууна",
+      "resultText": "уух ёстой байсан"
+    },
+    "my": {
+      "option": "မင်းကရွှင်လန်းစွာသောက်တယ်",
+      "resultText": "သောက်ရတယ်"
+    },
+    "ne": {
+      "option": "तपाईं चियर्स पिउनुहुन्छ",
+      "resultText": "पिउनु परेको थियो"
+    },
+    "no": {
+      "option": "Du drikker jubel",
+      "resultText": "måtte drikke"
+    },
+    "or": {
+      "option": "ତୁମେ ଖୁସି ପିଅ |",
+      "resultText": "ପିଇବାକୁ ପଡିଲା"
+    },
+    "om": {
+      "option": "Ati cheers dhugdu .",
+      "resultText": "Dhugaatii dhuguu qaba ture ."
+    },
+    "ps": {
+      "option": "تاسو خوښونکي څښئ",
+      "resultText": "څښل باید"
+    },
+    "fa": {
+      "option": "شما می نوشید",
+      "resultText": "مجبور به نوشیدن"
+    },
+    "pl": {
+      "option": "Pijesz okrzyki",
+      "resultText": "musiałem pić"
+    },
+    "pt": {
+      "option": "Você bebe felicidades",
+      "resultText": "tive que beber"
+    },
+    "pa": {
+      "option": "ਤੁਸੀਂ ਚੀਅਰਸ ਪੀਂਦੇ ਹੋ",
+      "resultText": "ਪੀਣਾ ਪਿਆ"
+    },
+    "qu": {
+      "option": "Qamqa ukyanki kusikuykunata .",
+      "resultText": "ukyana karqan ."
+    },
+    "ro": {
+      "option": "Bei urale",
+      "resultText": "a trebuit să bea"
+    },
+    "ru": {
+      "option": "Вы пьете ура",
+      "resultText": "Пришлось выпить"
+    },
+    "sm": {
+      "option": "E te inu lelei",
+      "resultText": "tatau ona inu"
+    },
+    "sa": {
+      "option": "त्वं जयजयकारं पिबसि .",
+      "resultText": "पेयम् आसीत् ।"
+    },
+    "gd": {
+      "option": "Bidh thu ag òl seòlta",
+      "resultText": "dh'fheumadh ri òl"
+    },
+    "nso": {
+      "option": "O nwa ditlhabo tša go hlaba mokgoši .",
+      "resultText": "o ile a swanelwa ke go nwa ."
+    },
+    "sr": {
+      "option": "Пијеш навијаш",
+      "resultText": "морао да пије"
+    },
+    "st": {
+      "option": "O nwa ntaer",
+      "resultText": "o ne a lokela ho noa"
+    },
+    "sn": {
+      "option": "Unonwa cheers",
+      "resultText": "aifanira kunwa"
+    },
+    "sd": {
+      "option": "توهان خوشين پيئندا آهيو",
+      "resultText": "پيئڻو هو"
+    },
+    "si": {
+      "option": "ඔබ චියර්ස් බොනවා",
+      "resultText": "බොන්න තිබුනා"
+    },
+    "sk": {
+      "option": "Piješ na zdravie",
+      "resultText": "musel piť"
+    },
+    "sl": {
+      "option": "Pijete navijače",
+      "resultText": "moral piti"
+    },
+    "so": {
+      "option": "Waxaad cabtaa farxad",
+      "resultText": "lahaa in la cabbo"
+    },
+    "es": {
+      "option": "Bebes vítores",
+      "resultText": "tuve que beber"
+    },
+    "su": {
+      "option": "Anjeun nginum soré",
+      "resultText": "kedah nginum"
+    },
+    "sw": {
+      "option": "Unakunywa cheers",
+      "resultText": "ilibidi kunywa"
+    },
+    "sv": {
+      "option": "Du dricker jubel",
+      "resultText": "var tvungen att dricka"
+    },
+    "tg": {
+      "option": "Шумо шодмонро менӯшед",
+      "resultText": "нӯшидан лозим буд"
+    },
+    "ta": {
+      "option": "நீங்கள் சியர்ஸ் குடிக்கிறீர்கள்",
+      "resultText": "குடிக்க வேண்டியிருந்தது"
+    },
+    "tt": {
+      "option": "Сез бик күп эчәсез",
+      "resultText": "эчәргә тиеш иде"
+    },
+    "te": {
+      "option": "మీరు చీర్స్ తాగుతారు",
+      "resultText": "త్రాగవలసి వచ్చింది"
+    },
+    "th": {
+      "option": "คุณดื่มไชโย",
+      "resultText": "ต้องดื่ม"
+    },
+    "ti": {
+      "option": "ዕልልታ ትሰቲ",
+      "resultText": "ክሰቲ ነይርዎ ."
+    },
+    "ts": {
+      "option": "U nwa cheers .",
+      "resultText": "a a fanele a nwa ."
+    },
+    "tr": {
+      "option": "Şerefe içiyorsun",
+      "resultText": "içmek zorunda kaldı"
+    },
+    "tk": {
+      "option": "Siz şatlygy içýärsiňiz",
+      "resultText": "içmeli boldy"
+    },
+    "ak": {
+      "option": "Wonom cheers .",
+      "resultText": "na ɛsɛ sɛ ɔnom ."
+    },
+    "uk": {
+      "option": "Ви п'єте ура",
+      "resultText": "довелося пити"
+    },
+    "ur": {
+      "option": "تم خوشی پیتے ہو",
+      "resultText": "پینا پڑا"
+    },
+    "uz": {
+      "option": "Siz xursandchilik bilan ichasiz",
+      "resultText": "ichish kerak edi"
+    },
+    "vi": {
+      "option": "Bạn uống cổ vũ",
+      "resultText": "phải uống"
+    },
+    "cy": {
+      "option": "Rydych chi'n yfed lloniannau",
+      "resultText": "gorfod yfed"
+    },
+    "xh": {
+      "option": "Usela i-cheers",
+      "resultText": "Kwakufuneka usele"
+    },
+    "yi": {
+      "option": "איר טרינקען טשירז",
+      "resultText": "האט צו טרינקען"
+    },
+    "yo": {
+      "option": "O mu awọn olofo",
+      "resultText": "ni lati mu"
+    },
+    "zu": {
+      "option": "Uphuza Cheers",
+      "resultText": "kwadingeka aphuze"
+    },
+    "ug": {
+      "option": "سىز خۇشال بولىسىز",
+      "resultText": "ئىچىشكە مەجبۇر بولدى"
+    }
+  },
+  {
+    "ID": 10,
+    "effectOther": true,
+    "drinking": true,
+    "en": {
+      "option": "Choose Someone to Drink",
+      "resultText": "to drink"
+    },
+    "af": {
+      "option": "Kies iemand om te drink",
+      "resultText": "om te drink"
+    },
+    "sq": {
+      "option": "Zgjidhni dikë për të pirë",
+      "resultText": "për të pirë"
+    },
+    "am": {
+      "option": "የሚጠጣ ሰው ይምረጡ",
+      "resultText": "ለመጠጣት"
+    },
+    "ar": {
+      "option": "اختر شخصًا ما للشرب",
+      "resultText": "للشرب"
+    },
+    "hy": {
+      "option": "Ընտրեք ինչ-որ մեկին խմել",
+      "resultText": "խմել"
+    },
+    "as": {
+      "option": "পান কৰিবলৈ কোনোবা এজন বাছি লওক",
+      "resultText": "পান কৰিবলৈ"
+    },
+    "ay": {
+      "option": "Mayniru umt’añataki ajlliñani .",
+      "resultText": "Umaña ."
+    },
+    "az": {
+      "option": "İçmək üçün birini seçin",
+      "resultText": "içmək"
+    },
+    "bm": {
+      "option": "Aw bɛ mɔgɔ sugandi ka min .",
+      "resultText": "ka min ."
+    },
+    "eu": {
+      "option": "Aukeratu norbait edateko",
+      "resultText": "edateko"
+    },
+    "be": {
+      "option": "Выберыце каго -небудзь, каб выпіць",
+      "resultText": "піць"
+    },
+    "bn": {
+      "option": "পান করার জন্য কাউকে চয়ন করুন",
+      "resultText": "পান করা"
+    },
+    "bho": {
+      "option": "केहू के पीये खातिर चुनीं .",
+      "resultText": "पीये खातिर ."
+    },
+    "bs": {
+      "option": "Odaberite nekoga za piće",
+      "resultText": "za piće"
+    },
+    "bg": {
+      "option": "Изберете някой, който да пиете",
+      "resultText": "да пие"
+    },
+    "ca": {
+      "option": "Trieu algú per beure",
+      "resultText": "beure"
+    },
+    "ceb": {
+      "option": "Pilia ang usa ka tawo nga moinom",
+      "resultText": "sa pag-inom"
+    },
+    "ny": {
+      "option": "Sankhani wina wakumwa",
+      "resultText": "kumwa"
+    },
+    "zh-CN": {
+      "option": "选择有人喝",
+      "resultText": "喝"
+    },
+    "zh-TW": {
+      "option": "選擇有人喝",
+      "resultText": "喝"
+    },
+    "co": {
+      "option": "Scegli qualcunu per beie",
+      "resultText": "beie"
+    },
+    "hr": {
+      "option": "Odaberite nekoga za piće",
+      "resultText": "piti"
+    },
+    "cs": {
+      "option": "Vyberte si někoho, kdo pije",
+      "resultText": "pít"
+    },
+    "da": {
+      "option": "Vælg nogen at drikke",
+      "resultText": "at drikke"
+    },
+    "dv": {
+      "option": "ބޯން މީހަކު ހޮވާށެވެ .",
+      "resultText": "ބޯން"
+    },
+    "doi": {
+      "option": "कोई पीने के लिए चुनें",
+      "resultText": "पीने के"
+    },
+    "nl": {
+      "option": "Kies iemand om te drinken",
+      "resultText": "te drinken"
+    },
+    "eo": {
+      "option": "Elektu iun por trinki",
+      "resultText": "trinki"
+    },
+    "et": {
+      "option": "Valige keegi, keda juua",
+      "resultText": "jooma"
+    },
+    "ee": {
+      "option": "Tia ame aɖe si ano aha .",
+      "resultText": "Be woano ."
+    },
+    "tl": {
+      "option": "Pumili ng isang tao na uminom",
+      "resultText": "uminom"
+    },
+    "fi": {
+      "option": "Valitse joku juoda",
+      "resultText": "juoda"
+    },
+    "fr": {
+      "option": "Choisissez quelqu'un à boire",
+      "resultText": "boire"
+    },
+    "fy": {
+      "option": "Kies ien om te drinken",
+      "resultText": "drinke"
+    },
+    "gl": {
+      "option": "Elixe a alguén para beber",
+      "resultText": "para beber"
+    },
+    "ka": {
+      "option": "შეარჩიეთ ვინმე, ვინც დასალევად",
+      "resultText": "დასალევად"
+    },
+    "de": {
+      "option": "Wählen Sie jemanden zum Trinken",
+      "resultText": "trinken"
+    },
+    "el": {
+      "option": "Επιλέξτε κάποιον να πιει",
+      "resultText": "για να πιείτε"
+    },
+    "gn": {
+      "option": "Eiporavo peteĩ tapicha rey'u haguã .",
+      "resultText": "Ojey'u haguã ."
+    },
+    "gu": {
+      "option": "કોઈને પીવા માટે પસંદ કરો",
+      "resultText": "પીણું"
+    },
+    "ht": {
+      "option": "Chwazi yon moun pou bwè",
+      "resultText": "bwè"
+    },
+    "ha": {
+      "option": "Zabi wani ya sha",
+      "resultText": "sha"
+    },
+    "haw": {
+      "option": "E koho i kekahi e inu",
+      "resultText": "e inu"
+    },
+    "iw": {
+      "option": "בחר מישהו לשתות",
+      "resultText": "לשתות"
+    },
+    "hi": {
+      "option": "पीने के लिए किसी को चुनें",
+      "resultText": "पीने के लिए"
+    },
+    "hmn": {
+      "option": "Xaiv ib tug neeg haus",
+      "resultText": "kom haus"
+    },
+    "hu": {
+      "option": "Válasszon valakit, akinek inni",
+      "resultText": "inni"
+    },
+    "is": {
+      "option": "Veldu einhvern til að drekka",
+      "resultText": "að drekka"
+    },
+    "ig": {
+      "option": "Họrọ mmadụ ị drinkụ mmanya",
+      "resultText": "ị drinkụ mmanya"
+    },
+    "ilo": {
+      "option": "Pilien ti maysa nga inumen .",
+      "resultText": "Tapno uminum ."
+    },
+    "id": {
+      "option": "Pilih seseorang untuk diminum",
+      "resultText": "untuk minum"
+    },
+    "ga": {
+      "option": "Roghnaigh duine le hól",
+      "resultText": "a ól"
+    },
+    "it": {
+      "option": "Scegli qualcuno da bere",
+      "resultText": "da bere"
+    },
+    "ja": {
+      "option": "飲む人を選んでください",
+      "resultText": "飲む"
+    },
+    "jw": {
+      "option": "Pilih wong sing kudu diombe",
+      "resultText": "ngombe"
+    },
+    "kn": {
+      "option": "ಕುಡಿಯಲು ಯಾರನ್ನಾದರೂ ಆರಿಸಿ",
+      "resultText": "ಕುಡಿಯಲು"
+    },
+    "kk": {
+      "option": "Ішетін біреуді таңдаңыз",
+      "resultText": "ішу"
+    },
+    "km": {
+      "option": "ជ្រើសរើសនរណាម្នាក់ផឹក",
+      "resultText": "ផឹក"
+    },
+    "rw": {
+      "option": "Hitamo umuntu wo kunywa",
+      "resultText": "kunywa"
+    },
+    "gom": {
+      "option": "पिवपाक कोणाक तरी वेंचून काडात .",
+      "resultText": "पिवपाखातीर ."
+    },
+    "ko": {
+      "option": "마실 사람을 선택하십시오",
+      "resultText": "마시기 위해"
+    },
+    "kri": {
+      "option": "Pik pɔsin fɔ drink .",
+      "resultText": "fɔ drink ."
+    },
+    "ku": {
+      "option": "Hilbijêre kesek vexwin",
+      "resultText": "vexwarin"
+    },
+    "ckb": {
+      "option": "کەسێک هەڵبژێرە بۆ خواردنەوە",
+      "resultText": "بۆ خواردنەوە"
+    },
+    "ky": {
+      "option": "Ичкен адамды тандаңыз",
+      "resultText": "ичүү"
+    },
+    "lo": {
+      "option": "ເລືອກຄົນທີ່ດື່ມ",
+      "resultText": "ດື່ມ"
+    },
+    "la": {
+      "option": "Eligere aliquis ad bibendum",
+      "resultText": "ut bibere"
+    },
+    "lv": {
+      "option": "Izvēlieties kādu dzert",
+      "resultText": "dzert"
+    },
+    "ln": {
+      "option": "Pona moto oyo akomela .",
+      "resultText": "mpo na komɛla ."
+    },
+    "lt": {
+      "option": "Pasirinkite ką nors gerti",
+      "resultText": "gerti"
+    },
+    "lg": {
+      "option": "Londa omuntu okunywa .",
+      "resultText": "okunywa ."
+    },
+    "lb": {
+      "option": "Wielt een ze drénken",
+      "resultText": "drénken"
+    },
+    "mk": {
+      "option": "Изберете некој да пие",
+      "resultText": "да пие"
+    },
+    "mai": {
+      "option": "कियो पीबय लेल चुनू",
+      "resultText": "पीने के लिये"
+    },
+    "mg": {
+      "option": "Misafidiana olona hisotro",
+      "resultText": "hisotro"
+    },
+    "ms": {
+      "option": "Pilih seseorang untuk minum",
+      "resultText": "minum"
+    },
+    "ml": {
+      "option": "ആരെയെങ്കിലും കുടിക്കാൻ തിരഞ്ഞെടുക്കുക",
+      "resultText": "കുടിക്കാൻ"
+    },
+    "mt": {
+      "option": "Agħżel lil xi ħadd li jixrob",
+      "resultText": "biex tixrob"
+    },
+    "mi": {
+      "option": "Whiriwhiria tetahi hei inu",
+      "resultText": "ki te inu"
+    },
+    "mr": {
+      "option": "पिण्यासाठी एखाद्यास निवडा",
+      "resultText": "पिणे"
+    },
+    "mni-Mtei": {
+      "option": "ꯊꯀꯄꯥ ꯌꯥꯕꯥ ꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯥ ꯈꯜꯂꯨ .",
+      "resultText": "ꯊꯀꯄꯥ ꯌꯥꯕꯥ ."
+    },
+    "lus": {
+      "option": "In tur mi thlang rawh .",
+      "resultText": "In tur ."
+    },
+    "mn": {
+      "option": "Ундаа хэн нэгнийг сонго",
+      "resultText": "уух"
+    },
+    "my": {
+      "option": "သောက်ရန်တစ်စုံတစ် ဦး ကိုရွေးချယ်ပါ",
+      "resultText": "သောက်ရန်"
+    },
+    "ne": {
+      "option": "कसैलाई पिउन छनौट गर्नुहोस्",
+      "resultText": "पिउनु"
+    },
+    "no": {
+      "option": "Velg noen å drikke",
+      "resultText": "å drikke"
+    },
+    "or": {
+      "option": "କାହାକୁ ପିଇବାକୁ ବାଛନ୍ତୁ |",
+      "resultText": "ପିଇବା ପାଇଁ"
+    },
+    "om": {
+      "option": "Nama dhugaatii dhuguu filadhaa .",
+      "resultText": "dhugaatiif ."
+    },
+    "ps": {
+      "option": "یو څوک د څښلو لپاره غوره کړئ",
+      "resultText": "څښل"
+    },
+    "fa": {
+      "option": "کسی را برای نوشیدن انتخاب کنید",
+      "resultText": "نوشیدن"
+    },
+    "pl": {
+      "option": "Wybierz kogoś do picia",
+      "resultText": "pić"
+    },
+    "pt": {
+      "option": "Escolha alguém para beber",
+      "resultText": "beber"
+    },
+    "pa": {
+      "option": "ਕਿਸੇ ਨੂੰ ਪੀਣ ਲਈ ਚੁਣੋ",
+      "resultText": "ਪੀਣ ਲਈ"
+    },
+    "qu": {
+      "option": "Pitapas upyananpaq akllay .",
+      "resultText": "Upyanapaq ."
+    },
+    "ro": {
+      "option": "Alegeți pe cineva care să bea",
+      "resultText": "a bea"
+    },
+    "ru": {
+      "option": "Выберите кого -нибудь, чтобы выпить",
+      "resultText": "выпить"
+    },
+    "sm": {
+      "option": "Filifili se tasi e inu",
+      "resultText": "e inu"
+    },
+    "sa": {
+      "option": "कञ्चित् पिबितुं चिनुत .",
+      "resultText": "पेयम् ."
+    },
+    "gd": {
+      "option": "Tagh cuideigin ri òl",
+      "resultText": "ri òl"
+    },
+    "nso": {
+      "option": "Kgetha motho wa go nwa .",
+      "resultText": "Go nwa ."
+    },
+    "sr": {
+      "option": "Изаберите некога да пије",
+      "resultText": "за пиће"
+    },
+    "st": {
+      "option": "Khetha motho ea tla noa",
+      "resultText": "ho noa"
+    },
+    "sn": {
+      "option": "Sarudza mumwe munhu kuti anwe",
+      "resultText": "kumwa"
+    },
+    "sd": {
+      "option": "ڪنهن کي پيئڻ لاء چونڊيو",
+      "resultText": "پيئڻ"
+    },
+    "si": {
+      "option": "බොන්න කෙනෙකු තෝරන්න",
+      "resultText": "බොන්න"
+    },
+    "sk": {
+      "option": "Vyberte si niekoho na pitie",
+      "resultText": "piť"
+    },
+    "sl": {
+      "option": "Izberite nekoga, ki bo pil",
+      "resultText": "piti"
+    },
+    "so": {
+      "option": "Xulo qof wax cabbo",
+      "resultText": "in la cabbo"
+    },
+    "es": {
+      "option": "Elija a alguien para beber",
+      "resultText": "para beber"
+    },
+    "su": {
+      "option": "Pilih batur nginum",
+      "resultText": "nginum"
+    },
+    "sw": {
+      "option": "Chagua mtu wa kunywa",
+      "resultText": "kunywa"
+    },
+    "sv": {
+      "option": "Välj någon att dricka",
+      "resultText": "att dricka"
+    },
+    "tg": {
+      "option": "Касеро барои нӯшидан интихоб кунед",
+      "resultText": "нӯшидан"
+    },
+    "ta": {
+      "option": "குடிக்க யாரையாவது தேர்வு செய்யவும்",
+      "resultText": "குடிக்க"
+    },
+    "tt": {
+      "option": "Эчәр өчен кемнедер сайлагыз",
+      "resultText": "эчәргә"
+    },
+    "te": {
+      "option": "తాగడానికి ఒకరిని ఎంచుకోండి",
+      "resultText": "తాగడానికి"
+    },
+    "th": {
+      "option": "เลือกคนที่จะดื่ม",
+      "resultText": "ดื่ม"
+    },
+    "ti": {
+      "option": "ዝሰቲ ሰብ ምረጽ",
+      "resultText": "ንምስታይ ."
+    },
+    "ts": {
+      "option": "Hlawula munhu wo nwa .",
+      "resultText": "Ku nwa ."
+    },
+    "tr": {
+      "option": "İçecek birini seçin",
+      "resultText": "içmek"
+    },
+    "tk": {
+      "option": "Içmäge kimdir birini saýlaň",
+      "resultText": "içmek"
+    },
+    "ak": {
+      "option": "Paw obi a ɔbɛnom nsa .",
+      "resultText": "to drink ."
+    },
+    "uk": {
+      "option": "Виберіть когось, щоб випити",
+      "resultText": "випити"
+    },
+    "ur": {
+      "option": "کسی کو پینے کے لئے منتخب کریں",
+      "resultText": "پینے کے لئے"
+    },
+    "ug": {
+      "option": "ئىچىدىغان بىرىنى تاللاڭ",
+      "resultText": "ئىچىش"
+    },
+    "uz": {
+      "option": "Ichish uchun kimnidir tanlang",
+      "resultText": "ichish"
+    },
+    "vi": {
+      "option": "Chọn ai đó để uống",
+      "resultText": "để uống"
+    },
+    "cy": {
+      "option": "Dewiswch rywun i'w yfed",
+      "resultText": "i yfed"
+    },
+    "xh": {
+      "option": "Khetha umntu oza kusela",
+      "resultText": "ukusela"
+    },
+    "yi": {
+      "option": "קלייַבן עמעצער צו טרינקען",
+      "resultText": "צו טרינקען"
+    },
+    "yo": {
+      "option": "Yan ẹnikan lati mu",
+      "resultText": "lati mu"
+    },
+    "zu": {
+      "option": "Khetha umuntu ozophuza",
+      "resultText": "ukuphuza"
+    }
+  }
+]
