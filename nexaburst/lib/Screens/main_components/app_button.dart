@@ -4,6 +4,52 @@ import 'package:flutter/material.dart';
 import 'package:nexaburst/constants.dart';
 import 'app_text.dart';
 
+class _PressScale extends StatefulWidget {
+  const _PressScale({
+    required this.child,
+    required this.enabled,
+    this.pressedScale = 0.95,
+    this.duration = const Duration(milliseconds: 120),
+  });
+
+  final Widget child;
+  final bool enabled;
+  final double pressedScale;
+  final Duration duration;
+
+  @override
+  State<_PressScale> createState() => _PressScaleState();
+}
+
+class _PressScaleState extends State<_PressScale> {
+  double _scale = 1.0;
+
+  void _handleTapDown(TapDownDetails _) {
+    if (!widget.enabled) return;
+    setState(() => _scale = widget.pressedScale);
+  }
+
+  void _resetScale() {
+    if (_scale == 1.0) return;
+    setState(() => _scale = 1.0);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTapDown: _handleTapDown,
+      onTapUp: (_) => _resetScale(),
+      onTapCancel: _resetScale,
+      child: AnimatedScale(
+        scale: _scale,
+        duration: widget.duration,
+        curve: Curves.easeOut,
+        child: widget.child,
+      ),
+    );
+  }
+}
+
 /// A utility class for building consistent and reusable button widgets.
 ///
 /// Provides several static methods to create various types of buttons,
@@ -68,7 +114,7 @@ class AppButton {
       button = FractionallySizedBox(widthFactor: widthFactor, child: button);
     }
 
-    return button;
+    return _PressScale(enabled: enabled, child: button);
   }
 
   /// Builds a secondary styled button using [OutlinedButton].
@@ -126,7 +172,7 @@ class AppButton {
       button = FractionallySizedBox(widthFactor: widthFactor, child: button);
     }
 
-    return button;
+    return _PressScale(enabled: enabled, child: button);
   }
 
   /// Builds a minimal text button using [TextButton].
