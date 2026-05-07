@@ -99,7 +99,7 @@ class StartGameViewModelLogic extends IStartGameService {
     room$ = StartGameModel.roomStream(roomId).asBroadcastStream();
     players$ = StartGameModel.playersStream(roomId).asBroadcastStream();
 
-    // 4) subscribe to updates
+    // Subscribe to reactive room updates after seeding initial values.
     _subHost = room$
         .map((r) => r.hostId)
         .distinct()
@@ -158,14 +158,14 @@ class StartGameViewModelLogic extends IStartGameService {
       return false;
     }
 
-    // Wrap the joinRoom server call inside safeCall:
+    // Guard network errors and Firestore exceptions via safeCall.
     final Map<String, dynamic>? result = await safeCall<Map<String, dynamic>?>(
       () => StartGameModel.joinRoom(roomId: roomId, player: player),
       fallbackValue: null,
     );
 
     if (result == null || result['joined'] != true) {
-      // Either Firestore threw, or joinRoom returned 'joined: false'
+      // Join failed either due to backend errors or explicit rejection.
       return false;
     }
 
@@ -185,21 +185,21 @@ class StartGameViewModelLogic extends IStartGameService {
     required String lang,
   }) async {
     if (levels.isEmpty) {
-      // No levels provided, cannot create room
+      // Creating an empty level sequence is not a valid room state.
       return false;
     }
 
-    // 1) generateUniqueRoomId
+    // Generate a unique room ID before creating any room documents.
     final String? newRoomId = await safeCall<String?>(
       () => StartGameModel.generateUniqueRoomId(),
       fallbackValue: null,
     );
     if (newRoomId == null) {
-      // unable to generate ID (network error, etc.)
+      // Abort early when ID generation fails.
       return false;
     }
 
-    // 2) build Room model
+    // Build the room payload that will be stored in Firestore.
     initialization(roomId: roomId = newRoomId);
     final room = Room(
       roomId: roomId,
@@ -211,7 +211,7 @@ class StartGameViewModelLogic extends IStartGameService {
       levels: levels.keys.toList(),
     );
 
-    // 3) call createRoom(...)
+    // Persist the room and level data.
     final String? createdId = await safeCall<String?>(
       () =>
           StartGameModel.createRoom(player: player, room: room, levels: levels),
@@ -219,11 +219,11 @@ class StartGameViewModelLogic extends IStartGameService {
     );
 
     if (createdId == null) {
-      // createRoom hit an error
+      // Backend room creation failed.
       return false;
     }
 
-    // 4) start listening to the newly created room
+    // Start listeners after room creation succeeds.
     await _startListener();
     return true;
   }
@@ -250,14 +250,14 @@ class StartGameViewModelLogic extends IStartGameService {
   /// Returns a tuple of (forbiddenWords, languageCode).
   @override
   Future<Tuple2<List<String>, String>> preJoiningMicPremission() async {
-    // We can also wrap forbiddenWordsCheck in safeCall if desired:
+    // Provide a fallback tuple so callers always receive a usable value.
     final Tuple2<List<String>, String>? result =
         await safeCall<Tuple2<List<String>, String>?>(
           () => StartGameModel.forbiddenWordsCheck(roomId: roomId),
           fallbackValue: Tuple2([], 'en'),
         );
 
-    return result!; // if null, we provided fallback
+    return result!; // safeCall fallback ensures a non-null value here.
   }
 
   /// Transitions the room’s status to “playing” on the server.

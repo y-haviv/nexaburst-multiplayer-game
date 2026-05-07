@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nexaburst/constants.dart';
 
+/// Horizontal divider with centered "OR" label for auth actions.
 class OrDivider extends StatelessWidget {
   const OrDivider({super.key});
 
@@ -29,12 +30,10 @@ class OrDivider extends StatelessWidget {
     );
   }
 
+  /// Builds one side of the divider line.
   Expanded buildDivider() {
     return const Expanded(
-      child: Divider(
-        color: Color(0xFFD9D9D9),
-        height: 1.5,
-      ),
+      child: Divider(color: Color(0xFFD9D9D9), height: 1.5),
     );
   }
 }

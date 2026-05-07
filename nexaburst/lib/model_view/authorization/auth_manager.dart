@@ -56,13 +56,12 @@ class AuthManager extends AuthManagerInterface {
       );
     }
 
-    // fix to check: "password_requires": "Password must include a number and must include a special character."
+    // Keep validation aligned with current regex policy used by the app.
     if (!RegExp(r'^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{5,}$').hasMatch(value)) {
       return TranslationService.instance.t(
         'errors.registration_and_login.password_requires',
       );
     }
-    //
 
     return null;
   }

@@ -49,14 +49,16 @@ class DrinkingStageManager {
   factory DrinkingStageManager() => _instance;
 
   /// ID of the current game room.
-  String? roomId; // Unique identifier of the room (as a string)
+  String? roomId;
+
   /// Flag indicating whether drinking penalties are enabled.
   bool? isDrinkingMode;
 
   /// Fallback message shown on the drinking screen.
   final String defaultDrinkingMessage = TranslationService.instance.t(
     'game.modes.drinking_mode.drink_action_prompt',
-  ); // Message to show on the drinking screen.
+  );
+
   /// Customizable prompt message and aggregated forbidden‑words feedback.
   String? drinkMessage;
   String? drinkWords;
@@ -140,21 +142,19 @@ class DrinkingStageManager {
     );
 
     if (isDrinkingMode == null || roomId == null) {
-      debugPrint(
-        "[Drinking] End of drinking phase - Error init state.",
-      ); // problem
+      debugPrint("[Drinking] End of drinking phase - Error init state.");
       ErrorService.instance.report(error: ErrorType.notInitialized);
       return;
     }
     if (_started || !isDrinkingMode! || !_initialized) {
-      debugPrint("[Drinking] End of drinking phase - not starting."); // change
+      debugPrint("[Drinking] End of drinking phase - not starting.");
       return;
     }
     _started = true;
 
     _valueController = BehaviorSubject<List<String>>();
 
-    // 1.
+    // Initialize backend mode-specific state before consuming its stream.
     drinkingModel.initialization(roomId: roomId!);
     await safeCall(
       () => drinkingModel.waitUntilInitialized(),
@@ -166,7 +166,7 @@ class DrinkingStageManager {
       UserData.instance.user!.id,
     );
 
-    // 2. Live updates
+    // Keep local state synchronized with live players-to-drink updates.
     _subPlayers = drinkingModel.stream.listen(
       (map) {
         if (map.isEmpty) {
@@ -186,7 +186,7 @@ class DrinkingStageManager {
       },
     );
 
-    // 2.timer for UI and fallback
+    // Run a countdown to guarantee progress even without user interaction.
     final done = timerService.start(ScreenDurations.drinkScreenTime);
     _subTime = timerService.getTime().listen(
       (secs) {
@@ -202,10 +202,10 @@ class DrinkingStageManager {
       },
     );
 
-    // 3. drinking loop
+    // Process state transitions until every player completes the phase.
     debugPrint("[Drinking] Entering drinking loop isFinish: $isFinish");
     while (!isFinish) {
-      // 4. if player need to drink
+      // Active player path: show drink prompt and wait for completion signal.
       if (playerNeedToDrink) {
         // Create and store a completer so that the UI can signal completion.
         _drinkingCompleter = Completer<void>();
@@ -241,7 +241,7 @@ class DrinkingStageManager {
         });
         playerNeedToDrink = false;
       } else {
-        // doesnt need to drink need to wait for rest of players
+        // Passive player path: wait while others complete their drink action.
         await _updateState(DrinkState.waitDrinking, {
           'drinkStream': _valueController.stream,
         });

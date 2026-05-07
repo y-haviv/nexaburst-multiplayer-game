@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:nexaburst/Screens/main_components/background_enter.dart';
 import 'package:nexaburst/constants.dart';
 
+/// Entry screen for requesting a password reset email.
 class ResetPasswordScreen extends StatelessWidget {
   const ResetPasswordScreen({super.key});
 
@@ -16,6 +17,7 @@ class ResetPasswordScreen extends StatelessWidget {
   }
 }
 
+/// Responsive wrapper that constrains [ResetForm] on wide layouts.
 class ResponsiveReset extends StatelessWidget {
   const ResponsiveReset({super.key});
 
@@ -40,6 +42,7 @@ class ResponsiveReset extends StatelessWidget {
   }
 }
 
+/// Stateful form that validates email input and triggers reset flow.
 class ResetForm extends StatefulWidget {
   const ResetForm({super.key});
 
@@ -51,6 +54,10 @@ class _ResetFormState extends State<ResetForm> {
   final _emailCtrl = TextEditingController();
   bool _loading = false;
 
+  /// Sends a password reset email through Firebase Auth.
+  ///
+  /// The method uses a generic success message to avoid exposing
+  /// whether an account exists for the provided email.
   Future<void> _sendReset() async {
     final email = _emailCtrl.text.trim();
     if (email.isEmpty) {

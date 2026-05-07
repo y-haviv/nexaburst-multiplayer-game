@@ -1,8 +1,6 @@
-"""
-Configuration module for language mappings and translation targets.
-"""
+"""Language configuration used by translation helper scripts."""
 
-# Mapping of full language names to ISO 639-1 codes used by Google Translate
+# Mapping of language names to translation service language codes.
 LANGUAGE_MAP = {
     'afrikaans': 'af', 'albanian': 'sq', 'amharic': 'am', 'arabic': 'ar', 'armenian': 'hy',
     'assamese': 'as', 'aymara': 'ay', 'azerbaijani': 'az', 'bambara': 'bm', 'basque': 'eu',
@@ -34,5 +32,5 @@ LANGUAGE_MAP = {
     'yiddish': 'yi', 'yoruba': 'yo', 'zulu': 'zu'
 }
 
-# Automatically derive target languages (excluding English)
+# Build the translation target list from the map while skipping English.
 TARGET_LANGUAGES = [code for code in LANGUAGE_MAP.values() if code != 'en']

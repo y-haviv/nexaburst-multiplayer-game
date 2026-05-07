@@ -6,6 +6,7 @@ import 'package:nexaburst/models/data/server/levels/level6/Lv06.dart';
 import 'package:nexaburst/models/data/service/translation_controllers.dart';
 import 'package:tuple/tuple.dart';
 
+/// Debug implementation of the Level 06 trust mode.
 class FakeLev06 extends Lv06 {
   final String playerId = UserData.instance.user!.id;
 
@@ -13,13 +14,12 @@ class FakeLev06 extends Lv06 {
   bool stole = false;
   int geuss = -1;
 
-  // Constant for the level document name.
-  static String levelName =
-      TranslationService.instance.levelKeys[5];
+  /// Localized level key used for instruction lookup.
+  static String levelName = TranslationService.instance.levelKeys[5];
 
   @override
   Stream<int> get playerCountStream async* {
-    // Simulate a stream that emits the number of players in the room.
+    // Emit a stable synthetic count to simulate room presence updates.
     while (true) {
       await Future.delayed(Duration(seconds: 5));
       yield FakeRoomData.otherPlayers.length + 1; // +1 for the current player
@@ -27,10 +27,7 @@ class FakeLev06 extends Lv06 {
   }
 
   @override
-  void initialization({
-    required String roomId,
-    required bool isDrinkingMode,
-  }) {
+  void initialization({required String roomId, required bool isDrinkingMode}) {
     this.isDrinkingMode = isDrinkingMode;
     stole = false;
     geuss = -1;
@@ -40,7 +37,9 @@ class FakeLev06 extends Lv06 {
   String getInstruction() {
     return isDrinkingMode
         ? TranslationService.instance.t('game.levels.$levelName.instructions') +
-            TranslationService.instance.t('game.levels.$levelName.drinking_instructions')
+              TranslationService.instance.t(
+                'game.levels.$levelName.drinking_instructions',
+              )
         : TranslationService.instance.t('game.levels.$levelName.instructions');
   }
 
@@ -62,23 +61,29 @@ class FakeLev06 extends Lv06 {
     int count = 0;
     for (int i = 0; i < FakeRoomData.otherPlayers.length; i++) {
       String pid = FakeRoomData.otherPlayers[i].id;
-      if(geuss == -1) {
+      if (geuss == -1) {
         geuss = Random().nextInt(FakeRoomData.otherPlayers.length + 1);
       }
       if (pid == playerId) {
         if (stole) {
           count += 1;
         }
-        playersInfo[pid] = Tuple2(stole.toString(), geuss!=-1 ? geuss.toString() : "Didn't guess");
+        playersInfo[pid] = Tuple2(
+          stole.toString(),
+          geuss != -1 ? geuss.toString() : "Didn't guess",
+        );
       } else {
         final random = Random();
         bool booleanStill = random.nextInt(2) == 1;
         if (booleanStill) {
           count += 1;
         }
-        playersInfo[pid] = Tuple2(booleanStill.toString(), geuss!=-1 ? geuss.toString() : "Didn't guess");
+        playersInfo[pid] = Tuple2(
+          booleanStill.toString(),
+          geuss != -1 ? geuss.toString() : "Didn't guess",
+        );
       }
-      if(geuss == -1) {
+      if (geuss == -1) {
         geuss = Random().nextInt(FakeRoomData.otherPlayers.length + 1);
       } else {
         geuss = -1;

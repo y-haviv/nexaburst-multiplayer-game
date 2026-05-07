@@ -10,6 +10,7 @@ import 'package:nexaburst/models/structures/levels/level3/lv03_loader.dart';
 import 'package:nexaburst/models/structures/player_model.dart';
 import 'package:tuple/tuple.dart';
 
+/// Debug implementation of the Level 03 intelligence mode.
 class FakeLv03 extends Lv03 {
   final String playerId = UserData.instance.user!.id;
 
@@ -18,9 +19,8 @@ class FakeLv03 extends Lv03 {
   int currentIndex = 0;
   double playerAns = -1;
 
-  // Constant for the level document name.
-  static String levelName =
-      TranslationService.instance.levelKeys[2];
+  /// Localized level key used for instruction lookup.
+  static String levelName = TranslationService.instance.levelKeys[2];
 
   @override
   Future<void> initialization({
@@ -37,12 +37,14 @@ class FakeLv03 extends Lv03 {
   String getInstruction() {
     return isDrinkingMode
         ? TranslationService.instance.t('game.levels.$levelName.instructions') +
-            TranslationService.instance.t('game.levels.$levelName.drinking_instructions')
+              TranslationService.instance.t(
+                'game.levels.$levelName.drinking_instructions',
+              )
         : TranslationService.instance.t('game.levels.$levelName.instructions');
   }
 
   Future<Map<String, dynamic>> _getQuestionById(Lv03Model model) async {
-    // find the raw question entry from the loaded JSON
+    // Resolve the current question in the loaded fixture payload.
     final questionsList = await Lv03Loader.data;
     final entry = questionsList.firstWhere(
       (q) => q['ID'] == model.questions[model.currentQuestionIndex],
@@ -50,9 +52,10 @@ class FakeLv03 extends Lv03 {
     );
     if (entry.isEmpty) return {};
 
-    // pick the node for the current language, or fallback to English
+    // Prefer current language and fall back to English when unavailable.
     final lang = TranslationService.instance.currentLanguage;
-    final localized = entry[lang] as Map<String, dynamic>? ??
+    final localized =
+        entry[lang] as Map<String, dynamic>? ??
         entry['en'] as Map<String, dynamic>;
 
     return {
@@ -66,53 +69,62 @@ class FakeLv03 extends Lv03 {
   Future<Map<String, dynamic>> fetchNextRoundDataAndUpdate() async {
     Map<String, dynamic> levelData =
         FakeRoomData.levelsData[levelName]?.toJson() ?? {};
-    
 
-    // QUESTIONS: convert raw questions array into List<int>
+    // Convert raw serialized IDs into a strongly typed question list.
     final rawQs = levelData['questions'];
     final questions = <int>[];
     if (rawQs is Iterable) {
       questions.addAll(rawQs.map((e) => e as int));
     }
 
-    // If there are no more questions, signal done.
+    // Stop when all configured questions have been consumed.
     if (currentIndex >= questions.length) {
       return {"done": true};
     }
 
-    // Get the question ID for the current round.
+    // Build the current round response payload.
     int questionId = questions[currentIndex];
 
-    // Create a model instance and retrieve question details.
-      Lv03Model model = Lv03Model(
-          currentQuestionIndex: currentIndex, questions: questions, rounds: 0);
-      Map<String, dynamic> questionDetails = await _getQuestionById(model);
+    // Pull localized question details from the loader source.
+    Lv03Model model = Lv03Model(
+      currentQuestionIndex: currentIndex,
+      questions: questions,
+      rounds: 0,
+    );
+    Map<String, dynamic> questionDetails = await _getQuestionById(model);
 
-      return {
-        "done": false,
-        "question": questionDetails["question"],
-        "answers": questionDetails["answers"],
-        "correct_answer": questionDetails["correct_answer"],
-        "questionId": questionId,
-      };
+    return {
+      "done": false,
+      "question": questionDetails["question"],
+      "answers": questionDetails["answers"],
+      "correct_answer": questionDetails["correct_answer"],
+      "questionId": questionId,
+    };
   }
 
   @override
-  Future<void> updatePlayerAnswer(double result) async {playerAns = result;}
+  Future<void> updatePlayerAnswer(double result) async {
+    playerAns = result;
+  }
 
   @override
-  Future<void> loading() async {return;}
+  Future<void> loading() async {
+    return;
+  }
 
   int _getRandomIntInRange(int min, int max) {
-  final random = Random();
-  return min + random.nextInt(max - min + 1);
-}
+    final random = Random();
+    return min + random.nextInt(max - min + 1);
+  }
 
-   @override
+  @override
   Future<Map<String, Tuple2<String, int>>> processQuestionResults() async {
     Map<String, Tuple2<String, int>> ans = {};
-    for(Player p in FakeRoomData.otherPlayers) {
-      ans[p.id] = Tuple2(p.username,_getRandomIntInRange(1,FakeRoomData.otherPlayers.length));
+    for (Player p in FakeRoomData.otherPlayers) {
+      ans[p.id] = Tuple2(
+        p.username,
+        _getRandomIntInRange(1, FakeRoomData.otherPlayers.length),
+      );
     }
 
     return ans;
@@ -125,7 +137,5 @@ class FakeLv03 extends Lv03 {
   }
 
   @override
-  void dispose() {
-    
-  }
+  void dispose() {}
 }

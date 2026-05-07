@@ -1,6 +1,4 @@
-"""
-Fetcher for generating questions using OpenAI GPT.
-"""
+"""Fetcher that generates structured quiz questions via OpenAI."""
 import json
 import os
 import logging
@@ -12,13 +10,13 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 class IQGenerator(BaseFetcher):
-    """
-    Uses ChatCompletion to generate formatted IQ questions.
-    """
+    """Generate IQ-style question data in the repository JSON schema."""
     def __init__(self):
+        """Initialize API credentials from the current environment."""
         openai.api_key = os.getenv("OPENAI_API_KEY")
 
     def fetch(self, amount: int = 10) -> list:
+        """Request and normalize ``amount`` generated questions."""
         prompt = (
             f"Generate {amount} unique IQ questions as a JSON list. "
             "Format: [{'question': '...', 'answers': {'a': '...', 'b': '...', 'c': '...', 'd': '...'}, "
@@ -33,7 +31,7 @@ class IQGenerator(BaseFetcher):
             content = response.choices[0].message.content
             raw_data = json.loads(content)
             
-            # Normalize to our 'en' schema
+            # Keep AI output consistent with the same schema used by all fetchers.
             return [
                 {
                     "id": i, 

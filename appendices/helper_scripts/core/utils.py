@@ -1,6 +1,4 @@
-"""
-Utility functions for file handling, logging, and string sanitization.
-"""
+"""Shared utility helpers for JSON I/O, backups, and placeholder safety."""
 import json
 import os
 import shutil
@@ -16,12 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def backup_file(path: str):
-    """
-    Creates a backup of a file with a timestamp in a 'backups/' directory.
-    
-    Args:
-        path (str): The path to the file to back up.
-    """
+    """Create a timestamped backup copy in the local ``backups`` folder."""
     if os.path.exists(path):
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         backup_dir = 'backups'
@@ -30,9 +23,7 @@ def backup_file(path: str):
         shutil.copy(path, os.path.join(backup_dir, f"{filename}.{timestamp}.bak"))
 
 def load_json(path: str) -> list | dict:
-    """
-    Safely loads a JSON file. Returns an empty list if not found.
-    """
+    """Load a JSON file and return an empty list when loading fails."""
     if not os.path.exists(path):
         return []
     try:
@@ -43,9 +34,7 @@ def load_json(path: str) -> list | dict:
         return []
 
 def save_json(data: list | dict, path: str):
-    """
-    Saves data to a JSON file atomically using a temporary file.
-    """
+    """Persist JSON atomically by writing to a temporary file first."""
     temp_path = f"{path}.tmp"
     try:
         with open(temp_path, 'w', encoding='utf-8') as f:
@@ -57,9 +46,7 @@ def save_json(data: list | dict, path: str):
             os.remove(temp_path)
 
 def mask_placeholders(text: str) -> tuple[str, list[str]]:
-    """
-    Protects strings like {name} or {0} from translation by replacing them with a token.
-    """
+    """Replace ``{placeholder}`` segments so translators do not mutate them."""
     if not isinstance(text, str):
         return str(text), []
     placeholders = re.findall(r"\{[^}]+\}", text)
@@ -67,9 +54,7 @@ def mask_placeholders(text: str) -> tuple[str, list[str]]:
     return masked, placeholders
 
 def restore_placeholders(text: str, placeholders: list[str]) -> str:
-    """
-    Replaces translation tokens back with original placeholders.
-    """
+    """Restore masked placeholder markers into translated text in order."""
     for ph in placeholders:
         text = text.replace("__PH__", ph, 1)
     return text

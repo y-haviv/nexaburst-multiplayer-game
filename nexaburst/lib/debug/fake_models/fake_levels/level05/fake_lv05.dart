@@ -9,6 +9,7 @@ import 'package:rxdart/rxdart.dart';
 import 'package:nexaburst/models/structures/levels/level5/Lv05_model.dart';
 import 'package:tuple/tuple.dart';
 
+/// Debug implementation of the Level 05 whack-a-mole mode.
 class FakeLv05 extends Lv05 {
   final String playerId = UserData.instance.user!.id;
   Lv05WhackMoleModel levelR =
@@ -23,7 +24,7 @@ class FakeLv05 extends Lv05 {
 
   static String levelName = TranslationService.instance.levelKeys[4];
 
-  // Streams exposed to UI:
+  /// Streams exposed to UI for deterministic manual testing.
   @override
   Stream<String> get liveStreamingText => _liveStreamSubject.stream;
   @override
@@ -33,7 +34,7 @@ class FakeLv05 extends Lv05 {
   @override
   Stream<bool> get playerMole => _isMoleSubject.stream;
 
-  // Internal model_view
+  /// Internal debug stream subjects backing the public API.
   late BehaviorSubject<String> _liveStreamSubject;
   late BehaviorSubject<Tuple2<List<String>, int>> _moleOrderSubject;
 
@@ -54,11 +55,13 @@ class FakeLv05 extends Lv05 {
     _startListeners();
   }
 
- @override
+  @override
   String getInstruction() {
     return isDrinkingMode
         ? TranslationService.instance.t('game.levels.$levelName.instructions') +
-            TranslationService.instance.t('game.levels.$levelName.drinking_instructions')
+              TranslationService.instance.t(
+                'game.levels.$levelName.drinking_instructions',
+              )
         : TranslationService.instance.t('game.levels.$levelName.instructions');
   }
 
@@ -147,18 +150,18 @@ class FakeLv05 extends Lv05 {
         try {
           index = int.tryParse(arg!);
           if (index == null) {
-            debugPrint("1. problem - so will show at hole 0");
+            debugPrint("Invalid hole argument; defaulting to hole 0.");
             index = 0;
           }
         } catch (e) {
-          debugPrint("2. problem - so will show at hole 0");
+          debugPrint("Failed to parse hole argument; defaulting to hole 0.");
           index = 0;
         }
-         levelR.holes[index] = levelR.holes[index].copyWith(whacking:true);
+        levelR.holes[index] = levelR.holes[index].copyWith(whacking: true);
         _holesSubject.add(List.from(levelR.holes));
         _liveStreamSubject.add("fake hit...");
         await Future.delayed(Duration(seconds: 1));
-        levelR.holes[index] = levelR.holes[index].copyWith(whacking:false);
+        levelR.holes[index] = levelR.holes[index].copyWith(whacking: false);
         _holesSubject.add(List.from(levelR.holes));
       },
     );
@@ -170,14 +173,14 @@ class FakeLv05 extends Lv05 {
         try {
           index = int.tryParse(arg!);
           if (index == null) {
-            debugPrint("1. problem - so will show at hole 0");
+            debugPrint("Invalid hole argument; defaulting to hole 0.");
             index = 0;
           }
         } catch (e) {
-          debugPrint("2. problem - so will show at hole 0");
+          debugPrint("Failed to parse hole argument; defaulting to hole 0.");
           index = 0;
         }
-         levelR.holes[index] = levelR.holes[index].copyWith(state:"occupied");
+        levelR.holes[index] = levelR.holes[index].copyWith(state: "occupied");
         _holesSubject.add(List.from(levelR.holes));
         _liveStreamSubject.add("fake showing...");
       },
@@ -190,14 +193,14 @@ class FakeLv05 extends Lv05 {
         try {
           index = int.tryParse(arg!);
           if (index == null) {
-            debugPrint("1. problem - so will show at hole 0");
+            debugPrint("Invalid hole argument; defaulting to hole 0.");
             index = 0;
           }
         } catch (e) {
-          debugPrint("2. problem - so will show at hole 0");
+          debugPrint("Failed to parse hole argument; defaulting to hole 0.");
           index = 0;
         }
-        levelR.holes[index] = levelR.holes[index].copyWith(state:"empty");
+        levelR.holes[index] = levelR.holes[index].copyWith(state: "empty");
         _holesSubject.add(List.from(levelR.holes));
         _liveStreamSubject.add("fake hiding...");
       },
@@ -241,16 +244,16 @@ class FakeLv05 extends Lv05 {
       return;
     }
     if (levelR.holes[holeId].state == "occupied") {
-      levelR.holes[holeId] = levelR.holes[holeId].copyWith(state:"empty");
+      levelR.holes[holeId] = levelR.holes[holeId].copyWith(state: "empty");
       _liveStreamSubject.add("hide...");
     } else {
-      levelR.holes[holeId] = levelR.holes[holeId].copyWith(state:"occupied");
+      levelR.holes[holeId] = levelR.holes[holeId].copyWith(state: "occupied");
       _liveStreamSubject.add("showing...");
     }
     _holesSubject.add(List.from(levelR.holes));
   }
 
-  /// Player attempts to hit a mole
+  /// Simulates a local player's hit animation for the given hole.
   @override
   Future<void> tryHitHole(int holeId) async {
     if (!_initialized) {

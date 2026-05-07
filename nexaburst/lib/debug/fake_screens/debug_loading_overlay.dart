@@ -7,6 +7,7 @@ import 'package:nexaburst/debug/helpers/command_registry.dart';
 import 'package:nexaburst/main.dart';
 import 'package:nexaburst/models/data/service/loading_controller.dart';
 
+/// Debug-only overlay controller for manually showing the loading screen.
 class DebugLoadingOverlay {
   static final DebugLoadingOverlay instance = DebugLoadingOverlay._();
   DebugLoadingOverlay._();
@@ -15,6 +16,7 @@ class DebugLoadingOverlay {
   bool _visible = false;
   bool _commandsRegistered = false;
 
+  /// Registers console commands used to toggle the overlay.
   void init() {
     if (_commandsRegistered) return;
     _commandsRegistered = true;
@@ -33,7 +35,7 @@ class DebugLoadingOverlay {
   }
 
   Future<void> _onShow(String? arg) async {
-    // Update the loading message if one was passed
+    // Allow runtime message overrides when triggered from debug console.
     if (arg != null && arg.isNotEmpty) {
       LoadingService().show(arg);
     }
@@ -76,7 +78,7 @@ class _LoadingOverlayWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // A full‐screen black translucent background:
+    // Use a translucent scrim so the game stays visible behind loading state.
     return Material(
       color: Colors.black54,
       child: Center(child: LoadingScreen()),

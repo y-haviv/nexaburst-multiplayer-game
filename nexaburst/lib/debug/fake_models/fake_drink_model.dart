@@ -8,6 +8,7 @@ import 'package:nexaburst/models/data/server/modes/drinking/drinking_game.dart';
 import 'package:nexaburst/models/structures/player_model.dart';
 import 'package:rxdart/rxdart.dart';
 
+/// Debug implementation of [DrinkingGame] backed by command-driven fake state.
 class FakeDrinkModel implements DrinkingGame {
   Duration timeout = const Duration(seconds: 10);
   late BehaviorSubject<Map<String, String>> _controller;
@@ -18,6 +19,7 @@ class FakeDrinkModel implements DrinkingGame {
   @override
   BehaviorSubject<Map<String, String>> get stream => _controller;
 
+  /// Simulates add/remove updates for the current player in the drink list.
   void _fakeStreamUpdate(bool toDrink) {
     if (!_initialized) return;
     if (toDrink &&
@@ -52,6 +54,7 @@ class FakeDrinkModel implements DrinkingGame {
       },
     );
 
+    // Seed fake players so waiting/drinking transitions can be tested locally.
     for (Player p in FakeRoomData.otherPlayers) {
       drinkPlayers[p.id] = p.username;
     }

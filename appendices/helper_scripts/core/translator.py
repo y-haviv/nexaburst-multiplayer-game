@@ -1,5 +1,7 @@
-"""
-Translation engine with multiprocessing isolation and recursive structure handling.
+"""Translation engine with retry and process isolation safeguards.
+
+The implementation intentionally runs each translation in a separate process
+to avoid long-lived worker state issues and to enforce per-call timeouts.
 """
 import time
 import random
@@ -11,9 +13,7 @@ from .utils import mask_placeholders, restore_placeholders
 logger = logging.getLogger(__name__)
 
 class TranslationEngine:
-    """
-    A robust translator that manages Google Translate API calls across multiple processes.
-    """
+    """Translate nested payloads while handling unstable external API behavior."""
 
     def __init__(self, max_retries: int = 5, timeout: int = 10):
         self.max_retries = max_retries
@@ -22,7 +22,7 @@ class TranslationEngine:
 
     @staticmethod
     def _translate_worker(text: str, lang: str, conn):
-        """Worker function for isolated process execution."""
+        """Translate a single text value in an isolated child process."""
         try:
             masked, phs = mask_placeholders(text)
             translator = GoogleTranslator(source='auto', target=lang)
@@ -35,13 +35,12 @@ class TranslationEngine:
             conn.close()
 
     def translate_text(self, text: str, lang: str) -> str:
-        """
-        Translates a single string with process-level isolation and retry logic.
-        """
+        """Translate one string with timeout, retries, and memoization."""
         if not text or (isinstance(text, str) and text.isdigit()):
             return text
             
         key = (text, lang)
+        # Cache prevents repeated calls for identical source/target pairs.
         if key in self.cache:
             return self.cache[key]
 
@@ -52,6 +51,7 @@ class TranslationEngine:
             
             p.join(self.timeout)
             if p.is_alive():
+                # Terminate stalled workers to keep batch translation responsive.
                 p.terminate()
                 p.join()
                 logger.warning(f"Timeout translating to {lang} (Attempt {attempt+1})")
@@ -61,14 +61,13 @@ class TranslationEngine:
                     self.cache[key] = result
                     return result
             
+            # Add progressive backoff to reduce repeated throttling from providers.
             time.sleep(attempt * 1.5 + random.uniform(0.5, 1.0))
             
         return text
 
     def translate_recursive(self, data: any, lang: str) -> any:
-        """
-        Walks through dictionaries and lists to translate every string found.
-        """
+        """Recursively translate all string leaves in list/dict structures."""
         if isinstance(data, dict):
             return {k: self.translate_recursive(v, lang) for k, v in data.items()}
         elif isinstance(data, list):

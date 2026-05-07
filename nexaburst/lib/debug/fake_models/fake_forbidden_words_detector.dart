@@ -1,5 +1,3 @@
-
-
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
@@ -8,6 +6,7 @@ import 'package:nexaburst/models/data/server/modes/forbidden_words/forbidden_wor
 import 'package:nexaburst/models/structures/player_model.dart';
 import 'package:nexaburst/models/structures/room_model.dart';
 
+/// Debug detector that emits synthetic forbidden-word events on a timer.
 class FakeForbiddenWordsDetector implements IForbiddenWordsDetector {
   final Room room;
   final _rand = Random();
@@ -18,19 +17,20 @@ class FakeForbiddenWordsDetector implements IForbiddenWordsDetector {
 
   @override
   Future<bool> initialize() async {
-    // Nothing to initialize
+    // Debug implementation only needs a broadcast stream.
     _controller = StreamController<Map<String, dynamic>>.broadcast();
     return true;
   }
 
   @override
   void startDetection() {
-    // no local speech—just start the fake timer
+    // No local speech engine in debug mode; only emit synthetic events.
     _scheduleNext();
   }
 
+  /// Schedules and emits the next simulated forbidden-word event.
   void _scheduleNext() {
-    // Pick a random delay between 5 and 15 seconds
+    // Use randomized delay to mimic irregular real speech detections.
     final delay = Duration(seconds: 10 + _rand.nextInt(11));
     _timer = Timer(delay, () {
       final random = Random();
@@ -62,11 +62,9 @@ class FakeForbiddenWordsDetector implements IForbiddenWordsDetector {
 
   @override
   void startListeningToForbiddenEvents() {
-    // Fake implementation has no server side; no action.
+    // Fake implementation has no server-side bootstrap step.
   }
 
   @override
-  Stream<Map<String, dynamic>> get forbiddenEventStream =>
-      _controller.stream;
-
+  Stream<Map<String, dynamic>> get forbiddenEventStream => _controller.stream;
 }

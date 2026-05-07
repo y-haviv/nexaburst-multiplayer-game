@@ -5,6 +5,7 @@ import 'package:nexaburst/models/data/server/user_service/user_repository.dart';
 import 'package:nexaburst/models/data/service/translation_controllers.dart';
 import 'package:nexaburst/models/structures/user_model.dart';
 
+/// In-memory debug implementation of [UserRepository].
 class FakeUserRepository implements UserRepository {
   UserModel _fakeUser = UserModel(
     id: 'debug123',

@@ -1,6 +1,8 @@
-"""
-Main entry point for the Content Engine CLI.
-Handles fetching, generating, and bulk translating files.
+"""Command-line entry point for the helper content engine.
+
+This module wires together data fetchers and the translation engine to:
+- fetch question payloads from configured sources
+- translate existing payloads into all configured target languages
 """
 import argparse
 from core.utils import load_json, save_json, backup_file
@@ -10,8 +12,11 @@ from fetchers.trivia import TriviaFetcher
 from fetchers.ai_generator import IQGenerator
 
 def run_translation_service(file_path: str):
-    """
-    Detects data structure and processes translations for all target languages.
+    """Translate a JSON content file into all configured target languages.
+
+    The function supports two schema shapes used by this project:
+    - list entries that contain an ``en`` root object per item
+    - top-level dictionaries that contain a single ``en`` root object
     """
     data = load_json(file_path)
     if not data:
@@ -21,17 +26,18 @@ def run_translation_service(file_path: str):
     engine = TranslationEngine()
     backup_file(file_path)
 
-    # Process list-based files (Questions)
+    # List payloads represent question collections.
     if isinstance(data, list):
         for i, item in enumerate(data):
             print(f"[{i+1}/{len(data)}] Translating item...")
+            # Items without an English source block cannot be translated safely.
             if 'en' not in item: continue
             for lang in TARGET_LANGUAGES:
                 if lang not in item:
                     item[lang] = engine.translate_recursive(item['en'], lang)
             save_json(data, file_path)
 
-    # Process dict-based files (Static Text)
+    # Dictionary payloads represent one static-text bundle keyed by language.
     elif isinstance(data, dict):
         if 'en' in data:
             for lang in TARGET_LANGUAGES:
@@ -43,6 +49,7 @@ def run_translation_service(file_path: str):
     print("✅ Process complete.")
 
 def main():
+    """Parse CLI arguments and dispatch the requested command."""
     parser = argparse.ArgumentParser(description="Content Engine Pro")
     subparsers = parser.add_subparsers(dest="command")
 
@@ -59,6 +66,7 @@ def main():
     args = parser.parse_args()
 
     if args.command == 'fetch':
+        # Keep source selection explicit so each backend follows the same output schema.
         fetcher = TriviaFetcher() if args.source == 'trivia' else IQGenerator()
         save_json(fetcher.fetch(args.amount), args.out)
     elif args.command == 'translate':

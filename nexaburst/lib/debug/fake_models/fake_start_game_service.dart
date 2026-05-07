@@ -8,30 +8,36 @@ import 'package:tuple/tuple.dart';
 import 'package:nexaburst/model_view/room/waiting_room/start_game_interface.dart';
 import 'package:nexaburst/models/structures/room_model.dart';
 
+/// Debug waiting-room service that simulates room updates via local commands.
 class FakeStartGameService implements IStartGameService {
-  // Stream model_view
+  /// Broadcast streams mirroring the production waiting-room service contract.
   final _hostController = StreamController<String>.broadcast();
   final _playersController = StreamController<List<String>>.broadcast();
   final _statusController = StreamController<RoomStatus>.broadcast();
-  
 
   bool _listenerStarted = false;
 
+  /// Starts command listeners and emits the initial fake room snapshot.
   Future<void> _startListener() async {
     if (_listenerStarted) return;
     _listenerStarted = true;
 
-    // Seed initial values
+    // Seed UI with current fake room values before command-driven changes.
     _emitCurrentState();
 
-    CommandRegistry.instance.register('changeHost', 'changing to new host for the game', (arg) async {
-      _changeHost();
-    });
+    CommandRegistry.instance.register(
+      'changeHost',
+      'changing to new host for the game',
+      (arg) async {
+        _changeHost();
+      },
+    );
     CommandRegistry.instance.register('setStatus', 'nothing yet', (arg) async {
       if (arg != null) {
         final status = RoomStatus.values.firstWhere(
-            (st) => st.toString().split('.').last == arg,
-            orElse: () => FakeRoomData.room.status);
+          (st) => st.toString().split('.').last == arg,
+          orElse: () => FakeRoomData.room.status,
+        );
         FakeRoomData.changeRoomSetting(status: status);
         _emitCurrentState();
         debugPrint('💡 [FakeService] Status changed to $status');
@@ -39,7 +45,7 @@ class FakeStartGameService implements IStartGameService {
     });
   }
 
-  // --- IStartGameService methods ---
+  // IStartGameService implementation.
 
   @override
   void initialization({String? roomId}) {}
@@ -56,16 +62,20 @@ class FakeStartGameService implements IStartGameService {
     required bool isDrinkingMode,
     required String lang,
   }) async {
-    // Initialize fake room data
-    await FakeRoomData.levelsInitialization(levels, forbiddenWords, isDrinkingMode);
+    // Build fake level data so downstream managers can run end-to-end.
+    await FakeRoomData.levelsInitialization(
+      levels,
+      forbiddenWords,
+      isDrinkingMode,
+    );
     _startListener();
     return true;
   }
 
   @override
   Future<bool> joinRoom() async {
-    // Simply re-emit existing fake data
-    FakeRoomData.levelsInitialization({'level1':2}, [], false);
+    // Reuse deterministic fake room setup for predictable debug sessions.
+    FakeRoomData.levelsInitialization({'level1': 2}, [], false);
     _startListener();
     return true;
   }
@@ -87,7 +97,7 @@ class FakeStartGameService implements IStartGameService {
 
   @override
   Future<void> start() async {
-    // Host starts the game
+    // Mirror the host action by transitioning to the playing state.
     FakeRoomData.changeRoomSetting(status: RoomStatus.playing);
     _emitCurrentState();
   }
@@ -101,23 +111,25 @@ class FakeStartGameService implements IStartGameService {
     _statusController.close();
   }
 
-  // --- Internal helpers ---
+  // Internal helpers.
 
   void _emitCurrentState() {
     final r = FakeRoomData.room;
     _hostController.add(r.hostId);
-    _playersController.add(FakeRoomData.otherPlayers.map((player) => player.username).toList()); 
+    _playersController.add(
+      FakeRoomData.otherPlayers.map((player) => player.username).toList(),
+    );
     _statusController.add(r.status);
     debugPrint("\nRoom data:");
     debugPrint("${r.toJson()}");
   }
 
   void _changeHost() {
-    // Swap host between current player and someone else
+    // Toggle host ownership to test host-dependent UI and permissions.
     final currentHost = FakeRoomData.room.hostId;
     String newHost;
     if (currentHost == FakeRoomData.currentPlayerDefault.id) {
-      // pick first other player
+      // Promote the first non-local player to host.
       newHost = FakeRoomData.otherPlayers
           .firstWhere((p) => p.id != FakeRoomData.currentPlayerDefault.id)
           .id;

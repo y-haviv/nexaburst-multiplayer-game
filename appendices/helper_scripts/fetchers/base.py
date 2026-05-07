@@ -1,15 +1,9 @@
-"""
-Abstract base class for all content fetchers.
-"""
+"""Abstract contracts for content fetchers."""
 from abc import ABC, abstractmethod
 
 class BaseFetcher(ABC):
-    """
-    Standard interface for fetching data.
-    """
+    """Common interface that all content providers must implement."""
     @abstractmethod
     def fetch(self, amount: int):
-        """
-        Fetches 'amount' records and returns a list of standardized dicts.
-        """
+        """Return ``amount`` normalized records in the project schema."""
         pass

@@ -9,6 +9,7 @@ import 'package:nexaburst/models/structures/room_model.dart';
 import 'package:nexaburst/models/structures/user_model.dart';
 import 'package:nexaburst/models/structures/word_event.dart';
 
+/// Shared mutable fixtures used by debug-only fake services and managers.
 class FakeRoomData {
   static UserModel currentUserDefault = UserModel(
     id: 'me',
@@ -46,7 +47,7 @@ class FakeRoomData {
     ),
   ];
 
-  // starts off as “waiting”
+  // Initial room state mirrors a newly created room in waiting mode.
   static Room room = Room(
     roomId: 'DEBUG-123',
     hostId: 'me',
@@ -67,6 +68,7 @@ class FakeRoomData {
     List<String> forbidden,
     bool isDrinkingMode,
   ) async {
+    // Rebuild local player fixtures from current signed-in debug user context.
     currentPlayerDefault = Player(
       id: UserData.instance.user!.id,
       username: UserData.instance.user!.username,
@@ -119,8 +121,7 @@ class FakeRoomData {
         final lowerCasedWord = word.toLowerCase();
         WordEvent w = WordEvent(word: word);
         debugPrint('Initializing forbidden word document for: $lowerCasedWord');
-        // Each forbidden word gets its own document under the 'forbidden_events' subcollection.
-        // The document is initialized with an empty 'events' map.
+        // Keep a local event seed list to emulate forbidden-event collection data.
         wor.add(w);
       }
     }
@@ -184,6 +185,7 @@ class FakeRoomData {
 }
 
 extension on Room {
+  /// Convenience copy helper for mutable debug room fixtures.
   Room copyWith({
     String? roomId,
     String? hostId,
@@ -210,6 +212,7 @@ extension on Room {
 }
 
 extension on Player {
+  /// Convenience copy helper for mutable debug player fixtures.
   Player copyWith({
     String? username,
     String? avatar,

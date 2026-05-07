@@ -10,6 +10,7 @@ import 'package:nexaburst/models/structures/levels/level4/lv04_loader.dart';
 import 'package:nexaburst/models/structures/player_model.dart';
 import 'package:tuple/tuple.dart';
 
+/// Debug implementation of the Level 04 social-target mode.
 class FakeLv04 extends Lv04 {
   final String playerId = UserData.instance.user!.id;
 
@@ -18,8 +19,7 @@ class FakeLv04 extends Lv04 {
   bool beenChoose = false;
   int currentIndex = 0;
 
-  static String levelName =
-      TranslationService.instance.levelKeys[3];
+  static String levelName = TranslationService.instance.levelKeys[3];
 
   @override
   Future<void> initialization({
@@ -38,7 +38,9 @@ class FakeLv04 extends Lv04 {
   String getInstruction() {
     return isDrinkingMode
         ? TranslationService.instance.t('game.levels.$levelName.instructions') +
-            TranslationService.instance.t('game.levels.$levelName.drinking_instructions')
+              TranslationService.instance.t(
+                'game.levels.$levelName.drinking_instructions',
+              )
         : TranslationService.instance.t('game.levels.$levelName.instructions');
   }
 
@@ -48,13 +50,15 @@ class FakeLv04 extends Lv04 {
   @override
   Future<void> chooseRandomPlayer() async {
     beenChoose = false;
-    CommandRegistry.instance.register('y', 'to be in /"target player/"',
-        (arg) async {
+    CommandRegistry.instance.register('y', 'to be in /"target player/"', (
+      arg,
+    ) async {
       curretTargetPlayer = true;
       beenChoose = true;
     });
-    CommandRegistry.instance.register('n', 'to be in /"NOT target player/"',
-        (arg) async {
+    CommandRegistry.instance.register('n', 'to be in /"NOT target player/"', (
+      arg,
+    ) async {
       curretTargetPlayer = false;
       beenChoose = true;
     });
@@ -64,8 +68,8 @@ class FakeLv04 extends Lv04 {
     }
   }
 
-   Future<Map<String, dynamic>> _getScenarioById(Lv04SocialModel model) async {
-    // find the raw question entry from the loaded JSON
+  Future<Map<String, dynamic>> _getScenarioById(Lv04SocialModel model) async {
+    // Resolve the current scenario from the local fixture payload.
     final questionsList = await Lv04Loader.data;
     final entry = questionsList.firstWhere(
       (q) => q['ID'] == model.scenarios[model.currentScenarioIndex],
@@ -73,9 +77,10 @@ class FakeLv04 extends Lv04 {
     );
     if (entry.isEmpty) return {};
 
-    // pick the node for the current language, or fallback to English
+    // Prefer current language and fall back to English when unavailable.
     final lang = TranslationService.instance.currentLanguage;
-    final localized = entry[lang] as Map<String, dynamic>? ??
+    final localized =
+        entry[lang] as Map<String, dynamic>? ??
         entry['en'] as Map<String, dynamic>;
 
     return {
@@ -95,7 +100,10 @@ class FakeLv04 extends Lv04 {
 
     final scenarioId = scenarios[currentIndex];
     final model = Lv04SocialModel(
-        currentScenarioIndex: currentIndex, scenarios: scenarios, rounds: 0);
+      currentScenarioIndex: currentIndex,
+      scenarios: scenarios,
+      rounds: 0,
+    );
     final scenarioDetails = await _getScenarioById(model);
     currentIndex += 1;
 
@@ -121,21 +129,22 @@ class FakeLv04 extends Lv04 {
   Future<void> loading() async {}
 
   int _getRandomIntInRange(int min, int max) {
-  final random = Random();
-  return min + random.nextInt(max - min + 1);
-}
+    final random = Random();
+    return min + random.nextInt(max - min + 1);
+  }
 
-   @override
+  @override
   Future<Map<String, Tuple2<String, int>>> processQuestionResults() async {
-     CommandRegistry.instance.unregister('y');
+    CommandRegistry.instance.unregister('y');
     CommandRegistry.instance.unregister('n');
     Map<String, Tuple2<String, int>> ans = {};
-    for(Player p in FakeRoomData.otherPlayers) {
-      ans[p.id] = Tuple2(p.username,_getRandomIntInRange(1,FakeRoomData.otherPlayers.length));
+    for (Player p in FakeRoomData.otherPlayers) {
+      ans[p.id] = Tuple2(
+        p.username,
+        _getRandomIntInRange(1, FakeRoomData.otherPlayers.length),
+      );
     }
 
     return ans;
   }
-
-  
 }

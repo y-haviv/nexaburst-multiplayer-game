@@ -15,7 +15,7 @@ import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:language_detector/language_detector.dart';
 
 import 'package:flutter/foundation.dart' show kIsWeb;
-// Conditional import
+// Use web-specific utilities only when running in a browser.
 import 'package:nexaburst/web/web_utils_stub.dart'
     if (dart.library.html) 'package:nexaburst/web/web_utils_web.dart'
     as html;
@@ -52,7 +52,7 @@ class ForbiddenWordsModManager {
   /// Must be called once before starting detection.
   void initialize({required Room room}) {
     if (isInitialized) return;
-    // Initialize the ForbiddenWordsModManager with the provided parameters.
+    // Capture room context once and initialize the event broadcast channel.
     debugPrint(
       'ForbiddenWordsModManager initialized with roomId: ${room.roomId}, playerId: ${UserData.instance.user!.id}, playerName: ${UserData.instance.user!.username}',
     );
@@ -74,7 +74,7 @@ class ForbiddenWordsModManager {
       return;
     }
 
-    // 1) Setup detector
+    // Choose fake/real detector based on runtime debug mode.
     _detector = debug
         ? FakeForbiddenWordsDetector(room!)
         : ForbiddenWordsDetector(room: room!);
@@ -100,7 +100,7 @@ class ForbiddenWordsModManager {
     _detector?.startDetection();
 
     _detector?.startListeningToForbiddenEvents();
-    // Begin listening to the server for forbidden events.
+    // Forward detector events to this manager's public broadcast stream.
     _startListeningToForbiddenEvents();
   }
 
@@ -110,7 +110,7 @@ class ForbiddenWordsModManager {
     debugPrint(
       'ForbiddenWordsModManager starting to listen to forbidden events.',
     );
-    // 2) Listen to server‐side forbidden events from the detector
+    // Relay detector output so UI and managers consume a single event stream.
     _detectorSub = _detector?.forbiddenEventStream.listen((event) {
       debugPrint("manager: detected word event: $event");
       _forbiddenEventController?.add(event);
@@ -125,23 +125,21 @@ class ForbiddenWordsModManager {
       );
       return;
     }
-    // 1) Stop speech detector
+    // Stop active speech recognition first to avoid late event emissions.
     await safeCall(() => _detector!.stopDetection());
 
-    // 2) Cancel detector’s local stream
+    // Cancel local event subscription and clear detector references.
     await _detectorSub?.cancel();
     _detectorSub = null;
 
-    // 4) Optional: reset detector if you want to recreate next time
+    // Reset detector so the next start call creates a fresh session.
     _detector = null;
 
-    // 5) Close our broadcast controller (so listeners know we’re done)
+    // Close broadcast stream so listeners can terminate gracefully.
     if (_forbiddenEventController != null) {
       await _forbiddenEventController?.close();
     }
   }
-
-  // import 'dart:html' as html; // already present in your manager file
 
   Future<bool> ensureMicPermissionWeb() async {
     return html.ensureMicPermissionWebImpl();

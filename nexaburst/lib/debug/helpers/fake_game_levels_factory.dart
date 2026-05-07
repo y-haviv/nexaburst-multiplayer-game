@@ -1,5 +1,3 @@
-
-
 // skillrush/lib/model_view/stages/level_controller_factory.dart
 
 import 'package:nexaburst/constants.dart';
@@ -25,17 +23,18 @@ import 'package:nexaburst/models/data/server/levels/level5/lv05.dart';
 import 'package:nexaburst/models/data/server/levels/level6/Lv06.dart';
 import 'package:nexaburst/models/data/service/translation_controllers.dart';
 
-
+/// Debug-specific factory that wires fake level models into level managers.
 class FakeGameLevelsFactory extends GameLevelIterface {
-
+  /// Creates a level manager backed by fake data/model implementations.
   @override
-  Future<LevelLogic> create(
-      {required String levelName,
-      required String roomId,
-      required bool isDrinkingMode,
-      }) async {
-    int rounds = FakeRoomData.levelsData[levelName]?.toJson()['rounds'] ??
-          LevelsRounds.defaultlevelRounds;
+  Future<LevelLogic> create({
+    required String levelName,
+    required String roomId,
+    required bool isDrinkingMode,
+  }) async {
+    int rounds =
+        FakeRoomData.levelsData[levelName]?.toJson()['rounds'] ??
+        LevelsRounds.defaultlevelRounds;
     int levelId = 0;
     for (int i = 0; i < TranslationService.instance.levelKeys.length; i++) {
       if (TranslationService.instance.levelKeys[i] == levelName) {
@@ -45,7 +44,10 @@ class FakeGameLevelsFactory extends GameLevelIterface {
     switch (levelId) {
       case 0:
         Lvo1 model = FakeLv01();
-        await model.initialization(roomId: roomId, isDrinkingMode: isDrinkingMode);
+        await model.initialization(
+          roomId: roomId,
+          isDrinkingMode: isDrinkingMode,
+        );
         return Lv01knowledgeStageManager(
           roomId: roomId,
           isDrinkingMode: isDrinkingMode,
@@ -54,7 +56,10 @@ class FakeGameLevelsFactory extends GameLevelIterface {
         );
       case 1:
         Lv02ModelManager.init(isDebug: true);
-        await Lv02ModelManager.initialization(roomId: roomId, isDrinkingMode: isDrinkingMode);
+        await Lv02ModelManager.initialization(
+          roomId: roomId,
+          isDrinkingMode: isDrinkingMode,
+        );
         return Lv02LuckStageManager(
           roomId: roomId,
           isDrinkingMode: isDrinkingMode,
@@ -62,7 +67,10 @@ class FakeGameLevelsFactory extends GameLevelIterface {
         );
       case 2:
         Lv03 model = FakeLv03();
-        await model.initialization(roomId: roomId, isDrinkingMode: isDrinkingMode);
+        await model.initialization(
+          roomId: roomId,
+          isDrinkingMode: isDrinkingMode,
+        );
         return Lv03IntelligenceStageManager(
           roomId: roomId,
           isDrinkingMode: isDrinkingMode,
@@ -71,7 +79,10 @@ class FakeGameLevelsFactory extends GameLevelIterface {
         );
       case 3:
         Lv04 model = FakeLv04();
-        await model.initialization(roomId: roomId, isDrinkingMode: isDrinkingMode);
+        await model.initialization(
+          roomId: roomId,
+          isDrinkingMode: isDrinkingMode,
+        );
         return Lv04SocialStageManager(
           roomId: roomId,
           isDrinkingMode: isDrinkingMode,
@@ -79,8 +90,8 @@ class FakeGameLevelsFactory extends GameLevelIterface {
           rounds: rounds,
         );
       case 4:
-      Lv05 model = FakeLv05();
-      model.initialization(roomId: roomId, isDrinkingMode: isDrinkingMode);
+        Lv05 model = FakeLv05();
+        model.initialization(roomId: roomId, isDrinkingMode: isDrinkingMode);
         return Lv05ReflexStageManager(
           roomId: roomId,
           isDrinkingMode: isDrinkingMode,
@@ -95,7 +106,7 @@ class FakeGameLevelsFactory extends GameLevelIterface {
           rounds: rounds,
           lv06trust: model,
         );
-      // TODO: Add future cases like:
+      // Keep default explicit so unknown translation keys fail fast in debug.
       default:
         throw UnimplementedError('Stage not implemented: $levelName');
     }

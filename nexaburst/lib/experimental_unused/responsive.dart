@@ -1,8 +1,8 @@
-
 // responsive.dart
 
 import 'package:flutter/material.dart';
 
+/// Simple responsive switch widget used by older experimental layouts.
 class Responsive extends StatelessWidget {
   final Widget mobile;
   final Widget? tablet;
@@ -15,13 +15,16 @@ class Responsive extends StatelessWidget {
     required this.desktop,
   });
 
+  /// Returns true when the viewport width maps to mobile breakpoints.
   static bool isMobile(BuildContext context) =>
       MediaQuery.of(context).size.width < 576;
 
+  /// Returns true when the viewport width maps to tablet breakpoints.
   static bool isTablet(BuildContext context) =>
       MediaQuery.of(context).size.width >= 576 &&
       MediaQuery.of(context).size.width <= 992;
 
+  /// Returns true when the viewport width maps to desktop breakpoints.
   static bool isDesktop(BuildContext context) =>
       MediaQuery.of(context).size.width > 992;
 
