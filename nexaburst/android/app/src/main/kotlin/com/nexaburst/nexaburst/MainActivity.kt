@@ -1,4 +1,4 @@
-package com.example.nexaburst
+package com.nexaburst.nexaburst
 
 import io.flutter.embedding.android.FlutterActivity
 
